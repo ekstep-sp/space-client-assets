@@ -1,0 +1,198 @@
+{
+    "details": [
+        {
+            "name": "MIT",
+            "parent": [
+                "Technology"
+            ],
+            "details": "<p>MIT details</p>",
+            "link": "<p><a href='http://opensource.org/licenses/MIT'>http://opensource.org/licenses/MIT</a></p>"
+        },
+        {
+            "name": "Apache",
+            "parent": [
+                "Technology"
+            ],
+            "details": "<p>Apache details</p>",
+            "link": "<p><a href='https://www.apache.org/licenses/'>https://www.apache.org/licenses/</a></p>"
+        },
+        {
+            "name": "N/A",
+            "parent": [
+                "Connection"
+            ],
+            "details": "",
+            "link": ""
+        },
+        {
+            "name": "Public Domain",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>Public Domain details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "PDDL",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>PDDL details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CC-BY",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CC-BY details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CDLA-Permissive-1.0",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CDLA-Permissive-1.0 details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "ODC-BY",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>ODC-BY details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CC-BY-SA",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CC-BY-SA details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CDLA-Sharing-1.0",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CDLA-Sharing-1.0 details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "ODC-ODbL",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>ODC-ODbL details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CC-BY-NC",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CC-BY-NC details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CC-BY-ND",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CC-BY-ND details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CC-BY-NC-SA",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CC-BY-NC-SA details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CC-BY-NC-ND",
+            "parent": [
+                "Data"
+            ],
+            "details": "<p>CC-BY-NC-ND details not available</p>",
+            "link": "<p>Link not available</p>"
+        },
+        {
+            "name": "CC-0",
+            "parent": [
+                "Knowledge",
+                "Protocol",
+                "Data"
+            ],
+            "details": "<p>Freeing content globally without restrictions</p>",
+            "link": "<p><a href='https://creativecommons.org/share-your-work/public-domain/cc0/'>https://creativecommons.org/share-your-work/public-domain/cc0/</a></p>"
+        },
+        {
+            "name": "CC-BY 4.0",
+            "parent": [
+                "Knowledge",
+                "Protocol"
+            ],
+            "details": "<p>Attribution alone</p>",
+            "link": "<p><a href='https://creativecommons.org/licenses/by/4.0/'>https://creativecommons.org/licenses/by/4.0/</a></p>"
+        },
+        {
+            "name": "CC-BY-SA 4.0",
+            "parent": [
+                "Knowledge",
+                "Protocol"
+            ],
+            "details": "<p>Attribution + ShareAlike</p>",
+            "link": "<p><a href='https://creativecommons.org/licenses/by-sa/4.0/'>https://creativecommons.org/licenses/by-sa/4.0/</a></p>"
+        },
+        {
+            "name": "CC-BY-ND 4.0",
+            "parent": [
+                "Knowledge",
+                "Protocol"
+            ],
+            "details": "<p>Attribution + NoDerivatives</p>",
+            "link": "<p><a href='https://creativecommons.org/licenses/by-nd/4.0/'>https://creativecommons.org/licenses/by-nd/4.0/</a></p>"
+        },
+        {
+            "name": "CC-BY-NC 4.0",
+            "parent": [
+                "Knowledge",
+                "Protocol"
+            ],
+            "details": "<p>Attribution + NonCommercial</p>",
+            "link": "<p><a href='https://creativecommons.org/licenses/by-nc/4.0/'>https://creativecommons.org/licenses/by-nc/4.0/</a></p>"
+        },
+        {
+            "name": "CC-BY-NC-SA 4.0",
+            "parent": [
+                "Knowledge",
+                "Protocol"
+            ],
+            "details": "<p>CC-BY-NC-SA 4.0 details</p>",
+            "link": "<p><a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>https://creativecommons.org/licenses/by-nc-sa/4.0/</a></p>"
+        },
+        {
+            "name": "CC-BY-NC-ND 4.0",
+            "parent": [
+                "Knowledge",
+                "Protocol"
+            ],
+            "details": "<p>CC-BY-NC-ND 4.0 details</p>",
+            "link": "<p><a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>https://creativecommons.org/licenses/by-nc-nd/4.0/</a></p>"
+        },
+        {
+            "name": "other",
+            "parent": [
+                "Knowledge",
+                "Protocol",
+                "Technology"
+            ],
+            "details": "<p>details not available</p>",
+            "link": "<p>Link not available</p>"
+        }
+    ]
+}

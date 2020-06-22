@@ -74,7 +74,7 @@
     "contentType": "Channel",
     "mimeType": "application/channel",
     "hasRole": ["channel-creator", "editor", "admin"],
-    "available": true,
+    "available": false,
     "enabled": true
   },
   {
@@ -85,7 +85,7 @@
     "icon": "folder",
     "mimeType": "application/vnd.ekstep.content-collection",
     "contentType": "Knowledge Board",
-    "available": true,
+    "available": false,
     "enabled": true,
     "hasRole": ["kb-creator", "editor", "admin"]
   },
@@ -96,7 +96,7 @@
     "icon": "folder",
     "mimeType": "application/vnd.ekstep.content-collection",
     "contentType": "Knowledge Artifact",
-    "available": true,
+    "available": false,
     "enabled": false,
     "hasRole": ["ka-creator", "editor", "admin"]
   },
@@ -131,7 +131,7 @@
     "description": "Create a collection of Courses",
     "icon": "library_books",
     "contentType": "Learning Path",
-    "available": true,
+    "available": false,
     "enabled": false,
     "mimeType": "application/vnd.ekstep.content-collection",
     "hasRole": ["content-creator", "editor", "admin"]
