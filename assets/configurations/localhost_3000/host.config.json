@@ -1,0 +1,151 @@
+{
+  "defaultFeatureConfigs": {
+    "error": "/assets/configurations/common/feature/error.json"
+  },
+  "defaultFontSize": "normal-typography",
+  "defaultLocale": "",
+  "defaultThemeClass": "theme-muave",
+  "details": {
+    "appName": "Societal Platform SPace"
+  },
+  "disablePidCheck": false,
+  "isContentDownloadAvailable": false,
+  "org": [
+    "space"
+  ],
+  "rootOrg": "space",
+  "fontSizes": [
+    {
+      "baseFontSize": "10px",
+      "fontClass": "x-small-typography",
+      "scale": "-2"
+    },
+    {
+      "baseFontSize": "12px",
+      "fontClass": "small-typography",
+      "scale": "-1"
+    },
+    {
+      "baseFontSize": "14px",
+      "fontClass": "normal-typography",
+      "scale": 0
+    },
+    {
+      "baseFontSize": "16px",
+      "fontClass": "large-typography",
+      "scale": 1
+    },
+    {
+      "baseFontSize": "18px",
+      "fontClass": "x-large-typography",
+      "scale": 2
+    }
+  ],
+  "indexHtmlMeta": {
+    "appleTouchIcon180": "/assets/instances/space/fav_icons/apple-touch-icon.png",
+    "appleTouchIcon57": "/assets/instances/space/fav_icons/apple-touch-icon-57x57.png",
+    "icon16": "/assets/instances/space/fav_icons/favicon-16x16.png",
+    "icon32": "/assets/instances/space/fav_icons/favicon-32x32.png",
+    "maskIcon": "/assets/instances/space/fav_icons/safari-pinned-tab.svg",
+    "openSearchUrl": "/assets/instances/space/open-search.xml",
+    "themeColorMeta": "primary",
+    "webmanifest": "/assets/instances/space/fav_icons/site.webmanifest",
+    "xIcon": "/assets/instances/space/fav_icons/favicon.ico"
+  },
+  "keycloak": {
+    "bearerExcludedUrls": [
+      "assets",
+      "/apis/public",
+      "/assets",
+      "/pubic-assets"
+    ],
+    "clientId": "portal",
+    "key": "ws-kc-token-storage",
+    "realm": "wingspan",
+    "url": "https://space.societalplatform.org/auth"
+  },
+  "locals": [
+    {
+      "isAvailable": true,
+      "isEnabled": true,
+      "locals": [
+        "en",
+        "en-US"
+      ],
+      "path": "",
+      "isRTL": false
+    }
+  ],
+  "logos": {
+    "app": "/assets/instances/space/app_logos/SPaceLogo-100x30.svg",
+    "appTransparent": "/assets/instances/space/app_logos/SPaceLogo-100x30.svg",
+    "company": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
+    "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
+    "developedBy": "",
+    "aboutFooter": "",
+    "aboutHeader": "",
+    "poweredBy": "space space",
+    "landingLogo": ""
+  },
+  "mailIds": {
+    "contactUs": "space-support@space.com",
+    "default": "space-support@space.com",
+    "support": "space-support@space.com"
+  },
+  "telemetryConfig": {
+    "pdata": {
+      "id": "web-ui",
+      "ver": "1.0.0",
+      "pid": ""
+    },
+    "env": "prod",
+    "channel": "",
+    "batchsize": 1,
+    "host": "",
+    "endpoint": "/apis/protected/v8/user/telemetry",
+    "apislug": "",
+    "object": {
+      "ver": "1.0.0"
+    }
+  },
+  "themes": [
+    {
+      "color": {
+        "accent": "#af235f",
+        "primary": "#005f87",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-teal",
+      "themeClass": "theme-teal",
+      "themeName": "Teal Theme"
+    },
+    {
+      "color": {
+        "accent": "#ffcc99",
+        "primary": "#373a77",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-muave",
+      "themeClass": "theme-muave",
+      "themeName": "Muave Theme"
+    }
+  ],
+  "microsoft": {
+    "clientId": "clientid",
+    "defaultEmailId": "eagle-support@eagle.com",
+    "isConfigured": true,
+    "tenant": "eagle",
+    "validEmailExtensions": [
+      "@eagle.eagle.com"
+    ]
+  },
+  "validMailIdExtensionsForMailMe": [],
+  "backgrounds": {
+    "primaryNavBar": {
+      "color": "primary"
+    },
+    "pageNavBar": {
+      "color": "default"
+    }
+  }
+}
