@@ -57,7 +57,12 @@
       "assets",
       "/apis/public",
       "/assets",
-      "/pubic-assets"
+      "/pubic-assets",
+      "/register",
+      "/usersubmission/*",
+      "/apis/protected/v8/recommendation/latest",
+      "^\/apis\/protected\/v8\/content(.*)hierarchyType=detail$",
+      "https://space.societalplatform.org/auth/realms/wingspan/protocol/openid-connect/token"
     ],
     "clientId": "portal",
     "key": "ws-kc-token-storage",
