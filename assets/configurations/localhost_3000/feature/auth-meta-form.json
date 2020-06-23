@@ -2737,7 +2737,7 @@
     },
     "type": "string"
   },
-  "license": {
+  "spaceLicense": {
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
       "Collection": [
