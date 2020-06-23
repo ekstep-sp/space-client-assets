@@ -10,9 +10,7 @@
   },
   "disablePidCheck": false,
   "isContentDownloadAvailable": false,
-  "org": [
-    "space"
-  ],
+  "org": ["space"],
   "rootOrg": "space",
   "fontSizes": [
     {
@@ -68,16 +66,13 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": [
-        "en",
-        "en-US"
-      ],
+      "locals": ["en", "en-US"],
       "path": "",
       "isRTL": false
     }
   ],
   "logos": {
-    "app": "/assets/instances/space/app_logos/SPaceLogo-100x30.svg",
+    "app": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
     "appTransparent": "/assets/instances/space/app_logos/SPaceLogo-100x30.svg",
     "company": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
     "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
@@ -86,6 +81,10 @@
     "aboutHeader": "",
     "poweredBy": "space space",
     "landingLogo": ""
+  },
+  "banners": {
+    "mainBanner": "/assets/instances/space/banners/MainBanner.jpg",
+    "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png"
   },
   "mailIds": {
     "contactUs": "space-support@space.com",
@@ -135,9 +134,7 @@
     "defaultEmailId": "eagle-support@eagle.com",
     "isConfigured": true,
     "tenant": "eagle",
-    "validEmailExtensions": [
-      "@eagle.eagle.com"
-    ]
+    "validEmailExtensions": ["@eagle.eagle.com"]
   },
   "validMailIdExtensionsForMailMe": [],
   "backgrounds": {

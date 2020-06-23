@@ -13,9 +13,7 @@
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
   },
-  "org": [
-    "space"
-  ],
+  "org": ["space"],
   "rootOrg": "space",
   "defaultFontSize": "normal-typography",
   "defaultLocale": "",
@@ -73,16 +71,13 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": [
-        "en",
-        "en-US"
-      ],
+      "locals": ["en", "en-US"],
       "path": "",
       "isRTL": false
     }
   ],
   "logos": {
-    "app": "/assets/instances/space/app_logos/SPaceLogo-100x30.svg",
+    "app": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
     "appTransparent": "/assets/instances/space/app_logos/SPaceLogo-80x60.png",
     "company": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
     "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
@@ -92,6 +87,10 @@
     "platformBanner": "/apis/public/v8/assets/common/misc/about-space.jpg",
     "poweredBy": "",
     "landingLogo": ""
+  },
+  "banners": {
+    "mainBanner": "/assets/instances/space/banners/MainBanner.jpg",
+    "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png"
   },
   "mailIds": {
     "contactUs": "space-support@space.com",
@@ -154,6 +153,24 @@
             "widgetType": "actionButton",
             "widgetSubType": "actionButtonCatalog",
             "widgetData": {}
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_aboutUs",
+            "config": {
+              "type": "mat-button"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_collaborator",
+            "config": {
+              "type": "mat-button"
+            }
           }
         }
       ],
