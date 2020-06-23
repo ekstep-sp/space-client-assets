@@ -292,7 +292,8 @@
         "feature_interests",
         "feature_notification",
         "feature_playlist",
-        "feature_profile"
+        "feature_profile",
+        "feature_user_dashboard"
       ],
       "icon": "",
       "iconType": "none",
@@ -323,6 +324,30 @@
       "keywords": ["learning", "assistant", "learning assistant"],
       "name": "Learning Assistant",
       "toolTip": "Learning Assistant"
+    },
+    {
+      "feature_user_dashboard": {
+        "accessKey": "",
+        "icon": "group",
+        "iconType": "mat-icon",
+        "id": "feature_user_dashboard",
+        "keywords": [],
+        "name": "Users",
+        "permission": [
+          "PRIVILAGED",
+          "PUBLIC"
+        ],
+        "show": true,
+        "status": "live",
+        "toolTip": "Users",
+        "url": "/app/user_dashboard",
+        "shortName": "User",
+        "hasRole": [
+          "content-creator",
+          "editor",
+          "admin"
+        ]
+      }  
     },
     {
       "featureIds": [

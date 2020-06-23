@@ -1,0 +1,46 @@
+{
+    "API_END_POINT": "/usersubmission/usersubmission/user/v1/",
+    "user_list": {
+        "type": "get",
+        "url": "/usersubmission/user/v1/users?filter=",
+        "errorMessage": "Sorry, no users are available"
+    },
+    "user_accept": {
+        "type": "post",
+        "url": "/usersubmission/user/v1/acceptuser",
+        "errorMessage": "Sorry,user cannot be accepted, please try again",
+        "successMessage": "User accepted successfully"
+    },
+    "dailog_data": {
+        "title": "",
+        "body": "Are you sure, you want to delete",
+        "userName": ""
+    },
+    "change_roles": {
+        "type": "put",
+        "url": "/usersubmission/user/v1/changerole",
+        "errorMessage": "Sorry,roles could not be updated, please try again",
+        "successMessage": "Roles updated successfully",
+        "buttonName": "Change Role"
+    },
+    "getAllRoles": {
+        "type": "get",
+        "url": "/usersubmission/user/v1/getallroles",
+        "errorMessage": "Sorry,roles could not be retrieved",
+        "successMessage": "Roles retrieved successfully"
+    },
+    "delete_user": {
+        "type": "get",
+        "url": "/usersubmission/user/v1/decline",
+        "errorMessage": "Sorry, user could not be deleted, please try again",
+        "successMessage": "User deletd successfully"
+    },
+    "defaultRoles": {
+        "roles": [
+            "author",
+            "privilaged"
+        ]
+    },
+    "root_org": "space",
+    "org": "space"
+}
