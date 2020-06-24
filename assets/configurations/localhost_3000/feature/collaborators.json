@@ -1,0 +1,24 @@
+{
+  "contentType": "Page",
+  "pageLayout": {
+    "widgetSubType": "gridLayout",
+    "widgetType": "layout",
+    "widgetData": {
+      "widgets": [
+        [
+          {
+            "dimensions": {},
+            "widget": {
+              "widgetData": {
+                "template": "<h1>working</h1>",
+                "containerClass": "h-full"
+              },
+              "widgetSubType": "elementHtml",
+              "widgetType": "element"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

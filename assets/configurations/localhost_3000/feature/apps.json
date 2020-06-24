@@ -48,7 +48,7 @@
     "feature_aboutUs": {
       "accessKey": "K",
       "icon": "info",
-      "iconType": "mat-icon",
+      "iconType": "",
       "id": "feature_aboutUs",
       "keywords": ["about platform", "information", "about", "about us"],
       "name": "About Us",
@@ -60,9 +60,9 @@
       "shortName": "About"
     },
     "feature_collaborators": {
-      "accessKey": "C",
+      "accessKey": "",
       "icon": "info",
-      "iconType": "mat-icon",
+      "iconType": "",
       "id": "feature_collaborators",
       "keywords": ["collaborators"],
       "name": "Collaborators",
