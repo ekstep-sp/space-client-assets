@@ -78,7 +78,7 @@
         }
       ],
       "allowCreation": true,
-      "allowedCreationType": ["resource", "web", "upload", "collection"],
+      "allowedCreationType": ["resource", "web", "upload"],
       "searchFilter": {
         "contentType": ["Collection", "Resource"]
       }

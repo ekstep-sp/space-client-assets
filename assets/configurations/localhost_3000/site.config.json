@@ -172,7 +172,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_collaborator",
+            "actionBtnId": "feature_collaborators",
             "config": {
               "type": "mat-button"
             }

@@ -129,6 +129,13 @@
     },
     "disabledFor": {},
     "mandatoryFor": {
+      "Channel": [],
+      "Collection": [],
+      "Course": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": [],
+      "Resource": []
     },
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -1045,14 +1052,15 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
       "Knowledge Board": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "showFor": {
     },
     "type": "array"
   },
@@ -3186,8 +3194,6 @@
       "Resource": []
     },
     "notShowFor": {
-    },
-    "showFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
@@ -3195,6 +3201,8 @@
       "Knowledge Board": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "showFor": {
     },
     "type": "string"
   },
