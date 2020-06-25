@@ -2485,7 +2485,7 @@
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": [] }],
       "Collection": [
-        { "condition": { "contentType": ["Collection"] }, "value": [] }
+        { "condition": { "contentType": ["Collection"] }, "value": [{"name": "Mangalam", "id": ""}] }
       ],
       "Course": [{ "condition": { "contentType": ["Course"] }, "value": [] }],
       "Knowledge Artifact": [
@@ -2720,8 +2720,16 @@
     },
     "disabledFor": { "Channel": [], "Knowledge Board": [] },
     "mandatoryFor": {
-      "Collection": [],
-      "Course": [],
+      "Collection": [
+        {
+          "assetType": "Knowledge"
+        }
+      ],
+      "Course": [
+        {
+          "assetType": "Knowledge"
+        }
+      ],
       "Knowledge Artifact": [],
       "Learning Path": [],
       "Resource": [
