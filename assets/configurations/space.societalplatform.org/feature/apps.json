@@ -60,17 +60,17 @@
       "shortName": "About"
     },
     "feature_collaborators": {
-      "accessKey": "C",
+      "accessKey": "",
       "icon": "info",
       "iconType": "mat-icon",
       "id": "feature_collaborators",
-      "keywords": ["collaborators"],
+      "keywords": ["Collaborators"],
       "name": "Collaborators",
       "permission": [""],
       "show": true,
       "status": "live",
       "toolTip": "Collaborators",
-      "url": "/page/collaborators",
+      "url": "/collaborators",
       "shortName": "Collaborators"
     },
     "feature_catalog": {
