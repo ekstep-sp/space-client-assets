@@ -1,24 +1,34 @@
 {
   "features": {
-    "feature_FAQs": {
-      "accessKey": "?",
-      "icon": "chat",
+    "feature_Q&A": {
+      "accessKey": "",
+      "description": "Question and answer hub for professional and enthusiast programmers.",
+      "icon": "question_answer",
       "iconType": "mat-icon",
-      "id": "feature_FAQs",
-      "keywords": [
-        "faqs",
-        "question",
-        "query",
-        "frequently answered questions",
-        "frequently asked questions"
-      ],
-      "name": "Help & Contact",
-      "permission": ["FAQ"],
+      "id": "feature_Q&A",
+      "keywords": ["question and answer", "qna", "q and a"],
+      "name": "Question and Answer",
+      "permission": ["QUESTION_AND_ANSWER"],
       "show": true,
-      "status": "beta",
-      "toolTip": "FAQs",
-      "url": "/app/info/faq",
-      "shortName": "Help"
+      "status": "alpha",
+      "toolTip": "Question and Answer",
+      "url": "/app/social/qna",
+      "shortName": "Q & A"
+    },
+     "feature_blogs": {
+      "accessKey": "",
+      "icon": "insert_drive_file",
+      "iconType": "mat-icon",
+      "id": "feature_blogs",
+      "keywords": ["blogs", "leader blogs"],
+      "name": "Blogs",
+      "permission": ["BLOGS"],
+      "show": true,
+      "status": "live",
+      "toolTip": "Blogs",
+      "url": "/app/social/blogs",
+      "description": "Read and write big ideas and important stories",
+      "shortName": "Blogs"
     },
     "feature_Terms&Condition": {
       "accessKey": "*",
