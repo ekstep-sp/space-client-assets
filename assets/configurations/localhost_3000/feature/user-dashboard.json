@@ -1,5 +1,5 @@
 {
-    "API_END_POINT": "/usersubmission/user",
+    "API_END_POINT": "/usersubmission/usersubmission/user",
     "user_list": {
         "type": "get",
         "url": "/v1/users?filter=",
