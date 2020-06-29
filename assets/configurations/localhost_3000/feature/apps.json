@@ -5,29 +5,22 @@
       "description": "Question and answer hub for professional and enthusiast programmers.",
       "icon": "question_answer",
       "iconType": "mat-icon",
-      "id": "feature_Q&A",
-      "keywords": ["question and answer", "qna", "q and a"],
-      "name": "Question and Answer",
-      "permission": ["QUESTION_AND_ANSWER"],
-      "show": true,
-      "status": "alpha",
-      "toolTip": "Question and Answer",
-      "url": "/app/social/qna",
-      "shortName": "Q & A"
-    },
-     "feature_blogs": {
-      "accessKey": "",
-      "icon": "insert_drive_file",
-      "iconType": "mat-icon",
-      "id": "feature_blogs",
-      "keywords": ["blogs", "leader blogs"],
-      "name": "Blogs",
-      "permission": ["BLOGS"],
+      "id": "feature_FAQs",
+      "keywords": [
+        "faqs",
+        "question",
+        "query",
+        "frequently answered questions",
+        "frequently asked questions"
+      ],
+      "name": "Help & Contact",
+      "permission": [
+        "FAQ"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Blogs",
       "url": "/app/social/blogs",
-      "description": "Read and write big ideas and important stories",
       "shortName": "Blogs"
     },
     "feature_Terms&Condition": {
@@ -48,7 +41,9 @@
         "terms and conditions of sale"
       ],
       "name": "Terms & Condition",
-      "permission": [""],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Terms & Condition",
@@ -60,9 +55,16 @@
       "icon": "info",
       "iconType": "",
       "id": "feature_aboutUs",
-      "keywords": ["about platform", "information", "about", "about us"],
+      "keywords": [
+        "about platform",
+        "information",
+        "about",
+        "about us"
+      ],
       "name": "About Us",
-      "permission": ["ABOUT_US"],
+      "permission": [
+        "ABOUT_US"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "About Us",
@@ -74,9 +76,13 @@
       "icon": "info",
       "iconType": "",
       "id": "feature_collaborators",
-      "keywords": ["collaborators"],
+      "keywords": [
+        "collaborators"
+      ],
       "name": "Collaborators",
-      "permission": [""],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Collaborators",
@@ -97,7 +103,9 @@
         "overview"
       ],
       "name": "Explore",
-      "permission": [""],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Explore",
@@ -109,9 +117,14 @@
       "icon": "account_box",
       "iconType": "mat-icon",
       "id": "feature_authoring",
-      "keywords": ["author", "authoring tool"],
+      "keywords": [
+        "author",
+        "authoring tool"
+      ],
       "name": "Author",
-      "permission": [""],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Author",
@@ -123,9 +136,15 @@
       "icon": "create",
       "iconType": "mat-icon",
       "id": "feature_create",
-      "keywords": ["author", "authoring tool", "create"],
+      "keywords": [
+        "author",
+        "authoring tool",
+        "create"
+      ],
       "name": "Create",
-      "permission": [""],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Create",
@@ -149,7 +168,9 @@
         "comment"
       ],
       "name": "Feedback",
-      "permission": ["FEEDBACK"],
+      "permission": [
+        "FEEDBACK"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Feedback",
@@ -161,9 +182,14 @@
       "icon": "tag_faces",
       "iconType": "mat-icon",
       "id": "feature_interests",
-      "keywords": ["interests", "topics"],
+      "keywords": [
+        "interests",
+        "topics"
+      ],
       "name": "Interests",
-      "permission": ["INTERESTS"],
+      "permission": [
+        "INTERESTS"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Interests",
@@ -187,7 +213,9 @@
         "mobile applications"
       ],
       "name": "Mobile Apps",
-      "permission": ["MOBILE_APPS"],
+      "permission": [
+        "MOBILE_APPS"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Mobile Apps",
@@ -199,9 +227,14 @@
       "icon": "notifications_none",
       "iconType": "mat-icon",
       "id": "feature_notification",
-      "keywords": ["notification", "new"],
+      "keywords": [
+        "notification",
+        "new"
+      ],
       "name": "Notifications",
-      "permission": ["NOTIFICATION"],
+      "permission": [
+        "NOTIFICATION"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Notification",
@@ -215,9 +248,14 @@
       "icon": "playlist_play",
       "iconType": "mat-icon",
       "id": "feature_playlist",
-      "keywords": ["playlists", "collection"],
+      "keywords": [
+        "playlists",
+        "collection"
+      ],
       "name": "Playlists",
-      "permission": ["PLAYLIST"],
+      "permission": [
+        "PLAYLIST"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Playlists",
@@ -229,9 +267,16 @@
       "icon": "account_circle",
       "iconType": "mat-icon",
       "id": "feature_profile",
-      "keywords": ["dashboard", "profile", "user", "me"],
+      "keywords": [
+        "dashboard",
+        "profile",
+        "user",
+        "me"
+      ],
       "name": "Profile",
-      "permission": ["PROFILE"],
+      "permission": [
+        "PROFILE"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Profile",
@@ -243,9 +288,15 @@
       "icon": "publish",
       "iconType": "mat-icon",
       "id": "feature_publish",
-      "keywords": ["author", "authoring tool", "publish"],
+      "keywords": [
+        "author",
+        "authoring tool",
+        "publish"
+      ],
       "name": "Publish",
-      "permission": [""],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Publish",
@@ -257,9 +308,15 @@
       "icon": "rate_review",
       "iconType": "mat-icon",
       "id": "feature_review",
-      "keywords": ["author", "authoring tool", "review"],
+      "keywords": [
+        "author",
+        "authoring tool",
+        "review"
+      ],
       "name": "Review",
-      "permission": [""],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Review",
@@ -271,9 +328,15 @@
       "icon": "search",
       "iconType": "mat-icon",
       "id": "feature_search",
-      "keywords": ["search", "find", "explore"],
+      "keywords": [
+        "search",
+        "find",
+        "explore"
+      ],
       "name": "Search",
-      "permission": ["SEARCH"],
+      "permission": [
+        "SEARCH"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Search",
@@ -285,9 +348,16 @@
       "icon": "settings",
       "iconType": "mat-icon",
       "id": "feature_settings",
-      "keywords": ["settings", "adjustments", "environments", "setup"],
+      "keywords": [
+        "settings",
+        "adjustments",
+        "environments",
+        "setup"
+      ],
       "name": "Settings",
-      "permission": ["SETTINGS"],
+      "permission": [
+        "SETTINGS"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Settings",
@@ -308,13 +378,8 @@
       "show": true,
       "status": "live",
       "toolTip": "Users",
-      "url": "/app/user_dashboard",
-      "shortName": "User",
-      "hasRole": [
-        "content-creator",
-        "editor",
-        "admin"
-      ]
+      "url": "/app/user-dashboard",
+      "shortName": "User"
     }
   },
   "groups": [
@@ -330,7 +395,11 @@
       "icon": "",
       "iconType": "none",
       "id": "group_me",
-      "keywords": ["Me", "profile", "Dashboard"],
+      "keywords": [
+        "Me",
+        "profile",
+        "Dashboard"
+      ],
       "name": "Me",
       "toolTip": "Me"
     },
@@ -344,16 +413,25 @@
       "icon": "",
       "iconType": "none",
       "id": "group_contribution",
-      "keywords": ["contribution"],
+      "keywords": [
+        "contribution"
+      ],
       "name": "Contribution",
       "toolTip": "Contribution"
     },
     {
-      "featureIds": ["feature_search", "feature_catalog"],
+      "featureIds": [
+        "feature_search",
+        "feature_catalog"
+      ],
       "icon": "",
       "iconType": "none",
       "id": "group_assistant",
-      "keywords": ["learning", "assistant", "learning assistant"],
+      "keywords": [
+        "learning",
+        "assistant",
+        "learning assistant"
+      ],
       "name": "Learning Assistant",
       "toolTip": "Learning Assistant"
     },
@@ -367,16 +445,23 @@
       "icon": "",
       "iconType": "none",
       "id": "group_information",
-      "keywords": ["info", "information"],
+      "keywords": [
+        "info",
+        "information"
+      ],
       "name": "Information",
       "toolTip": "Information"
     },
     {
-      "featureIds": ["feature_settings"],
+      "featureIds": [
+        "feature_settings"
+      ],
       "icon": "",
       "iconType": "none",
       "id": "group_account",
-      "keywords": ["account"],
+      "keywords": [
+        "account"
+      ],
       "name": "Account",
       "toolTip": "Account"
     }
