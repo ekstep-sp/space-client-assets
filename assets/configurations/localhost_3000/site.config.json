@@ -83,7 +83,7 @@
   ],
   "logos": {
     "app": "/assets/instances/space/app_logos/SP - Space logo 200x80.svg",
-    "appTransparent": "/assets/instances/space/app_logos/SP - Space logo 200x80.png",
+    "appTransparent": "/assets/instances/space/app_logos/SP - Space logo 200x80.svg",
     "company": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
     "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
     "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
