@@ -180,10 +180,7 @@
     },
     "notDisabledFor": {},
     "notMandatoryFor": {
-      "Collection": [{ "body": [true] }],
-      "Course": [{ "body": [true] }],
-      "Learning Path": [{ "body": [true] }],
-      "Resource": [{ "body": [true], "mimeType": ["application/html"] }]
+      "Learning Path": [{ "body": [true] }]
     },
     "notShowFor": {},
     "showFor": { "Resource": [{ "mimeType": ["application/html"] }] },
