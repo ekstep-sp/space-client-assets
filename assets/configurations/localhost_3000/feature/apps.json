@@ -6,23 +6,34 @@
       "icon": "question_answer",
       "iconType": "mat-icon",
       "id": "feature_Q&A",
-      "keywords": ["question and answer", "qna", "q and a"],
+      "keywords": [
+        "question and answer",
+        "qna",
+        "q and a"
+      ],
       "name": "Question and Answer",
-      "permission": ["QUESTION_AND_ANSWER"],
+      "permission": [
+        "QUESTION_AND_ANSWER"
+      ],
       "show": true,
       "status": "alpha",
       "toolTip": "Question and Answer",
       "url": "/app/social/qna",
       "shortName": "Q & A"
     },
-     "feature_blogs": {
+    "feature_blogs": {
       "accessKey": "",
       "icon": "insert_drive_file",
       "iconType": "mat-icon",
       "id": "feature_blogs",
-      "keywords": ["blogs", "leader blogs"],
+      "keywords": [
+        "blogs",
+        "leader blogs"
+      ],
       "name": "Blogs",
-      "permission": ["BLOGS"],
+      "permission": [
+        "BLOGS"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Blogs",
@@ -60,7 +71,7 @@
     "feature_aboutUs": {
       "accessKey": "K",
       "icon": "info",
-      "iconType": "",
+      "iconType": "mat-icon",
       "id": "feature_aboutUs",
       "keywords": [
         "about platform",

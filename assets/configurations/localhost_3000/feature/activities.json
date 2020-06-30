@@ -1,0 +1,15 @@
+{
+    "disabledactivities": false,
+    "activities": [
+        {
+            "id": "123",
+            "title": "Angular",
+            "description": "Performing activities for creating angular docs",
+            "icon": "",
+            "status": "activities status",
+            "isNew": "True",
+            "clickUrl": "abcd",
+            "tag": "Create"
+        }
+    ]
+}
