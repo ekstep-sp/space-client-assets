@@ -1,0 +1,19 @@
+{
+    "rolesAllowed": {
+        "blogs": [
+        ],
+        "QnA": [
+        ]
+    },
+    "rolesNotAllowed": {
+        "blogs": [
+            "author",
+            "privelidged"
+        ],
+        "QnA": [
+            "author",
+            "privelidged"
+        ]
+
+    }
+}
