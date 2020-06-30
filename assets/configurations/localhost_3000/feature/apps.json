@@ -412,10 +412,8 @@
     },
     {
       "featureIds": [
-        "feature_authoring",
         "feature_create",
-        "feature_publish",
-        "feature_review"
+        "feature_publish"
       ],
       "icon": "",
       "iconType": "none",
