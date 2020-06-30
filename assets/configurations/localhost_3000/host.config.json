@@ -77,10 +77,10 @@
     }
   ],
   "logos": {
-    "app": "/assets/instances/space/app_logos/SP - Space logo 200x80.svg",
-    "appTransparent": "/assets/instances/space/app_logos/SP - Space logo 200x80.svg",
-    "company": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
-    "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.svg",
+    "app": "/assets/instances/space/app_logos/SPlogo200x50.png",
+    "appTransparent": "/assets/instances/space/app_logos/SPlogo200x50.png",
+    "company": "/assets/instances/space/app_logos/SPlogo200x50.png",
+    "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.png",
     "developedBy": "",
     "aboutFooter": "",
     "aboutHeader": "",
@@ -115,18 +115,8 @@
   "themes": [
     {
       "color": {
-        "accent": "#af235f",
-        "primary": "#005f87",
-        "warn": "#f44336"
-      },
-      "themeFile": "theme-teal",
-      "themeClass": "theme-teal",
-      "themeName": "Teal Theme"
-    },
-    {
-      "color": {
-        "accent": "#ffcc99",
-        "primary": "#373a77",
+        "accent": "#ffe22a",
+        "primary": "#865ba0",
         "warn": "#f44336"
       },
       "themeFile": "theme-muave",
@@ -147,7 +137,7 @@
       "color": "primary"
     },
     "pageNavBar": {
-      "color": "default"
+      "color": "primary"
     }
   }
 }
