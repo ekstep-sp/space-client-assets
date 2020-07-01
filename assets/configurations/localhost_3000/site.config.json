@@ -13,9 +13,7 @@
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
   },
-  "org": [
-    "space"
-  ],
+  "org": ["space"],
   "rootOrg": "space",
   "defaultFontSize": "normal-typography",
   "defaultLocale": "",
@@ -78,10 +76,7 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": [
-        "en",
-        "en-US"
-      ],
+      "locals": ["en", "en-US"],
       "path": "",
       "isRTL": false
     }
@@ -90,7 +85,7 @@
     "app": "/assets/instances/space/app_logos/SPlogo200x50.png",
     "appTransparent": "/assets/instances/space/app_logos/SPlogo200x50.png",
     "company": "/assets/instances/space/app_logos/SPlogo200x50.png",
-    "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.png",
+    "defaultContent": "/assets/instances/space/app_logos/SPlogo 200x80.png",
     "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/space/about-page/about-header.jpg",
     "developedBy": "/assets/instances/space/app_logos/ETA.png",
@@ -105,7 +100,8 @@
     "assetguidelines": "/assets/instances/space/banners/AssetGuidelinesBanner.a1768cc3d81d38f92ffe.png",
     "dataprivacy": "/assets/instances/space/banners/DataPrivacyPolicyBanner.97291165700289684954.png",
     "grievanceredressal": "/assets/instances/space/banners/GrievanceRedressalProcessBanner.4e89c4443e821dd3bffc.png",
-    "termsOfUse": "/assets/instances/space/banners/TermsOfUseBanner.b6392be13c9132402072.png"
+    "termsOfUse": "/assets/instances/space/banners/TermsOfUseBanner.b6392be13c9132402072.png",
+    "aboutBanner": "/assets/instances/space/banners/AboutSPaceBanner.png"
   },
   "mailIds": {
     "contactUs": "space-support@space.com",
