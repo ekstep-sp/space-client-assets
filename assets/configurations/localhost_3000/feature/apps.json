@@ -61,8 +61,8 @@
     },
     "feature_collaborators": {
       "accessKey": "",
-      "icon": "info",
-      "iconType": "",
+      "icon": "group",
+      "iconType": "mat-icon",
       "id": "feature_collaborators",
       "keywords": ["collaborators"],
       "name": "Collaborators",
@@ -291,20 +291,13 @@
       "id": "feature_user_dashboard",
       "keywords": [],
       "name": "Users",
-      "permission": [
-        "PRIVILAGED",
-        "PUBLIC"
-      ],
+      "permission": ["PRIVILAGED", "PUBLIC"],
       "show": true,
       "status": "live",
       "toolTip": "Users",
       "url": "/app/user_dashboard",
       "shortName": "User",
-      "hasRole": [
-        "content-creator",
-        "editor",
-        "admin"
-      ]
+      "hasRole": ["content-creator", "editor", "admin"]
     }
   },
   "groups": [
