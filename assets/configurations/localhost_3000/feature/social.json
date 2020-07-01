@@ -8,11 +8,11 @@
     "rolesNotAllowed": {
         "blogs": [
             "author",
-            "privelidged"
+            "priveleged"
         ],
         "QnA": [
             "author",
-            "privelidged"
+            "priveleged"
         ]
 
     }
