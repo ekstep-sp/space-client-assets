@@ -85,7 +85,7 @@
     "app": "/assets/instances/space/app_logos/SPlogo200x50.png",
     "appTransparent": "/assets/instances/space/app_logos/SPlogo200x50.png",
     "company": "/assets/instances/space/app_logos/SPlogo200x50.png",
-    "defaultContent": "/assets/instances/space/app_logos/SPaceLogo-100x60.png",
+    "defaultContent": "/assets/instances/space/app_logos/SPlogo 200x80.png",
     "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/space/about-page/about-header.jpg",
     "developedBy": "/assets/instances/space/app_logos/ETA.png",
@@ -95,7 +95,8 @@
   },
   "banners": {
     "mainBanner": "/assets/instances/space/banners/MainBanner.jpg",
-    "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png"
+    "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png",
+    "aboutBanner": "/assets/instances/space/banners/AboutSPaceBanner.png"
   },
   "mailIds": {
     "contactUs": "space-support@space.com",
