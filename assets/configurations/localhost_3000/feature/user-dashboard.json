@@ -33,7 +33,7 @@
         "type": "get",
         "url": "/v1/decline",
         "errorMessage": "Sorry, user could not be deleted, please try again",
-        "successMessage": "User deletd successfully"
+        "successMessage": "User deleted successfully"
     },
     "defaultRoles": {
         "roles": [

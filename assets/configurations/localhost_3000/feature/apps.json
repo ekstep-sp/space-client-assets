@@ -378,10 +378,7 @@
       "id": "feature_user_dashboard",
       "keywords": [],
       "name": "Users",
-      "permission": [
-        "PRIVILAGED",
-        "PUBLIC"
-      ],
+      "permission": [],
       "show": true,
       "status": "live",
       "toolTip": "Users",
