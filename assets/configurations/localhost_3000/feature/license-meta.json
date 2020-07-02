@@ -29,16 +29,16 @@
             "parent": [
                 "Data"
             ],
-            "details": "<p>Public Domain details not available</p>",
-            "link": "<p>Link not available</p>"
+            "details": "<p>Public Domain Mark</p>",
+            "link": "<p><a href='https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/pdm'>https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/pdm/</a></p>"
         },
         {
             "name": "PDDL",
             "parent": [
                 "Data"
             ],
-            "details": "<p>PDDL details not available</p>",
-            "link": "<p>Link not available</p>"
+            "details": "<p>Open Data Commons Public Domain Dedication and License</p>",
+            "link": "<p><a href='http://opendatacommons.org/licenses/pddl/'>http://opendatacommons.org/licenses/pddl/</a></p>"
         },
         {
             "name": "CC-BY",
@@ -53,16 +53,16 @@
             "parent": [
                 "Data"
             ],
-            "details": "<p>CDLA-Permissive-1.0 details not available</p>",
-            "link": "<p>Link not available</p>"
+            "details": "<p>Community Data License Agreement – Permissive, Version 1.0</p>",
+            "link": "<p><a href='https://cdla.io/permissive-1-0/'>https://cdla.io/permissive-1-0/</a></p>"
         },
         {
             "name": "ODC-BY",
             "parent": [
                 "Data"
             ],
-            "details": "<p>ODC-BY details not available</p>",
-            "link": "<p>Link not available</p>"
+            "details": "<p>Open Data Commons Attribution License</p>",
+            "link": "<p><a href='http://opendatacommons.org/licenses/by/'></a></p>"
         },
         {
             "name": "CC-BY-SA",
@@ -77,16 +77,16 @@
             "parent": [
                 "Data"
             ],
-            "details": "<p>CDLA-Sharing-1.0 details not available</p>",
-            "link": "<p>Link not available</p>"
+            "details": "<p>Community Data License Agreement – Sharing, Version 1.0</p>",
+            "link": "<p><a href='https://cdla.io/sharing-1-0/'>https://cdla.io/sharing-1-0/</a></p>"
         },
         {
             "name": "ODC-ODbL",
             "parent": [
                 "Data"
             ],
-            "details": "<p>ODC-ODbL details not available</p>",
-            "link": "<p>Link not available</p>"
+            "details": "<p>Open Data Commons Open Database License</p>",
+            "link": "<p><a href='http://opendatacommons.org/licenses/odbl/'>http://opendatacommons.org/licenses/odbl/</a></p>"
         },
         {
             "name": "CC-BY-NC",
@@ -127,8 +127,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>Freeing content globally without restrictions</p>",
-            "link": "<p><a href='https://creativecommons.org/share-your-work/public-domain/cc0/'>https://creativecommons.org/share-your-work/public-domain/cc0/</a></p>"
+            "details": "<p>( Creative Commons Public Domain Dedication ) Freeing content globally without restrictions</p>",
+            "link": "<p><a href='https://creativecommons.org/publicdomain/zero/1.0/'>https://creativecommons.org/publicdomain/zero/1.0/</a></p>"
         },
         {
             "name": "CC-BY 4.0",
@@ -136,7 +136,7 @@
                 "Knowledge",
                 "Protocol"
             ],
-            "details": "<p>Attribution alone</p>",
+            "details": "<p>Creative Commons Attribution 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by/4.0/'>https://creativecommons.org/licenses/by/4.0/</a></p>"
         },
         {
@@ -145,7 +145,7 @@
                 "Knowledge",
                 "Protocol"
             ],
-            "details": "<p>Attribution + ShareAlike</p>",
+            "details": "<p>Creative Commons Attribution-ShareAlike 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-sa/4.0/'>https://creativecommons.org/licenses/by-sa/4.0/</a></p>"
         },
         {
@@ -154,7 +154,7 @@
                 "Knowledge",
                 "Protocol"
             ],
-            "details": "<p>Attribution + NoDerivatives</p>",
+            "details": "<p>Creative Commons Attribution-NoDerivatives 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nd/4.0/'>https://creativecommons.org/licenses/by-nd/4.0/</a></p>"
         },
         {
@@ -163,7 +163,7 @@
                 "Knowledge",
                 "Protocol"
             ],
-            "details": "<p>Attribution + NonCommercial</p>",
+            "details": "<p>Creative Commons Attribution-NonCommercial 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nc/4.0/'>https://creativecommons.org/licenses/by-nc/4.0/</a></p>"
         },
         {
@@ -172,7 +172,7 @@
                 "Knowledge",
                 "Protocol"
             ],
-            "details": "<p>CC-BY-NC-SA 4.0 details</p>",
+            "details": "<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>https://creativecommons.org/licenses/by-nc-sa/4.0/</a></p>"
         },
         {
@@ -181,7 +181,7 @@
                 "Knowledge",
                 "Protocol"
             ],
-            "details": "<p>CC-BY-NC-ND 4.0 details</p>",
+            "details": "<p>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>https://creativecommons.org/licenses/by-nc-nd/4.0/</a></p>"
         },
         {
@@ -191,7 +191,7 @@
                 "Protocol",
                 "Technology"
             ],
-            "details": "<p>details not available</p>",
+            "details": "<p>License which does not belong to the defined categories</p>",
             "link": "<p>Link not available</p>"
         }
     ]
