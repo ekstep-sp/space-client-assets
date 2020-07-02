@@ -1,9 +1,7 @@
 {
     "rolesAllowed": {
-        "blogs": [
-        ],
-        "QnA": [
-        ]
+        "blogs": [],
+        "QnA": []
     },
     "rolesNotAllowed": {
         "blogs": [
@@ -14,6 +12,5 @@
             "author",
             "privileged"
         ]
-
     }
 }

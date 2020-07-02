@@ -13,7 +13,9 @@
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
   },
-  "org": ["space"],
+  "org": [
+    "space"
+  ],
   "rootOrg": "space",
   "defaultFontSize": "normal-typography",
   "defaultLocale": "",
@@ -76,7 +78,10 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": ["en", "en-US"],
+      "locals": [
+        "en",
+        "en-US"
+      ],
       "path": "",
       "isRTL": false
     }
