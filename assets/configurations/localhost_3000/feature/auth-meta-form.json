@@ -173,14 +173,10 @@
     },
     "disabledFor": {},
     "mandatoryFor": {
-      "Collection": [],
-      "Course": [],
-      "Learning Path": [],
       "Resource": []
     },
     "notDisabledFor": {},
     "notMandatoryFor": {
-      "Learning Path": [{ "body": [true] }]
     },
     "notShowFor": {},
     "showFor": { "Resource": [{ "mimeType": ["application/html"] }] },
