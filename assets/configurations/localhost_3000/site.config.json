@@ -82,9 +82,9 @@
     }
   ],
   "logos": {
-    "app": "/assets/instances/space/app_logos/SPlogo200x50.png",
-    "appTransparent": "/assets/instances/space/app_logos/SPlogo200x50.png",
-    "company": "/assets/instances/space/app_logos/SPlogo200x50.png",
+    "app": "/assets/instances/space/app_logos/SPace200x55.png",
+    "appTransparent": "/assets/instances/space/app_logos/SPace200x55.png",
+    "company": "/assets/instances/space/app_logos/SPace200x55.png",
     "defaultContent": "/assets/instances/space/app_logos/SPlogo 200x80.png",
     "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/space/about-page/about-header.jpg",

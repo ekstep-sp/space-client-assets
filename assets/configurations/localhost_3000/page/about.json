@@ -10,7 +10,7 @@
             "dimensions": {},
             "widget": {
               "widgetData": {
-                "template": "<div class=\"imgsize\"><img class=\"cimage\" alt=\"About Page Image\" src=\"/assets/instances/space/banners/AboutSPaceBanner.png\"></div><h3 class=\"p-10\"><p class=\"pb-15 text\">{{para1}}</p><p class=\"pb-15 text\">{{para2}}<p class=\"pb-15 text\">{{para3}}</p><p class=\"pb-15 text\">{{para4}}<a class=\"text-purple\" href=\"mailto:space@societalplatform.org\" target=\"_blank\">{{para5}}</a>{{para6}}</p></h3>",
+                "template": "<div class=\"imgsize\"></div><h3 class=\"p-10\"><p class=\"pb-15 text\">{{para1}}</p><p class=\"pb-15 text\">{{para2}}<p class=\"pb-15 text\">{{para3}}</p><p class=\"pb-15 text\">{{para4}}<a class=\"text-purple\" href=\"mailto:space@societalplatform.org\" target=\"_blank\">{{para5}}</a>{{para6}}</p></h3>",
                 "templateData": {
                   "heading": "About Us",
                   "para1": "Our societal challenges are large, complex and dynamic. They tend to grow much faster than our individual ability to solve them. The scale and diversity of our problems call for sharing, reusing and leveraging our existing assets and resources. If we all share and learn, we can all rapidly create many more contextual solutions.",
