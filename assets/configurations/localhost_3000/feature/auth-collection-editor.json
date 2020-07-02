@@ -51,9 +51,9 @@
         }
       ],
       "allowCreation": true,
-      "allowedCreationType": ["resource", "web", "upload", "collection"],
+      "allowedCreationType": ["collection"],
       "searchFilter": {
-        "contentType": ["Collection", "Resource"]
+        "contentType": ["Collection"]
       }
     },
     "Collection": {
@@ -80,7 +80,7 @@
       "allowCreation": true,
       "allowedCreationType": ["resource", "web", "upload"],
       "searchFilter": {
-        "contentType": ["Collection", "Resource"]
+        "contentType": ["Resource"]
       }
     },
     "Learning Path": {
