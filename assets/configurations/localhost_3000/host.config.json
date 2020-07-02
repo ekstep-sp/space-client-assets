@@ -10,7 +10,9 @@
   },
   "disablePidCheck": false,
   "isContentDownloadAvailable": false,
-  "org": ["space"],
+  "org": [
+    "space"
+  ],
   "rootOrg": "space",
   "fontSizes": [
     {
@@ -71,7 +73,10 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": ["en", "en-US"],
+      "locals": [
+        "en",
+        "en-US"
+      ],
       "path": "",
       "isRTL": false
     }
@@ -135,7 +140,9 @@
     "defaultEmailId": "eagle-support@eagle.com",
     "isConfigured": true,
     "tenant": "eagle",
-    "validEmailExtensions": ["@eagle.eagle.com"]
+    "validEmailExtensions": [
+      "@eagle.eagle.com"
+    ]
   },
   "validMailIdExtensionsForMailMe": [],
   "backgrounds": {
