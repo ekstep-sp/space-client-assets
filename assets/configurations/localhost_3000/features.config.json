@@ -32,8 +32,8 @@
     "enabled": false
   },
   "goals": {
-    "available": false,
-    "enabled": false
+    "available": true,
+    "enabled": true
   },
   "interests": {
     "available": true,
