@@ -249,5 +249,8 @@
     "feature_blogs",
     "feature_Q&A"
   ],
-  "intranetIframeUrls": []
+  "intranetIframeUrls": [],
+  "introVideo": {
+    "en": "assets/instances/space/videos/intro_video.mp4"
+  }
 }
