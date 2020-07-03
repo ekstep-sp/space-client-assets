@@ -251,6 +251,9 @@
   ],
   "intranetIframeUrls": [],
   "introVideo": {
-    "en": "assets/instances/space/videos/intro_video.mp4"
+    "en": "/assets/instances/space/videos/intro_video.mp4"
+  },
+  "tourVideo": {
+    "en": "/assets/instances/space/videos/intro_video.mp4"
   }
 }
