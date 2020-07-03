@@ -366,6 +366,15 @@
       "keywords": ["account"],
       "name": "Account",
       "toolTip": "Account"
+    },
+    {
+      "featureIds": ["feature_blogs", "feature_Q&A"],
+      "icon": "",
+      "iconType": "none",
+      "id": "group_social",
+      "keywords": ["social"],
+      "name": "Social",
+      "toolTip": "Social"
     }
   ]
 }
