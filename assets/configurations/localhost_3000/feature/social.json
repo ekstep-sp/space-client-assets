@@ -1,12 +1,12 @@
 {
     "rolesAllowed": {
         "blogs": [
-            "creator",
+            "content-creator",
             "editor",
             "publisher"
         ],
         "QnA": [
-            "creator",
+            "content-creator",
             "editor",
             "publisher"
         ]
