@@ -243,6 +243,9 @@
       ]
     }
   },
+  "introVideo": {
+    "en": "assets/instances/space/videos/intro_video.mp4"
+  },
   "featuredApps": [
     "feature_playlist",
     "feature_goals",
