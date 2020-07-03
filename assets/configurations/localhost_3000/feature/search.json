@@ -1,43 +1,20 @@
 {
   "search": {
     "visibleFilters": {
-      "learningMode": {
-        "displayName": "Mode"
-      },
       "duration": {
         "displayName": "Duration"
       },
-      "contentType": {
-        "displayName": "Content Type"
+      "assetType": {
+        "displayName": "Type"
       },
-      "exclusiveContent": {
-        "displayName": "Costs"
-      },
-      "complexityLevel": {
-        "displayName": "Level"
-      },
-      "catalogPaths": {
-        "displayName": "Catalog",
-        "order": [
-          {
-            "_key": "asc"
-          }
-        ]
+      "theme": {
+        "displayName": "SDGs"
       },
       "sourceShortName": {
-        "displayName": "Source"
-      },
-      "resourceType": {
-        "displayName": "Format"
+        "displayName": "Created By"
       },
       "region": {
         "displayName": "Region"
-      },
-      "concepts": {
-        "displayName": "Concepts"
-      },
-      "lastUpdatedOn": {
-        "displayName": "Published Date"
       }
     },
     "tabs": [
