@@ -151,61 +151,6 @@
             }
           },
           {
-            "dimensions": {
-              "small": 12,
-              "medium": 12
-            },
-            "widget": {
-              "widgetType": "contentStrip",
-              "widgetSubType": "contentStripMultiple",
-              "widgetData": {
-                "strips": [
-                  {
-                    "key": "recentToPlaylists",
-                    "title": "From your playlists",
-                    "noDataWidget": {
-                      "widgetType": "element",
-                      "widgetSubType": "elementHtml",
-                      "widgetData": {
-                        "html": "<p class=\"ws-mat-primary-text\">Your latest content added to a playlist appears here.</p>"
-                      }
-                    },
-                    "info": {
-                      "mode": "below",
-                      "visibilityMode": "hidden",
-                      "icon": {
-                        "icon": "info",
-                        "scale": 0.8
-                      },
-                      "widget": {
-                        "widgetType": "element",
-                        "widgetSubType": "elementHtml",
-                        "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">Seen something you want to check out or share later? Add it to your playlist and we’ll keep it here.</p>"
-                        }
-                      }
-                    },
-                    "stripConfig": {
-                      "cardSubType": "standard"
-                    },
-                    "filters": [],
-                    "request": {
-                      "api": {
-                        "path": "/apis/protected/v8/user/playlist/recent"
-                      }
-                    },
-                    "refreshEvent": {
-                      "eventType": "Action",
-                      "from": "actionButton/actionButtonPlaylist"
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        ],
-        [
-          {
             "dimensions": {},
             "widget": {
               "widgetType": "contentStrip",
@@ -250,6 +195,60 @@
               }
             }
           }
+        ],
+        [{
+          "dimensions": {
+            "small": 12,
+            "medium": 12
+          },
+          "widget": {
+            "widgetType": "contentStrip",
+            "widgetSubType": "contentStripMultiple",
+            "widgetData": {
+              "strips": [
+                {
+                  "key": "recentToPlaylists",
+                  "title": "From your playlists",
+                  "noDataWidget": {
+                    "widgetType": "element",
+                    "widgetSubType": "elementHtml",
+                    "widgetData": {
+                      "html": "<p class=\"ws-mat-primary-text\">Your latest content added to a playlist appears here.</p>"
+                    }
+                  },
+                  "info": {
+                    "mode": "below",
+                    "visibilityMode": "hidden",
+                    "icon": {
+                      "icon": "info",
+                      "scale": 0.8
+                    },
+                    "widget": {
+                      "widgetType": "element",
+                      "widgetSubType": "elementHtml",
+                      "widgetData": {
+                        "html": "<p class=\"ws-mat-primary-text\">Seen something you want to check out or share later? Add it to your playlist and we’ll keep it here.</p>"
+                      }
+                    }
+                  },
+                  "stripConfig": {
+                    "cardSubType": "standard"
+                  },
+                  "filters": [],
+                  "request": {
+                    "api": {
+                      "path": "/apis/protected/v8/user/playlist/recent"
+                    }
+                  },
+                  "refreshEvent": {
+                    "eventType": "Action",
+                    "from": "actionButton/actionButtonPlaylist"
+                  }
+                }
+              ]
+            }
+          }
+        }
         ]
       ]
     }
