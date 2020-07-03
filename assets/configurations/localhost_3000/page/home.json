@@ -206,58 +206,6 @@
         ],
         [
           {
-              "dimensions": {},
-              "widget": {
-                  "widgetType": "contentStrip",
-                  "widgetSubType": "contentStripMultiple",
-                  "widgetData": {
-                      "strips": [
-                          {
-                              "key": "interestBased",
-                              "title": "Based on your interests",
-                              "info": {
-                                  "mode": "below",
-                                  "visibilityMode": "hidden",
-                                  "icon": {
-                                      "icon": "info",
-                                      "scale": 0.8
-                                  },
-                                  "widget": {
-                                      "widgetType": "element",
-                                      "widgetSubType": "elementHtml",
-                                      "widgetData": {
-                                          "html": "<p class=\"ws-mat-primary-text\">This is where we'll show you the most relevant learning opportunities, based on the interests you've chosen. </p>"
-                                      }
-                                  }
-                              },
-                              "stripConfig": {
-                                  "cardSubType": "standard"
-                              },
-                              "filters": [],
-                              "noDataWidget": {
-                                  "widgetType": "element",
-                                  "widgetSubType": "elementHtml",
-                                  "widgetData": {
-                                      "html": "<div class=\"flex justify-between items-center\"><p class=\"ws-mat-primary-text margin-remove margin-right-xs\">Please add or modify your interest topics to find relevant content. </p><a class=\"mat-flat-button mat-primary\" onclick=\"window.navigateTo(`/app/profile/interest`)\">Edit</a></div>"
-                                  }
-                              },
-                              "request": {
-                                  "api": {
-                                      "path": "/apis/protected/v8/recommendation/interestBased",
-                                      "queryParams": {
-                                          "pageNo": 0,
-                                          "pageSize": 15
-                                      }
-                                  }
-                              }
-                          }
-                      ]
-                  }
-              }
-          }
-      ],
-        [
-          {
             "dimensions": {},
             "widget": {
               "widgetType": "contentStrip",
