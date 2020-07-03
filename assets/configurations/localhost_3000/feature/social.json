@@ -1,16 +1,20 @@
 {
     "rolesAllowed": {
-        "blogs": [],
-        "QnA": []
+        "blogs": [
+            "creator",
+            "editor",
+            "publisher"
+        ],
+        "QnA": [
+            "creator",
+            "editor",
+            "publisher"
+        ]
     },
     "rolesNotAllowed": {
         "blogs": [
-            "author",
-            "privileged"
         ],
         "QnA": [
-            "author",
-            "privileged"
         ]
     }
 }
