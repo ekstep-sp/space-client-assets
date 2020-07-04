@@ -152,5 +152,8 @@
     "pageNavBar": {
       "color": "primary"
     }
+  },
+  "introVideo": {
+    "en": "/assets/instances/space/videos/intro_video.mp4"
   }
 }
