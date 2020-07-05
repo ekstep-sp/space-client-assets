@@ -1,0 +1,24 @@
+{
+    "details": [
+        {
+            "type": "Knowledge",
+            "description": "<p>Knowledge resources are containers that store knowledge in the form of articles, method guides, videos, posters and other such learning objects.</p>"
+        },
+        {
+            "type": "Protocol",
+            "description": "<p>Protocols, in simple terms, are a set of guidelines and procedures that deal with a particular subject. It gets manifested in terms of documents on standards and specifications. Protocols provide detailed information on processes and standards for interactions between different entities. It could be APIs, hardware specifications, software documentation or standards for resource creation, among others.</p>"
+        },
+        {
+            "type": "Technology",
+            "description": "<p>Technology refers to software and hardware. Access to microservices in the form of a codebase is an example of a technology resource.</p>"
+        },
+        {
+            "type": "Connections",
+            "description": "<p>Connections are about networks — information about actors and the interactions between them. For instance, an organisation sharing its network of partners can help others to find new actors and leverage existing interactions in the system.</p>"
+        },
+        {
+            "type": "Data",
+            "description": "<p>A curated repository of data in an understandable and consumable form, wherever possible, can be critical in making complete use of an asset. Data resources are commonly stored in databases and registries.</p>"
+        }
+    ]
+}
