@@ -41,14 +41,6 @@
             "link": "<p><a href='http://opendatacommons.org/licenses/pddl/'>http://opendatacommons.org/licenses/pddl/</a></p>"
         },
         {
-            "name": "CC-BY",
-            "parent": [
-                "Data"
-            ],
-            "details": "<p>CC-BY details not available</p>",
-            "link": "<p>Link not available</p>"
-        },
-        {
             "name": "CDLA-Permissive-1.0",
             "parent": [
                 "Data"
@@ -62,15 +54,7 @@
                 "Data"
             ],
             "details": "<p>Open Data Commons Attribution License</p>",
-            "link": "<p><a href='http://opendatacommons.org/licenses/by/'></a></p>"
-        },
-        {
-            "name": "CC-BY-SA",
-            "parent": [
-                "Data"
-            ],
-            "details": "<p>CC-BY-SA details not available</p>",
-            "link": "<p>Link not available</p>"
+            "link": "<p><a href='http://opendatacommons.org/licenses/by/'>http://opendatacommons.org/licenses/by/</a></p>"
         },
         {
             "name": "CDLA-Sharing-1.0",
@@ -89,52 +73,21 @@
             "link": "<p><a href='http://opendatacommons.org/licenses/odbl/'>http://opendatacommons.org/licenses/odbl/</a></p>"
         },
         {
-            "name": "CC-BY-NC",
-            "parent": [
-                "Data"
-            ],
-            "details": "<p>CC-BY-NC details not available</p>",
-            "link": "<p>Link not available</p>"
-        },
-        {
-            "name": "CC-BY-ND",
-            "parent": [
-                "Data"
-            ],
-            "details": "<p>CC-BY-ND details not available</p>",
-            "link": "<p>Link not available</p>"
-        },
-        {
-            "name": "CC-BY-NC-SA",
-            "parent": [
-                "Data"
-            ],
-            "details": "<p>CC-BY-NC-SA details not available</p>",
-            "link": "<p>Link not available</p>"
-        },
-        {
-            "name": "CC-BY-NC-ND",
-            "parent": [
-                "Data"
-            ],
-            "details": "<p>CC-BY-NC-ND details not available</p>",
-            "link": "<p>Link not available</p>"
-        },
-        {
             "name": "CC-0",
             "parent": [
                 "Knowledge",
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>( Creative Commons Public Domain Dedication ) Freeing content globally without restrictions</p>",
+            "details": "<p>( Creative Commons Public Domain Dedication )</p>",
             "link": "<p><a href='https://creativecommons.org/publicdomain/zero/1.0/'>https://creativecommons.org/publicdomain/zero/1.0/</a></p>"
         },
         {
             "name": "CC-BY 4.0",
             "parent": [
                 "Knowledge",
-                "Protocol"
+                "Protocol",
+                "Data"
             ],
             "details": "<p>Creative Commons Attribution 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by/4.0/'>https://creativecommons.org/licenses/by/4.0/</a></p>"
@@ -143,7 +96,8 @@
             "name": "CC-BY-SA 4.0",
             "parent": [
                 "Knowledge",
-                "Protocol"
+                "Protocol",
+                "Data"
             ],
             "details": "<p>Creative Commons Attribution-ShareAlike 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-sa/4.0/'>https://creativecommons.org/licenses/by-sa/4.0/</a></p>"
@@ -152,7 +106,8 @@
             "name": "CC-BY-ND 4.0",
             "parent": [
                 "Knowledge",
-                "Protocol"
+                "Protocol",
+                "Data"
             ],
             "details": "<p>Creative Commons Attribution-NoDerivatives 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nd/4.0/'>https://creativecommons.org/licenses/by-nd/4.0/</a></p>"
@@ -161,7 +116,8 @@
             "name": "CC-BY-NC 4.0",
             "parent": [
                 "Knowledge",
-                "Protocol"
+                "Protocol",
+                "Data"
             ],
             "details": "<p>Creative Commons Attribution-NonCommercial 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nc/4.0/'>https://creativecommons.org/licenses/by-nc/4.0/</a></p>"
@@ -170,7 +126,8 @@
             "name": "CC-BY-NC-SA 4.0",
             "parent": [
                 "Knowledge",
-                "Protocol"
+                "Protocol",
+                "Data"
             ],
             "details": "<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>https://creativecommons.org/licenses/by-nc-sa/4.0/</a></p>"
@@ -179,7 +136,8 @@
             "name": "CC-BY-NC-ND 4.0",
             "parent": [
                 "Knowledge",
-                "Protocol"
+                "Protocol",
+                "Data"
             ],
             "details": "<p>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</p>",
             "link": "<p><a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>https://creativecommons.org/licenses/by-nc-nd/4.0/</a></p>"
