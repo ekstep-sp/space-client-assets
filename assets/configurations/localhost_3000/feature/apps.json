@@ -234,7 +234,7 @@
       "permission": [
         "MOBILE_APPS"
       ],
-      "show": true,
+      "show": false,
       "status": "live",
       "toolTip": "Mobile Apps",
       "url": "/public/mobile-app",
@@ -470,9 +470,22 @@
     },
     {
       "featureIds": [
+        "feature_blogs",
+        "feature_Q&A"
+      ],
+      "icon": "",
+      "iconType": "none",
+      "id": "group_social",
+      "keywords": [
+        "social"
+      ],
+      "name": "Social",
+      "toolTip": "Social"
+    },
+    {
+      "featureIds": [
         "feature_aboutUs",
         "feature_FAQs",
-        "feature_mobileApps",
         "feature_Terms&Condition"
       ],
       "icon": "",
@@ -497,20 +510,6 @@
       ],
       "name": "Account",
       "toolTip": "Account"
-    },
-    {
-      "featureIds": [
-        "feature_blogs",
-        "feature_Q&A"
-      ],
-      "icon": "",
-      "iconType": "none",
-      "id": "group_social",
-      "keywords": [
-        "social"
-      ],
-      "name": "Social",
-      "toolTip": "Social"
     }
   ]
 }
