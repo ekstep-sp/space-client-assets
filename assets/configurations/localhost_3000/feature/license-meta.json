@@ -5,16 +5,16 @@
             "parent": [
                 "Technology"
             ],
-            "details": "<p>MIT details</p>",
-            "link": "<p><a href='http://opensource.org/licenses/MIT'>http://opensource.org/licenses/MIT</a></p>"
+            "details": "MIT details",
+            "link": "<a href='http://opensource.org/licenses/MIT'>http://opensource.org/licenses/MIT</a>"
         },
         {
             "name": "Apache",
             "parent": [
                 "Technology"
             ],
-            "details": "<p>Apache details</p>",
-            "link": "<p><a href='https://www.apache.org/licenses/'>https://www.apache.org/licenses/</a></p>"
+            "details": "Apache details",
+            "link": "<a href='https://www.apache.org/licenses/'>https://www.apache.org/licenses/</a>"
         },
         {
             "name": "N/A",
@@ -29,48 +29,48 @@
             "parent": [
                 "Data"
             ],
-            "details": "<p>Public Domain Mark</p>",
-            "link": "<p><a href='https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/pdm'>https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/pdm/</a></p>"
+            "details": "Public Domain Mark",
+            "link": "<a href='https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/pdm'>https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/pdm/</a>"
         },
         {
             "name": "PDDL",
             "parent": [
                 "Data"
             ],
-            "details": "<p>Open Data Commons Public Domain Dedication and License</p>",
-            "link": "<p><a href='http://opendatacommons.org/licenses/pddl/'>http://opendatacommons.org/licenses/pddl/</a></p>"
+            "details": "Open Data Commons Public Domain Dedication and License",
+            "link": "<a href='http://opendatacommons.org/licenses/pddl/'>http://opendatacommons.org/licenses/pddl/</a>"
         },
         {
             "name": "CDLA-Permissive-1.0",
             "parent": [
                 "Data"
             ],
-            "details": "<p>Community Data License Agreement – Permissive, Version 1.0</p>",
-            "link": "<p><a href='https://cdla.io/permissive-1-0/'>https://cdla.io/permissive-1-0/</a></p>"
+            "details": "Community Data License Agreement – Permissive, Version 1.0",
+            "link": "<a href='https://cdla.io/permissive-1-0/'>https://cdla.io/permissive-1-0/</a>"
         },
         {
             "name": "ODC-BY",
             "parent": [
                 "Data"
             ],
-            "details": "<p>Open Data Commons Attribution License</p>",
-            "link": "<p><a href='http://opendatacommons.org/licenses/by/'>http://opendatacommons.org/licenses/by/</a></p>"
+            "details": "Open Data Commons Attribution License",
+            "link": "<a href='http://opendatacommons.org/licenses/by/'>http://opendatacommons.org/licenses/by/</a>"
         },
         {
             "name": "CDLA-Sharing-1.0",
             "parent": [
                 "Data"
             ],
-            "details": "<p>Community Data License Agreement – Sharing, Version 1.0</p>",
-            "link": "<p><a href='https://cdla.io/sharing-1-0/'>https://cdla.io/sharing-1-0/</a></p>"
+            "details": "Community Data License Agreement – Sharing, Version 1.0",
+            "link": "<a href='https://cdla.io/sharing-1-0/'>https://cdla.io/sharing-1-0/</a>"
         },
         {
             "name": "ODC-ODbL",
             "parent": [
                 "Data"
             ],
-            "details": "<p>Open Data Commons Open Database License</p>",
-            "link": "<p><a href='http://opendatacommons.org/licenses/odbl/'>http://opendatacommons.org/licenses/odbl/</a></p>"
+            "details": "Open Data Commons Open Database License",
+            "link": "<a href='http://opendatacommons.org/licenses/odbl/'>http://opendatacommons.org/licenses/odbl/</a>"
         },
         {
             "name": "CC-0",
@@ -79,8 +79,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>( Creative Commons Public Domain Dedication )</p>",
-            "link": "<p><a href='https://creativecommons.org/publicdomain/zero/1.0/'>https://creativecommons.org/publicdomain/zero/1.0/</a></p>"
+            "details": "( Creative Commons Public Domain Dedication )",
+            "link": "<a href='https://creativecommons.org/publicdomain/zero/1.0/'>https://creativecommons.org/publicdomain/zero/1.0/</a>"
         },
         {
             "name": "CC-BY 4.0",
@@ -89,8 +89,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>Creative Commons Attribution 4.0 International</p>",
-            "link": "<p><a href='https://creativecommons.org/licenses/by/4.0/'>https://creativecommons.org/licenses/by/4.0/</a></p>"
+            "details": "Creative Commons Attribution 4.0 International",
+            "link": "<a href='https://creativecommons.org/licenses/by/4.0/'>https://creativecommons.org/licenses/by/4.0/</a>"
         },
         {
             "name": "CC-BY-SA 4.0",
@@ -99,8 +99,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>Creative Commons Attribution-ShareAlike 4.0 International</p>",
-            "link": "<p><a href='https://creativecommons.org/licenses/by-sa/4.0/'>https://creativecommons.org/licenses/by-sa/4.0/</a></p>"
+            "details": "Creative Commons Attribution-ShareAlike 4.0 International",
+            "link": "<a href='https://creativecommons.org/licenses/by-sa/4.0/'>https://creativecommons.org/licenses/by-sa/4.0/</a>"
         },
         {
             "name": "CC-BY-ND 4.0",
@@ -109,8 +109,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>Creative Commons Attribution-NoDerivatives 4.0 International</p>",
-            "link": "<p><a href='https://creativecommons.org/licenses/by-nd/4.0/'>https://creativecommons.org/licenses/by-nd/4.0/</a></p>"
+            "details": "Creative Commons Attribution-NoDerivatives 4.0 International",
+            "link": "<a href='https://creativecommons.org/licenses/by-nd/4.0/'>https://creativecommons.org/licenses/by-nd/4.0/</a>"
         },
         {
             "name": "CC-BY-NC 4.0",
@@ -119,8 +119,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>Creative Commons Attribution-NonCommercial 4.0 International</p>",
-            "link": "<p><a href='https://creativecommons.org/licenses/by-nc/4.0/'>https://creativecommons.org/licenses/by-nc/4.0/</a></p>"
+            "details": "Creative Commons Attribution-NonCommercial 4.0 International",
+            "link": "<a href='https://creativecommons.org/licenses/by-nc/4.0/'>https://creativecommons.org/licenses/by-nc/4.0/</a>"
         },
         {
             "name": "CC-BY-NC-SA 4.0",
@@ -129,8 +129,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</p>",
-            "link": "<p><a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>https://creativecommons.org/licenses/by-nc-sa/4.0/</a></p>"
+            "details": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+            "link": "<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>https://creativecommons.org/licenses/by-nc-sa/4.0/</a>"
         },
         {
             "name": "CC-BY-NC-ND 4.0",
@@ -139,8 +139,8 @@
                 "Protocol",
                 "Data"
             ],
-            "details": "<p>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</p>",
-            "link": "<p><a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>https://creativecommons.org/licenses/by-nc-nd/4.0/</a></p>"
+            "details": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+            "link": "<a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>https://creativecommons.org/licenses/by-nc-nd/4.0/</a>"
         },
         {
             "name": "other",
@@ -149,8 +149,8 @@
                 "Protocol",
                 "Technology"
             ],
-            "details": "<p>License which does not belong to the defined categories</p>",
-            "link": "<p>Link not available</p>"
+            "details": "License which does not belong to the defined categories",
+            "link": "Link not available"
         }
     ]
 }
