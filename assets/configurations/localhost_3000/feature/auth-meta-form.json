@@ -393,6 +393,53 @@
     },
     "type": "boolean"
   },
+  "spaceLicenseTnCAgreed": {
+    "defaultValue": {
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
+      "Collection": [
+        { "condition": { "contentType": ["Collection"] }, "value": "" }
+      ],
+      "Course": [{ "condition": { "contentType": ["Course"] }, "value": "" }],
+      "Knowledge Artifact": [
+        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": "" }
+      ],
+      "Knowledge Board": [
+        { "condition": { "contentType": ["Knowledge Board"] }, "value": "" }
+      ],
+      "Learning Path": [
+        { "condition": { "contentType": ["Learning Path"] }, "value": "" }
+      ],
+      "Resource": [
+        { "condition": { "assetType": ["Connection"] }, "value": true }
+      ]
+    },
+    "disabledFor": {
+    },
+    "mandatoryFor": {
+      "Resource": [
+        {
+          "assetType": "Knowledge"
+        },
+        {
+          "assetType": "Protocol"
+        },
+        {
+          "assetType": "Data"
+        },
+        {
+          "assetType": "Technology"
+        }
+      ]
+    },
+    "notDisabledFor": {},
+    "notMandatoryFor": {},
+    "notShowFor": {
+    },
+    "showFor": {
+      "Resource": []
+    },
+    "type": "boolean"
+  },
   "interface_api": {
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
@@ -1516,13 +1563,13 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Collection": [],
       "Course": [],
       "Learning Path": [],
       "Resource": []
     },
+    "showFor": {},
     "type": "string"
   },
   "introductoryVideoIcon": {
@@ -1558,12 +1605,13 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Collection": [],
       "Course": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "showFor": {
     },
     "type": "string"
   },
@@ -1756,8 +1804,7 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
@@ -1765,6 +1812,8 @@
       "Knowledge Board": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "showFor": {
     },
     "type": "array"
   },
@@ -2216,8 +2265,7 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
@@ -2225,6 +2273,8 @@
       "Knowledge Board": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "showFor": {
     },
     "type": "array"
   },
@@ -2260,8 +2310,7 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
@@ -2269,6 +2318,8 @@
       "Knowledge Board": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "showFor": {
     },
     "type": "array"
   },
@@ -2762,22 +2813,34 @@
     "disabledFor": {
     },
     "mandatoryFor": {
-      "Resource": []
+      "Resource": [
+        {
+          "assetType": "Data"
+        },
+        {
+          "assetType": "Knowledge"
+        },
+        {
+          "assetType": "Technology"
+        },
+        {
+          "assetType": "Protocol"
+        }
+      ]
     },
     "notDisabledFor": {
-      "Resource": []
     },
     "notMandatoryFor": {},
     "notShowFor": {
-      "Collection": [],
-      "Course": []
     },
     "showFor": {
       "Channel": [],
       "Knowledge Artifact": [],
       "Knowledge Board": [],
       "Learning Path": [],
-      "Resource": []
+      "Resource": [],
+      "Collection": [],
+      "Course": []
     },
     "type": "string"
   },
@@ -2810,10 +2873,14 @@
         }
       ]
     },
-    "notDisabledFor": {
-      "Resource": []
+    "notDisabledFor": {},
+    "notMandatoryFor": {
+      "Resource": [
+        {
+          "sourceType": "Connection"
+        }
+      ]
     },
-    "notMandatoryFor": {},
     "notShowFor": {
       "Collection": [],
       "Course": []
@@ -2854,7 +2921,75 @@
     "disabledFor": {
     },
     "mandatoryFor": {
+      "Resource": [
+        {
+          "assetType": "Knowledge"
+        },
+        {
+          "assetType": "Protocol"
+        },
+        {
+          "assetType": "Data"
+        },
+        {
+          "assetType": "Technology"
+        }
+      ]
+    },
+    "notDisabledFor": {
       "Resource": []
+    },
+    "notMandatoryFor": {},
+    "notShowFor": {
+      "Collection": [],
+      "Course": []
+    },
+    "showFor": {
+      "Channel": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": [],
+      "Resource": []
+    },
+    "type": "string"
+  },
+  "spaceLicenseCopyright": {
+    "defaultValue": {
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
+      "Collection": [
+        { "condition": { "contentType": ["Collection"] }, "value": "" }
+      ],
+      "Course": [{ "condition": { "contentType": ["Course"] }, "value": "" }],
+      "Knowledge Artifact": [
+        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": "" }
+      ],
+      "Knowledge Board": [
+        { "condition": { "contentType": ["Knowledge Board"] }, "value": "" }
+      ],
+      "Learning Path": [
+        { "condition": { "contentType": ["Learning Path"] }, "value": "" }
+      ],
+      "Resource": [
+        { "condition": { "contentType": ["Resource"] }, "value": "" }
+      ]
+    },
+    "disabledFor": {
+    },
+    "mandatoryFor": {
+      "Resource": [
+        {
+          "assetType": "Knowledge"
+        },
+        {
+          "assetType": "Protocol"
+        },
+        {
+          "assetType": "Data"
+        },
+        {
+          "assetType": "Technology"
+        }
+      ]
     },
     "notDisabledFor": {
       "Resource": []
@@ -2875,22 +3010,22 @@
   },
   "otherSourceName": {
     "defaultValue": {
-      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": null }],
       "Collection": [
-        { "condition": { "contentType": ["Collection"] }, "value": "" }
+        { "condition": { "contentType": ["Collection"] }, "value": null }
       ],
-      "Course": [{ "condition": { "contentType": ["Course"] }, "value": "" }],
+      "Course": [{ "condition": { "contentType": ["Course"] }, "value": null }],
       "Knowledge Artifact": [
-        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": "" }
+        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": null }
       ],
       "Knowledge Board": [
-        { "condition": { "contentType": ["Knowledge Board"] }, "value": "" }
+        { "condition": { "contentType": ["Knowledge Board"] }, "value": null }
       ],
       "Learning Path": [
-        { "condition": { "contentType": ["Learning Path"] }, "value": "" }
+        { "condition": { "contentType": ["Learning Path"] }, "value": null }
       ],
       "Resource": [
-        { "condition": { "contentType": ["Resource"] }, "value": "" }
+        { "condition": { "contentType": ["Resource"] }, "value": null }
       ]
     },
     "disabledFor": {
@@ -3148,8 +3283,7 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
@@ -3158,50 +3292,49 @@
       "Learning Path": [],
       "Resource": []
     },
+    "showFor": {
+    },
     "type": "array"
   },
   "sourceName": {
     "defaultValue": {
       "Channel": [
-        {
-          "condition": { "contentType": ["Channel"] },
-          "value": "Rainforest"
-        }
+        { "condition": { "contentType": ["Channel"] },"value": "" }
       ],
       "Collection": [
         {
           "condition": { "contentType": ["Collection"] },
-          "value": "Rainforest"
+          "value": ""
         }
       ],
       "Course": [
         {
           "condition": { "contentType": ["Course"] },
-          "value": "Rainforest"
+          "value": ""
         }
       ],
       "Knowledge Artifact": [
         {
           "condition": { "contentType": ["Knowledge Artifact"] },
-          "value": "Rainforest"
+          "value": ""
         }
       ],
       "Knowledge Board": [
         {
           "condition": { "contentType": ["Knowledge Board"] },
-          "value": "Rainforest"
+          "value": ""
         }
       ],
       "Learning Path": [
         {
           "condition": { "contentType": ["Learning Path"] },
-          "value": "Rainforest"
+          "value": ""
         }
       ],
       "Resource": [
         {
           "condition": { "contentType": ["Resource"] },
-          "value": "Rainforest"
+          "value": ""
         }
       ]
     },
@@ -3419,8 +3552,7 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {},
-    "showFor": {
+    "notShowFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
@@ -3428,6 +3560,8 @@
       "Knowledge Board": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "showFor": {
     },
     "type": "array"
   },
