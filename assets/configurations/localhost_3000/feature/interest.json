@@ -1,1 +1,51 @@
-{}
+{
+  "sdgs": {
+    "keyword": [
+      "goal 1: No Poverty ",
+      "goal 2: Zero Hunger",
+      "goal 3: Good Health and Well-being",
+      "goal 4: Quality Education",
+      "goal 5: Gender Equality",
+      "goal 6: Clean Water and Sanitation",
+      "goal 7: Affordable and Clean Energy",
+      "goal 8: Decent Work and Economic Growth",
+      "goal 9: Industry, Innovation and Infrastructure",
+      "goal 10: Reduced Inequality",
+      "goal 11: Sustainable Cities and Communities",
+      "goal 12: Responsible Consumption and Production",
+      "goal 13: Climate Action",
+      "goal 14: Life Below Water",
+      "goal 15: Life on Land",
+      "goal 16: Peace and Justice Strong Institutions",
+      "goal 17: Partnerships to achieve the goal"
+    ]
+  },
+  "region": {
+    "keyword": [
+      "Global",
+      "South-East Asia and The Pacific",
+      "Europe and Central Asia",
+      "North America",
+      "Central America and Caribbean",
+      "South America",
+      "North Africa and Middle East",
+      "Sub-Saharan Africa",
+      "Australia and Oceania"
+    ]
+  },
+  "others": {
+    "keyword": [
+      "Societal Platform Idea",
+      "Societal Platform Principles",
+      "Societal Platform Framework",
+      "Practice",
+      "Impact",
+      "Programs",
+      "Solutions",
+      "Technology",
+      "Assets",
+      "Governance",
+      "Case Studies"
+    ]
+  }
+}
