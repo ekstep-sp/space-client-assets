@@ -106,7 +106,8 @@
     "dataprivacy": "/assets/instances/space/banners/DataPrivacyPolicyBanner.97291165700289684954.png",
     "grievanceredressal": "/assets/instances/space/banners/GrievanceRedressalProcessBanner.4e89c4443e821dd3bffc.png",
     "termsOfUse": "/assets/instances/space/banners/TermsOfUseBanner.b6392be13c9132402072.png",
-    "aboutBanner": "/assets/instances/space/banners/AboutSPaceBanner.png"
+    "aboutBanner": "/assets/instances/space/banners/AboutSPaceBanner.png",
+    "contentpolicy": "assets/instances/space/banners/ContentPolicyCommunityGuidelines.png"
   },
   "mailIds": {
     "contactUs": "space-support@space.com",
