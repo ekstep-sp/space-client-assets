@@ -2961,27 +2961,15 @@
     "disabledFor": {
     },
     "mandatoryFor": {
-      "Course": [],
-      "Collection": [],
-      "Resource": [
-        {
-          "assetType": "Knowledge"
-        },
-        {
-          "assetType": "Protocol"
-        },
-        {
-          "assetType": "Data"
-        },
-        {
-          "assetType": "Technology"
-        }
-      ]
     },
     "notDisabledFor": {
       "Resource": []
     },
-    "notMandatoryFor": {},
+    "notMandatoryFor": {
+      "Course": [],
+      "Collection": [],
+      "Resource": []
+    },
     "notShowFor": {
     },
     "showFor": {
@@ -3017,28 +3005,15 @@
     },
     "disabledFor": {
     },
-    "mandatoryFor": {
-      "course": [],
-      "Collection": [],
-      "Resource": [
-        {
-          "assetType": "Knowledge"
-        },
-        {
-          "assetType": "Protocol"
-        },
-        {
-          "assetType": "Data"
-        },
-        {
-          "assetType": "Technology"
-        }
-      ]
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {
       "Resource": []
     },
-    "notMandatoryFor": {},
+    "notMandatoryFor": {
+      "Course": [],
+      "Collection": [],
+      "Resource": []
+    },
     "notShowFor": {
     },
     "showFor": {
