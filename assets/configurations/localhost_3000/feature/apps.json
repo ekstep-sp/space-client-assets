@@ -1,5 +1,26 @@
 {
   "features": {
+    "feature_learningAnalytics": {
+      "accessKey": "",
+      "icon": "bar_chart",
+      "iconType": "mat-icon",
+      "id": "feature_learningAnalytics",
+      "keywords": [
+      "learning",
+      "analytics",
+      "learning analytics",
+      "la"
+      ],
+      "name": "Learning Analytics",
+      "permission": [
+      "LEARNING_ANALYTICS"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Learning Analytics",
+      "url": "/analytics",
+      "shortName": "Analytics"
+      },
     "feature_Q&A": {
       "accessKey": "",
       "description": "Question and answer hub for professional and enthusiast programmers.",
@@ -385,9 +406,7 @@
     },
     {
       "featureIds": [
-        "feature_aboutUs",
-        "feature_FAQs",
-        "feature_Terms&Condition"
+        "feature_learningAnalytics"
       ],
       "icon": "",
       "iconType": "none",

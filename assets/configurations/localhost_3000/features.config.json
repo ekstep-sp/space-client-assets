@@ -20,8 +20,14 @@
     "enabled": false
   },
   "LEARNING_ANALYTICS": {
-    "available": false,
-    "enabled": false
+    "available": true,
+    "enabled": true,
+    "roles": {
+      "some": [
+        "analytics",
+        "admin"
+      ]
+    }
   },
   "trainingLHub": {
     "available": false,

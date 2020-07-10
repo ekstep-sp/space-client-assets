@@ -10,23 +10,23 @@
       }
     },
     "learning": {
-      "enabled": false,
-      "available": false,
+      "enabled": true,
+      "available": true,
       "subTabs": {
         "learningHistory": {
-          "enabled": false,
-          "available": false,
+          "enabled": true,
+          "available": true,
           "isClient": true,
           "tabs": {
             "courses": true,
-            "programs": true,
+            "programs": false,
             "modules": true,
             "resources": true
           }
         },
         "learningTime": {
-          "enabled": false,
-          "available": false,
+          "enabled": true,
+          "available": true,
           "charts": {
             "learningBarChart": true,
             "trackWiseChart": false,
