@@ -14,7 +14,7 @@
       "learningAnalytics": {
         "enabled": true,
         "available": true,
-        "mainTitle": "Manager's Dashboard",
+        "mainTitle": "Analytics Dashboard",
         "tabs": {
           "home": {
             "enabled": true,
