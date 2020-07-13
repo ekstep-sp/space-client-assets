@@ -184,6 +184,80 @@
     "showFor": { "Resource": [{ "mimeType": ["application/html"] }] },
     "type": "string"
   },
+  "artifactLinkUrl": {
+    "defaultValue": {
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
+      "Collection": [
+        { "condition": { "contentType": ["Collection"] }, "value": "" }
+      ],
+      "Course": [{ "condition": { "contentType": ["Course"] }, "value": "" }],
+      "Knowledge Artifact": [
+        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": "" }
+      ],
+      "Knowledge Board": [
+        { "condition": { "contentType": ["Knowledge Board"] }, "value": "" }
+      ],
+      "Learning Path": [
+        { "condition": { "contentType": ["Learning Path"] }, "value": "" }
+      ],
+      "Resource": [
+        { "condition": { "contentType": ["Resource"] }, "value": "" }
+      ]
+    },
+    "disabledFor": {},
+    "mandatoryFor": {
+      "Resource": [
+        {
+          "spaceAssetType": "asset_link"
+        }
+      ]
+    },
+    "notDisabledFor": {},
+    "notMandatoryFor": {
+      "Collection": [],
+      "Course":[]
+    },
+    "notShowFor": {},
+    "showFor": { "Resource": [{ "mimeType": ["application/html"] }] },
+    "type": "string"
+  },
+  "artifactUploadUrl": {
+    "defaultValue": {
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
+      "Collection": [
+        { "condition": { "contentType": ["Collection"] }, "value": "" }
+      ],
+      "Course": [{ "condition": { "contentType": ["Course"] }, "value": "" }],
+      "Knowledge Artifact": [
+        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": "" }
+      ],
+      "Knowledge Board": [
+        { "condition": { "contentType": ["Knowledge Board"] }, "value": "" }
+      ],
+      "Learning Path": [
+        { "condition": { "contentType": ["Learning Path"] }, "value": "" }
+      ],
+      "Resource": [
+        { "condition": { "contentType": ["Resource"] }, "value": "" }
+      ]
+    },
+    "disabledFor": {},
+    "mandatoryFor": {
+      "Resource": [
+        {
+          "spaceAssetType": "asset_upload"
+        }
+      ]
+    },
+    "notDisabledFor": {},
+    "notMandatoryFor": {
+      "Collection": [],
+      "Course":[]
+    },
+    "notShowFor": {},
+    "showFor": {},
+    "type": "string"
+  },
   "jobProfile": {
     "mandatoryFor": {},
     "notMandatoryFor": {},
@@ -499,6 +573,11 @@
     },
     "disabledFor": {},
     "mandatoryFor": {
+      "Resource": [
+        {
+          "assetType": "Technology"
+        }
+      ]
     },
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -693,6 +772,11 @@
     },
     "disabledFor": {},
     "mandatoryFor": {
+      "Resource": [
+        {
+          "assetType": "Connection"
+        }
+      ]
     },
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -2528,6 +2612,48 @@
     },
     "type": "string"
   },
+  "spaceAssetType": {
+    "defaultValue": {
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
+      "Collection": [
+        { "condition": { "contentType": ["Collection"] }, "value": "" }
+      ],
+      "Course": [{ "condition": { "contentType": ["Course"] }, "value": "" }],
+      "Knowledge Artifact": [
+        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": "" }
+      ],
+      "Knowledge Board": [
+        { "condition": { "contentType": ["Knowledge Board"] }, "value": "" }
+      ],
+      "Learning Path": [
+        { "condition": { "contentType": ["Learning Path"] }, "value": "" }
+      ],
+      "Resource": [
+        { "condition": { "contentType": ["Resource"] }, "value": "" }
+      ]
+    },
+    "disabledFor": {
+      "Channel": [],
+      "Collection": [],
+      "Course": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": []
+    },
+    "mandatoryFor": {},
+    "notDisabledFor": {},
+    "notMandatoryFor": {},
+    "notShowFor": {},
+    "showFor": {  
+      "Channel": [],
+      "Collection": [],
+      "Course": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": []
+    },
+    "type": "string"
+  },
   "publisherDetails": {
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": [] }],
@@ -3067,9 +3193,6 @@
       ]
     },
     "notDisabledFor": {
-      "Resource": [],
-      "Collection": [],
-      "Course": []
     },
     "notMandatoryFor": {},
     "notShowFor": {
