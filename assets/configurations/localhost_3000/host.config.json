@@ -10,9 +10,7 @@
   },
   "disablePidCheck": false,
   "isContentDownloadAvailable": false,
-  "org": [
-    "space"
-  ],
+  "org": ["space"],
   "rootOrg": "space",
   "fontSizes": [
     {
@@ -73,10 +71,7 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": [
-        "en",
-        "en-US"
-      ],
+      "locals": ["en", "en-US"],
       "path": "",
       "isRTL": false
     }
@@ -85,7 +80,7 @@
     "app": "/assets/instances/space/app_logos/SPace200x55.png",
     "appTransparent": "/assets/instances/space/app_logos/SPace200x55.png",
     "company": "/assets/instances/space/app_logos/SPace200x55.png",
-    "defaultContent": "/assets/instances/space/app_logos/SPlogo 200x80.png",
+    "defaultContent": "/assets/instances/space/app_logos/SPlogo200x80.png",
     "developedBy": "",
     "aboutFooter": "",
     "aboutHeader": "",
@@ -140,9 +135,7 @@
     "defaultEmailId": "eagle-support@eagle.com",
     "isConfigured": true,
     "tenant": "eagle",
-    "validEmailExtensions": [
-      "@eagle.eagle.com"
-    ]
+    "validEmailExtensions": ["@eagle.eagle.com"]
   },
   "validMailIdExtensionsForMailMe": [],
   "backgrounds": {
