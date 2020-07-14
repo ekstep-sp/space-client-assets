@@ -50,7 +50,7 @@
     "name": "Assessment",
     "icon": "check_circle",
     "available": true,
-    "enabled": false,
+    "enabled": true,
     "contentType": "Resource",
     "mimeType": "application/quiz",
     "hasRole": ["content-creator", "editor", "admin"]
