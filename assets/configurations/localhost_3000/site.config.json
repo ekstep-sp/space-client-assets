@@ -13,9 +13,7 @@
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
   },
-  "org": [
-    "space"
-  ],
+  "org": ["space"],
   "rootOrg": "space",
   "defaultFontSize": "normal-typography",
   "defaultLocale": "",
@@ -78,10 +76,7 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": [
-        "en",
-        "en-US"
-      ],
+      "locals": ["en", "en-US"],
       "path": "",
       "isRTL": false
     }
@@ -90,7 +85,7 @@
     "app": "/assets/instances/space/app_logos/SPace200x55.png",
     "appTransparent": "/assets/instances/space/app_logos/SPace200x55.png",
     "company": "/assets/instances/space/app_logos/SPace200x55.png",
-    "defaultContent": "/assets/instances/space/app_logos/SPlogo 200x80.png",
+    "defaultContent": "/assets/instances/space/app_logos/SPlogo200x80.png",
     "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/space/about-page/about-header.jpg",
     "developedBy": "/assets/instances/space/app_logos/ETA.png",
