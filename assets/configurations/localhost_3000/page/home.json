@@ -196,59 +196,112 @@
             }
           }
         ],
-        [{
-          "dimensions": {
-            "small": 12,
-            "medium": 12
-          },
-          "widget": {
-            "widgetType": "contentStrip",
-            "widgetSubType": "contentStripMultiple",
-            "widgetData": {
-              "strips": [
-                {
-                  "key": "recentToPlaylists",
-                  "title": "From your playlists",
-                  "noDataWidget": {
-                    "widgetType": "element",
-                    "widgetSubType": "elementHtml",
-                    "widgetData": {
-                      "html": "<p class=\"ws-mat-primary-text\">Your latest content added to a playlist appears here.</p>"
-                    }
-                  },
-                  "info": {
-                    "mode": "below",
-                    "visibilityMode": "hidden",
-                    "icon": {
-                      "icon": "info",
-                      "scale": 0.8
-                    },
-                    "widget": {
+        [
+          {
+            "dimensions": {
+              "small": 12,
+              "medium": 12
+            },
+            "widget": {
+              "widgetType": "contentStrip",
+              "widgetSubType": "contentStripMultiple",
+              "widgetData": {
+                "strips": [
+                  {
+                    "key": "recentToPlaylists",
+                    "title": "From your playlists",
+                    "noDataWidget": {
                       "widgetType": "element",
                       "widgetSubType": "elementHtml",
                       "widgetData": {
-                        "html": "<p class=\"ws-mat-primary-text\">Seen something you want to check out or share later? Add it to your playlist and we’ll keep it here.</p>"
+                        "html": "<p class=\"ws-mat-primary-text\">Your latest content added to a playlist appears here.</p>"
                       }
+                    },
+                    "info": {
+                      "mode": "below",
+                      "visibilityMode": "hidden",
+                      "icon": {
+                        "icon": "info",
+                        "scale": 0.8
+                      },
+                      "widget": {
+                        "widgetType": "element",
+                        "widgetSubType": "elementHtml",
+                        "widgetData": {
+                          "html": "<p class=\"ws-mat-primary-text\">Seen something you want to check out or share later? Add it to your playlist and we’ll keep it here.</p>"
+                        }
+                      }
+                    },
+                    "stripConfig": {
+                      "cardSubType": "standard"
+                    },
+                    "filters": [],
+                    "request": {
+                      "api": {
+                        "path": "/apis/protected/v8/user/playlist/recent"
+                      }
+                    },
+                    "refreshEvent": {
+                      "eventType": "Action",
+                      "from": "actionButton/actionButtonPlaylist"
                     }
-                  },
-                  "stripConfig": {
-                    "cardSubType": "standard"
-                  },
-                  "filters": [],
-                  "request": {
-                    "api": {
-                      "path": "/apis/protected/v8/user/playlist/recent"
-                    }
-                  },
-                  "refreshEvent": {
-                    "eventType": "Action",
-                    "from": "actionButton/actionButtonPlaylist"
                   }
-                }
-              ]
+                ]
+              }
             }
           }
-        }
+        ],
+        [
+          {
+            "dimensions": {},
+            "widget": {
+              "widgetType": "contentStrip",
+              "widgetSubType": "contentStripMultiple",
+              "widgetData": {
+                "strips": [
+                  {
+                    "key": "interestBased",
+                    "title": "Based on your interests",
+                    "info": {
+                      "mode": "below",
+                      "visibilityMode": "hidden",
+                      "icon": {
+                        "icon": "info",
+                        "scale": 0.8
+                      },
+                      "widget": {
+                        "widgetType": "element",
+                        "widgetSubType": "elementHtml",
+                        "widgetData": {
+                          "html": "<p class=\"ws-mat-primary-text\">This is where we'll show you the most relevant learning opportunities, based on the interests you've chosen. </p>"
+                        }
+                      }
+                    },
+                    "stripConfig": {
+                      "cardSubType": "standard"
+                    },
+                    "filters": [],
+                    "noDataWidget": {
+                      "widgetType": "element",
+                      "widgetSubType": "elementHtml",
+                      "widgetData": {
+                        "html": "<div class=\"flex justify-between items-center\"><p class=\"ws-mat-primary-text margin-remove margin-right-xs\">Please add or modify your interest topics to find relevant content. </p><a class=\"mat-flat-button mat-primary\" style=\"color:white\" onclick=\"window.navigateTo(`/app/profile/interest`)\">Edit</a></div>"
+                      }
+                    },
+                    "request": {
+                      "api": {
+                        "path": "/apis/protected/v8/recommendation/interestBased",
+                        "queryParams": {
+                          "pageNo": 0,
+                          "pageSize": 15
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
         ]
       ]
     }
