@@ -2658,7 +2658,7 @@
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": [] }],
       "Collection": [
-        { "condition": { "contentType": ["Collection"] }, "value": [{"name": "Deepak Kumar", "id": "acbf4053-c126-4e85-a0bf-252a896535ea"}] }
+        { "condition": { "contentType": ["Collection"] }, "value": [{"name": "Mangalam Gupta", "id": "6533771a-43c7-42a9-b775-859d6697f80f"}] }
       ],
       "Course": [{ "condition": { "contentType": ["Course"] }, "value": [] }],
       "Knowledge Artifact": [
@@ -2671,7 +2671,7 @@
         { "condition": { "contentType": ["Learning Path"] }, "value": [] }
       ],
       "Resource": [
-        { "condition": { "contentType": ["Resource"] }, "value": [{"name": "Deepak Kumar", "id": "acbf4053-c126-4e85-a0bf-252a896535ea"}] }
+        { "condition": { "contentType": ["Resource"] }, "value": [{"name": "Mangalam Gupta", "id": "6533771a-43c7-42a9-b775-859d6697f80f"}] }
       ]
     },
     "disabledFor": {},
