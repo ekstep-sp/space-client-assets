@@ -99,6 +99,105 @@
         ],
         [
           {
+            "dimensions": {},
+            "widget": {
+              "widgetType": "contentStrip",
+              "widgetSubType": "contentStripMultiple",
+              "widgetData": {
+                "strips": [
+                  {
+                    "key": "latest",
+                    "title": "Latest",
+                    "info": {
+                      "mode": "below",
+                      "visibilityMode": "hidden",
+                      "icon": {
+                        "icon": "info",
+                        "scale": 0.8
+                      },
+                      "widget": {
+                        "widgetType": "element",
+                        "widgetSubType": "elementHtml",
+                        "widgetData": {
+                          "html": "<p class=\"ws-mat-primary-text\">Here you’ll find the very latest learning opportunities from Global Learning Campus.</p>"
+                        }
+                      }
+                    },
+                    "stripConfig": {
+                      "cardSubType": "standard",
+                      "intranetMode": "hide",
+                      "deletedMode": "hide"
+                    },
+                    "filters": {},
+                    "request": {
+                      "api": {
+                        "path": "/apis/protected/v8/recommendation/latest",
+                        "queryParams": {
+                          "pageNo": 0,
+                          "pageSize": 15
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        [
+          {
+            "dimensions": {},
+            "widget": {
+              "widgetType": "contentStrip",
+              "widgetSubType": "contentStripMultiple",
+              "widgetData": {
+                "strips": [
+                  {
+                    "key": "interestBased",
+                    "title": "Based on your interests",
+                    "info": {
+                      "mode": "below",
+                      "visibilityMode": "hidden",
+                      "icon": {
+                        "icon": "info",
+                        "scale": 0.8
+                      },
+                      "widget": {
+                        "widgetType": "element",
+                        "widgetSubType": "elementHtml",
+                        "widgetData": {
+                          "html": "<p class=\"ws-mat-primary-text\">This is where we'll show you the most relevant learning opportunities, based on the interests you've chosen. </p>"
+                        }
+                      }
+                    },
+                    "stripConfig": {
+                      "cardSubType": "standard"
+                    },
+                    "filters": [],
+                    "noDataWidget": {
+                      "widgetType": "element",
+                      "widgetSubType": "elementHtml",
+                      "widgetData": {
+                        "html": "<div class=\"flex justify-between items-center\"><p class=\"ws-mat-primary-text margin-remove margin-right-xs\">Please add or modify your interest topics to find relevant content. </p><a class=\"mat-flat-button mat-primary\" style=\"color:white\" onclick=\"window.navigateTo(`/app/profile/interest`)\">Edit</a></div>"
+                      }
+                    },
+                    "request": {
+                      "api": {
+                        "path": "/apis/protected/v8/recommendation/interestBased",
+                        "queryParams": {
+                          "pageNo": 0,
+                          "pageSize": 15
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        [
+          {
             "dimensions": {
               "small": 12,
               "medium": 12
@@ -142,51 +241,6 @@
                         "path": "/apis/protected/v8/user/history",
                         "queryParams": {
                           "pageSize": 20
-                        }
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "dimensions": {},
-            "widget": {
-              "widgetType": "contentStrip",
-              "widgetSubType": "contentStripMultiple",
-              "widgetData": {
-                "strips": [
-                  {
-                    "key": "latest",
-                    "title": "Latest",
-                    "info": {
-                      "mode": "below",
-                      "visibilityMode": "hidden",
-                      "icon": {
-                        "icon": "info",
-                        "scale": 0.8
-                      },
-                      "widget": {
-                        "widgetType": "element",
-                        "widgetSubType": "elementHtml",
-                        "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">Here you’ll find the very latest learning opportunities from Global Learning Campus.</p>"
-                        }
-                      }
-                    },
-                    "stripConfig": {
-                      "cardSubType": "standard",
-                      "intranetMode": "hide",
-                      "deletedMode": "hide"
-                    },
-                    "filters": {},
-                    "request": {
-                      "api": {
-                        "path": "/apis/protected/v8/recommendation/latest",
-                        "queryParams": {
-                          "pageNo": 0,
-                          "pageSize": 15
                         }
                       }
                     }
@@ -244,58 +298,6 @@
                     "refreshEvent": {
                       "eventType": "Action",
                       "from": "actionButton/actionButtonPlaylist"
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        ],
-        [
-          {
-            "dimensions": {},
-            "widget": {
-              "widgetType": "contentStrip",
-              "widgetSubType": "contentStripMultiple",
-              "widgetData": {
-                "strips": [
-                  {
-                    "key": "interestBased",
-                    "title": "Based on your interests",
-                    "info": {
-                      "mode": "below",
-                      "visibilityMode": "hidden",
-                      "icon": {
-                        "icon": "info",
-                        "scale": 0.8
-                      },
-                      "widget": {
-                        "widgetType": "element",
-                        "widgetSubType": "elementHtml",
-                        "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">This is where we'll show you the most relevant learning opportunities, based on the interests you've chosen. </p>"
-                        }
-                      }
-                    },
-                    "stripConfig": {
-                      "cardSubType": "standard"
-                    },
-                    "filters": [],
-                    "noDataWidget": {
-                      "widgetType": "element",
-                      "widgetSubType": "elementHtml",
-                      "widgetData": {
-                        "html": "<div class=\"flex justify-between items-center\"><p class=\"ws-mat-primary-text margin-remove margin-right-xs\">Please add or modify your interest topics to find relevant content. </p><a class=\"mat-flat-button mat-primary\" style=\"color:white\" onclick=\"window.navigateTo(`/app/profile/interest`)\">Edit</a></div>"
-                      }
-                    },
-                    "request": {
-                      "api": {
-                        "path": "/apis/protected/v8/recommendation/interestBased",
-                        "queryParams": {
-                          "pageNo": 0,
-                          "pageSize": 15
-                        }
-                      }
                     }
                   }
                 ]
