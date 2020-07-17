@@ -188,7 +188,13 @@
       "status": "live",
       "toolTip": "Create",
       "shortName": "Create",
-      "url": "/author/create"
+      "url": "/author/create",
+      "allowedRoles": [
+        "org-admin",
+        "content-creator",
+        "editor",
+        "publisher"
+      ]
     },
     "feature_feedback": {
       "accessKey": "#",
@@ -362,7 +368,13 @@
       "status": "live",
       "toolTip": "Publish",
       "shortName": "Publish",
-      "url": "/author/home"
+      "url": "/author/home",
+      "allowedRoles": [
+        "org-admin",
+        "content-creator",
+        "editor",
+        "publisher"
+      ]
     },
     "feature_review": {
       "accessKey": "",
@@ -497,7 +509,13 @@
         "contribution"
       ],
       "name": "Contribution",
-      "toolTip": "Contribution"
+      "toolTip": "Contribution",
+      "allowedRoles": [
+        "org-admin",
+        "content-creator",
+        "editor",
+        "publisher"
+      ]
     },
     {
       "featureIds": [
