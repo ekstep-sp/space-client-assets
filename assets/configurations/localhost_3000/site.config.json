@@ -82,8 +82,8 @@
     }
   ],
   "logos": {
-    "app": "/assets/instances/space/app_logos/SPace200x55.png",
-    "appTransparent": "/assets/instances/space/app_logos/SPace200x55.png",
+    "app": "/assets/instances/space/SPaceLogo/SPace.png",
+    "appTransparent": "/assets/instances/space/SPaceLogo/SPace.png",
     "company": "/assets/instances/space/app_logos/SPace200x55.png",
     "defaultContent": "/assets/instances/space/app_logos/SPlogo200x80.png",
     "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
