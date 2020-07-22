@@ -178,7 +178,7 @@
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Collection": [],
-      "Course":[]
+      "Course": []
     },
     "notShowFor": {},
     "showFor": { "Resource": [{ "mimeType": ["application/html"] }] },
@@ -215,7 +215,7 @@
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Collection": [],
-      "Course":[]
+      "Course": []
     },
     "notShowFor": {},
     "showFor": { "Resource": [{ "mimeType": ["application/html"] }] },
@@ -252,7 +252,7 @@
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Collection": [],
-      "Course":[]
+      "Course": []
     },
     "notShowFor": {},
     "showFor": {},
@@ -327,8 +327,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "body": {
@@ -352,10 +351,8 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
-    "notDisabledFor": {
-    },
+    "mandatoryFor": {},
+    "notDisabledFor": {},
     "notMandatoryFor": {
       "Collection": [{ "artifactUrl": [true] }],
       "Course": [{ "artifactUrl": [true] }],
@@ -368,8 +365,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "catalogPaths": {
@@ -456,15 +452,12 @@
         { "condition": { "contentType": ["Resource"] }, "value": "" }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {
-    },
-    "showFor": {
-    },
+    "notShowFor": {},
+    "showFor": {},
     "type": "boolean"
   },
   "spaceLicenseTnCAgreed": {
@@ -487,8 +480,7 @@
         { "condition": { "assetType": ["Connection"] }, "value": true }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
       "Resource": [
         {
@@ -507,8 +499,7 @@
     },
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {
-    },
+    "notShowFor": {},
     "showFor": {
       "Resource": []
     },
@@ -535,8 +526,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -614,8 +604,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -651,8 +640,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -696,8 +684,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {
@@ -709,8 +696,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "social_media_links": {
@@ -734,8 +720,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -965,8 +950,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "concepts": {
@@ -1105,8 +1089,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "creatorContacts": {
@@ -1193,8 +1176,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "customClassifiers": {
@@ -1344,8 +1326,7 @@
       "Resource": [{ "condition": { "contentType": ["Resource"] }, "value": 0 }]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Collection": [],
@@ -1458,8 +1439,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "boolean"
   },
   "expiryDate": {
@@ -1503,9 +1483,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-     
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -1553,8 +1531,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "idealScreenSize": {
@@ -1590,8 +1567,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "identifier": {
@@ -1703,8 +1679,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "isExternal": {
@@ -1905,8 +1880,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "keywords": {
@@ -1976,8 +1950,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "learningObjective": {
@@ -2229,8 +2202,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "passPercentage": {
@@ -2366,8 +2338,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "postContents": {
@@ -2411,8 +2382,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "posterImage": {
@@ -2484,8 +2454,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "preRequisites": {
@@ -2652,7 +2621,7 @@
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
-    "showFor": {  
+    "showFor": {
       "Channel": [],
       "Collection": [],
       "Course": [],
@@ -2666,7 +2635,15 @@
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": [] }],
       "Collection": [
-        { "condition": { "contentType": ["Collection"] }, "value": [{"name": "Mangalam Gupta", "id": "6533771a-43c7-42a9-b775-859d6697f80f"}] }
+        {
+          "condition": { "contentType": ["Collection"] },
+          "value": [
+            {
+              "name": "Mangalam Gupta",
+              "id": "6533771a-43c7-42a9-b775-859d6697f80f"
+            }
+          ]
+        }
       ],
       "Course": [{ "condition": { "contentType": ["Course"] }, "value": [] }],
       "Knowledge Artifact": [
@@ -2679,7 +2656,15 @@
         { "condition": { "contentType": ["Learning Path"] }, "value": [] }
       ],
       "Resource": [
-        { "condition": { "contentType": ["Resource"] }, "value": [{"name": "Mangalam Gupta", "id": "6533771a-43c7-42a9-b775-859d6697f80f"}] }
+        {
+          "condition": { "contentType": ["Resource"] },
+          "value": [
+            {
+              "name": "Mangalam Gupta",
+              "id": "6533771a-43c7-42a9-b775-859d6697f80f"
+            }
+          ]
+        }
       ]
     },
     "disabledFor": {},
@@ -2745,8 +2730,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "region": {
@@ -2770,8 +2754,7 @@
       ]
     },
     "disabledFor": { "Channel": [], "Knowledge Board": [] },
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -2806,7 +2789,7 @@
         { "condition": { "contentType": ["Resource"] }, "value": [] }
       ]
     },
-    "disabledFor": { 
+    "disabledFor": {
       "Knowledge Artifact": []
     },
     "mandatoryFor": {},
@@ -2964,9 +2947,14 @@
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
       "Collection": [
-        { "condition": { "contentType": ["Collection"] }, "value": "CC-BY-ND 4.0" }
+        {
+          "condition": { "contentType": ["Collection"] },
+          "value": "CC-BY-ND 4.0"
+        }
       ],
-      "Course": [{ "condition": { "contentType": ["Course"] }, "value": "CC-BY-ND 4.0" }],
+      "Course": [
+        { "condition": { "contentType": ["Course"] }, "value": "CC-BY-ND 4.0" }
+      ],
       "Knowledge Artifact": [
         { "condition": { "contentType": ["Knowledge Artifact"] }, "value": "" }
       ],
@@ -3002,11 +2990,9 @@
         }
       ]
     },
-    "notDisabledFor": {
-    },
+    "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {
-    },
+    "notShowFor": {},
     "showFor": {
       "Channel": [],
       "Knowledge Artifact": [],
@@ -3038,8 +3024,7 @@
         { "condition": { "contentType": ["Resource"] }, "value": "" }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
       "Resource": [
         {
@@ -3092,10 +3077,8 @@
         { "condition": { "contentType": ["Resource"] }, "value": "" }
       ]
     },
-    "disabledFor": {
-    },
-    "mandatoryFor": {
-    },
+    "disabledFor": {},
+    "mandatoryFor": {},
     "notDisabledFor": {
       "Resource": []
     },
@@ -3104,8 +3087,7 @@
       "Collection": [],
       "Resource": []
     },
-    "notShowFor": {
-    },
+    "notShowFor": {},
     "showFor": {
       "Channel": [],
       "Knowledge Artifact": [],
@@ -3137,8 +3119,7 @@
         { "condition": { "contentType": ["Resource"] }, "value": "" }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {
       "Resource": []
@@ -3148,8 +3129,7 @@
       "Collection": [],
       "Resource": []
     },
-    "notShowFor": {
-    },
+    "notShowFor": {},
     "showFor": {
       "Channel": [],
       "Knowledge Artifact": [],
@@ -3163,13 +3143,18 @@
   },
   "otherSourceName": {
     "defaultValue": {
-      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": null }],
+      "Channel": [
+        { "condition": { "contentType": ["Channel"] }, "value": null }
+      ],
       "Collection": [
         { "condition": { "contentType": ["Collection"] }, "value": null }
       ],
       "Course": [{ "condition": { "contentType": ["Course"] }, "value": null }],
       "Knowledge Artifact": [
-        { "condition": { "contentType": ["Knowledge Artifact"] }, "value": null }
+        {
+          "condition": { "contentType": ["Knowledge Artifact"] },
+          "value": null
+        }
       ],
       "Knowledge Board": [
         { "condition": { "contentType": ["Knowledge Board"] }, "value": null }
@@ -3181,18 +3166,17 @@
         { "condition": { "contentType": ["Resource"] }, "value": null }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
       "Course": [
         {
           "sourceName": "Other"
-        }  
+        }
       ],
       "Collection": [
         {
           "sourceName": "Other"
-        }  
+        }
       ],
       "Resource": [
         {
@@ -3200,11 +3184,9 @@
         }
       ]
     },
-    "notDisabledFor": {
-    },
+    "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {
-    },
+    "notShowFor": {},
     "showFor": {
       "Channel": [],
       "Knowledge Artifact": [],
@@ -3228,7 +3210,7 @@
     },
     "type": "string"
   },
-  
+
   "assetType": {
     "defaultValue": {
       "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
@@ -3397,8 +3379,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "softwareRequirements": {
@@ -3442,15 +3423,12 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "sourceName": {
     "defaultValue": {
-      "Channel": [
-        { "condition": { "contentType": ["Channel"] },"value": "" }
-      ],
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
       "Collection": [
         {
           "condition": { "contentType": ["Collection"] },
@@ -3499,10 +3477,8 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
-    "notShowFor": {
-    },
+    "notMandatoryFor": {},
+    "notShowFor": {},
     "showFor": {
       "Channel": [],
       "Collection": [],
@@ -3512,7 +3488,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "type": "string"
+    "type": "array"
   },
   "status": {
     "defaultValue": {
@@ -3617,8 +3593,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Channel": [],
@@ -3638,8 +3613,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "subTitles": {
@@ -3711,8 +3685,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "thumbnail": {
@@ -3927,8 +3900,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   }
 }
