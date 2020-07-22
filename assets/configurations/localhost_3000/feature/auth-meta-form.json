@@ -1129,7 +1129,15 @@
         { "condition": { "contentType": ["Resource"] }, "value": [] }
       ]
     },
-    "disabledFor": {},
+    "disabledFor": {
+      "Channel": [],
+      "Collection": [],
+      "Course": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": [],
+      "Resource": []
+    },
     "mandatoryFor": {
       "Channel": [],
       "Collection": [],
