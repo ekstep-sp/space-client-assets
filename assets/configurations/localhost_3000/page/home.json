@@ -119,7 +119,7 @@
                         "widgetType": "element",
                         "widgetSubType": "elementHtml",
                         "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">Here you’ll find the very latest learning opportunities from SPace.</p>"
+                          "html": "<p class=\"ws-mat-primary-text\">Here you’ll find the very latest learning opportunities.</p>"
                         }
                       }
                     },
