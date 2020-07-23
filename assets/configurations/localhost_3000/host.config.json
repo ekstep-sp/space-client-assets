@@ -65,7 +65,8 @@
     "clientId": "portal",
     "key": "ws-kc-token-storage",
     "realm": "wingspan",
-    "url": "https://space.societalplatform.org/auth"
+    "url": "https://space.societalplatform.org/auth",
+    "isLoginHidden": true
   },
   "locals": [
     {

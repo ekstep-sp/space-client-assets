@@ -103,7 +103,7 @@
   {
     "id": "collection",
     "isCollection": true,
-    "name": "Module",
+    "name": "Asset",
     "description": "Create a collection of Resources",
     "icon": "folder",
     "contentType": "Collection",
@@ -115,8 +115,8 @@
   {
     "id": "course",
     "isCollection": true,
-    "name": "Course",
-    "description": "Create a collection of Modules",
+    "name": "Collection",
+    "description": "Create a collection of Assets",
     "icon": "book",
     "contentType": "Course",
     "available": true,
