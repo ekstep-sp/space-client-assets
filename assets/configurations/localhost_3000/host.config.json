@@ -111,7 +111,7 @@
       "pid": ""
     },
     "env": "prod",
-    "channel": "",
+    "channel": "space",
     "batchsize": 1,
     "host": "",
     "endpoint": "/apis/protected/v8/user/telemetry",
