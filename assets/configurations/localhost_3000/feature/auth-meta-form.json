@@ -2998,7 +2998,20 @@
       "Knowledge Artifact": [],
       "Knowledge Board": [],
       "Learning Path": [],
-      "Resource": [],
+      "Resource": [
+        {
+          "assetType": "Data"
+        },
+        {
+          "assetType": "Knowledge"
+        },
+        {
+          "assetType": "Technology"
+        },
+        {
+          "assetType": "Protocol"
+        }
+      ],
       "Collection": [],
       "Course": []
     },
@@ -3093,7 +3106,20 @@
       "Knowledge Artifact": [],
       "Knowledge Board": [],
       "Learning Path": [],
-      "Resource": [],
+      "Resource": [
+        {
+          "assetType": "Data"
+        },
+        {
+          "assetType": "Knowledge"
+        },
+        {
+          "assetType": "Technology"
+        },
+        {
+          "assetType": "Protocol"
+        }
+      ],
       "Collection": [],
       "Course": []
     },
@@ -3135,7 +3161,20 @@
       "Knowledge Artifact": [],
       "Knowledge Board": [],
       "Learning Path": [],
-      "Resource": [],
+      "Resource": [
+        {
+          "assetType": "Data"
+        },
+        {
+          "assetType": "Knowledge"
+        },
+        {
+          "assetType": "Technology"
+        },
+        {
+          "assetType": "Protocol"
+        }
+      ],
       "Collection": [],
       "Course": []
     },
