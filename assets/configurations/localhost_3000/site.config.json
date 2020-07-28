@@ -53,7 +53,7 @@
   "indexHtmlMeta": {
     "description": "Description",
     "webmanifest": "/assets/configurations/localhost_3000/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/localhost_3000/manifest/favicon.ico"
+    "xIcon": "/assets/configurations/localhost_3000/manifest/favicon.png"
   },
   "keycloak": {
     "bearerExcludedUrls": [
@@ -82,8 +82,8 @@
     }
   ],
   "logos": {
-    "app": "/assets/instances/space/SPaceLogo/SPace.png",
-    "appTransparent": "/assets/instances/space/SPaceLogo/SPace.png",
+    "app": "/assets/instances/space/SPaceLogoFavicon/NewSPTSpacelogo.ai.png",
+    "appTransparent": "/assets/instances/space/SPaceLogoFavicon/NewSPTSpacelogo.ai.png",
     "company": "/assets/instances/space/app_logos/SPace200x55.png",
     "defaultContent": "/assets/instances/space/app_logos/SPlogo200x80.png",
     "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
