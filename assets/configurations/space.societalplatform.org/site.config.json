@@ -54,8 +54,8 @@
   ],
   "indexHtmlMeta": {
     "description": "Description",
-    "webmanifest": "/assets/configurations/localhost_3000/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/localhost_3000/manifest/favicon.ico"
+    "webmanifest": "/assets/configurations/space.societalplatform.org/manifest/manifest.webmanifest",
+    "xIcon": "/assets/configurations/space.societalplatform.org/manifest/SPTfavicon.png"
   },
   "keycloak": {
     "bearerExcludedUrls": [

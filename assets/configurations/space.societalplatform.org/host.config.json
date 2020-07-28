@@ -50,7 +50,7 @@
     "openSearchUrl": "/assets/instances/space/open-search.xml",
     "themeColorMeta": "primary",
     "webmanifest": "/assets/instances/space/fav_icons/site.webmanifest",
-    "xIcon": "/assets/instances/space/fav_icons/favicon.ico"
+    "xIcon": "/assets/instances/space/SPaceLogoFavicon/SPTfavicon.png"
   },
   "keycloak": {
     "bearerExcludedUrls": [
