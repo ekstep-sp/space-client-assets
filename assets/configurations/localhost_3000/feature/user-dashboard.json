@@ -5,6 +5,11 @@
         "url": "/v1/users?filter=",
         "errorMessage": "Sorry, no users are available"
     },
+    "user_list_userTable": {
+        "type": "get",
+        "url": "/v2/users",
+        "errorMessage": "Sorry, no users are available"
+    },
     "user_accept": {
         "type": "post",
         "url": "/v1/acceptuser",
