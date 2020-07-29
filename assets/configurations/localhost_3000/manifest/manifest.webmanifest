@@ -1,56 +1,31 @@
 {
-  "name": "Eagle",
+  "name": "Societal Platform Space",
   "categories": [
     "education",
     "books",
     "productivity",
     "social"
   ],
-  "short_name": "eagle",
-  "theme_color": "#3f51b5",
-  "background_color": "#3f51b5",
+  "short_name": "SPace",
+  "theme_color": "#865ba0",
+  "background_color": "#865ba0",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [
     {
-      "src": "./72x72.png",
-      "sizes": "72x72",
+      "src": "./favicon-16x16.png",
+      "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "./96x96.png",
-      "sizes": "96x96",
+      "src": "./favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "./128x128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "./144x144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "./152x152.png",
-      "sizes": "152x152",
-      "type": "image/png"
-    },
-    {
-      "src": "./192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./384x384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
-      "src": "./512x512.png",
-      "sizes": "512x512",
+      "src": "./favicon-180x180.png",
+      "sizes": "180x180",
       "type": "image/png"
     }
   ]
