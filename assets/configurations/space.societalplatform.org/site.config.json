@@ -54,8 +54,11 @@
   ],
   "indexHtmlMeta": {
     "description": "Description",
+    "appleTouchIcon180": "/assets/instances/space/Favicon/favicon-180x180.png",
+    "icon16": "/assets/instances/space/Favicon/favicon-16x16.png",
+    "icon32": "/assets/instances/space/Favicon/favicon-32x32.png",
     "webmanifest": "/assets/configurations/space.societalplatform.org/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/space.societalplatform.org/manifest/SPTfavicon.png"
+    "xIcon": "/assets/instances/space/Favicon/favicon.png"
   },
   "keycloak": {
     "bearerExcludedUrls": [
