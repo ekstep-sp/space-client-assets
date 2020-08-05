@@ -3180,6 +3180,62 @@
     },
     "type": "string"
   },
+  "sourceShortName": {
+    "defaultValue": {
+      "Channel": [{ "condition": { "contentType": ["Channel"] }, "value": "" }],
+      "Collection": [
+        {
+          "condition": { "contentType": ["Collection"] },
+          "value": ""
+        }
+      ],
+      "Course": [
+        {
+          "condition": { "contentType": ["Course"] },
+          "value": ""
+        }
+      ],
+      "Knowledge Artifact": [
+        {
+          "condition": { "contentType": ["Knowledge Artifact"] },
+          "value": ""
+        }
+      ],
+      "Knowledge Board": [
+        {
+          "condition": { "contentType": ["Knowledge Board"] },
+          "value": ""
+        }
+      ],
+      "Learning Path": [
+        {
+          "condition": { "contentType": ["Learning Path"] },
+          "value": ""
+        }
+      ],
+      "Resource": [
+        {
+          "condition": { "contentType": ["Resource"] },
+          "value": ""
+        }
+      ]
+    },
+    "disabledFor": { "Knowledge Artifact": [], "Knowledge Board": [] },
+    "mandatoryFor": {},
+    "notDisabledFor": {},
+    "notMandatoryFor": {},
+    "notShowFor": {
+      "Channel": [],
+      "Collection": [],
+      "Course": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": [],
+      "Resource": []
+    },
+    "showFor": {},
+    "type": "array"
+  },
   "otherSourceName": {
     "defaultValue": {
       "Channel": [
