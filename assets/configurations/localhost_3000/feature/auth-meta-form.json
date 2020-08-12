@@ -3583,7 +3583,7 @@
       "Learning Path": [],
       "Resource": []
     },
-    "type": "array"
+    "type": "string"
   },
   "status": {
     "defaultValue": {
