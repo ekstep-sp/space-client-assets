@@ -27,7 +27,7 @@
             "displayName": "Content",
             "subTabs": {
               "courses": true,
-              "modules": false,
+              "modules": true,
               "resources": true
             }
           }
