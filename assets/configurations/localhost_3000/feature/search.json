@@ -15,6 +15,9 @@
       },
       "region": {
         "displayName": "Region"
+      },
+      "contentType": {
+        "displayName": "Content Type"
       }
     },
     "tabs": [
