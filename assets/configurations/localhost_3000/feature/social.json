@@ -13,8 +13,12 @@
     },
     "rolesNotAllowed": {
         "blogs": [
+            "author",
+            "privileged"
         ],
         "QnA": [
+            "author",
+            "privileged"
         ]
     }
 }
