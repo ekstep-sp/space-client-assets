@@ -5,5 +5,36 @@
     "available": true,
     "courseAnalyticsClient": true,
     "courseAnalytics": false
+  },
+   "rolesAllowed": {
+      "mail": [
+      ],
+      "share": [
+      ],
+      "feedback":[
+      ],
+       "rateContent":[
+      
+     ]
+  },
+  "rolesNotAllowed": {
+    "mail": [ 
+      "author",
+      "privilaged"
+     ],
+    "share": [
+      "author",
+      "privilaged"
+    ],
+    "feedback":[
+      "author",
+      "privilaged"
+    ],
+    "rateContent":[
+      "author",
+      "privilaged"
+    ]
   }
+
+   
 }
