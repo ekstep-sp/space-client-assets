@@ -8,13 +8,16 @@
   },
    "rolesAllowed": {
       "mail": [
+      
       ],
       "share": [
+       
       ],
       "feedback":[
+        
       ],
        "rateContent":[
-      
+       
      ]
   },
   "rolesNotAllowed": {
@@ -34,7 +37,5 @@
       "author",
       "privilaged"
     ]
-  }
-
-   
+  }   
 }
