@@ -1,5 +1,22 @@
 {
   "contentType": "Page",
+  "authorRestrictions": {
+    "rolesAllowed": {
+      "share": [
+        "content-creator",
+        "editor",
+        "publisher",
+        "admin",
+        "orgAdmin"
+      ]
+    },
+    "rolesNotAllowed": {
+      "share": [
+        "author",
+        "privilaged"
+      ]
+    }
+  },
   "navigationBar": {
     "pageTitle": "Societal Platform SPace",
     "pageBackLink": "none",
