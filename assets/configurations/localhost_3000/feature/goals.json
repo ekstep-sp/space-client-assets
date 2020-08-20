@@ -1,0 +1,13 @@
+{
+    "forOthers": {
+        "rolesAllowed": [
+            "content-creator",
+            "editor",
+            "publisher"
+        ],
+        "rolesNotAllowed": [
+            "author",
+            "privileged"
+        ]
+    }
+}
