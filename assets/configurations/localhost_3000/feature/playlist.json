@@ -1,3 +1,18 @@
 {
-  "defaultThumbnail": "assets/images/missing-thumbnail-playlist.png"
+  "defaultThumbnail": "assets/images/missing-thumbnail-playlist.png",
+  "rolesAllowed": {
+    "playList": [
+        "content-creator",
+        "editor",
+        "publisher",
+        "admin",
+        "orgAdmin"
+    ]
+},
+"rolesNotAllowed": {
+    "playList": [
+        "author",
+        "privilaged"
+    ]
+}
 }

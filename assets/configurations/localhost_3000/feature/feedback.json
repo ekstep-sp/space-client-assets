@@ -1,4 +1,19 @@
 {
   "feedbackBugImgDark": "assets/common/error-pages/GeneralErrors-dark.svg",
-  "feedbackBugImgLite": "assets/common/error-pages/GeneralErrors-lite.svg"
+  "feedbackBugImgLite": "assets/common/error-pages/GeneralErrors-lite.svg",
+  "rolesAllowed": {
+    "feedback": [
+      "content-creator",
+      "editor",
+      "publisher",
+      "admin",
+      "orgAdmin"
+    ]
+  },
+  "rolesNotAllowed": {
+    "feedback": [
+      "author",
+      "privilaged"
+    ]
+  }
 }

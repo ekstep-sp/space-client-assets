@@ -1,0 +1,18 @@
+{"enableDisscussionForum": {
+    "rolesAllowed": {
+        "disscussionForum": [
+            "content-creator",
+            "editor",
+            "publisher",
+            "admin",
+            "orgAdmin"
+        ]
+    },
+    "rolesNotAllowed": {
+        "disscussionForum": [
+            "author",
+            "privilaged"
+        ]
+    }
+}
+  }
