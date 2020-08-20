@@ -17,6 +17,8 @@
             "privileged"
         ],
         "QnA": [
+            "author",
+            "privileged"
         ]
     }
 }
