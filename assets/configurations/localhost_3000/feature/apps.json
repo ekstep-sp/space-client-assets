@@ -238,7 +238,13 @@
       "status": "live",
       "toolTip": "Feedback",
       "url": "/app/feedback",
-      "shortName": "Feedback"
+      "shortName": "Feedback",
+      "allowedRoles": [
+        "org-admin",
+        "editor",
+        "content-creator",
+        "publisher"
+      ]
     },
     "feature_interests": {
       "accessKey": "W",
