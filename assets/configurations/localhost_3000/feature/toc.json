@@ -6,35 +6,52 @@
     "courseAnalyticsClient": true,
     "courseAnalytics": false
   },
-   "rolesAllowed": {
-      "mail": [
-      
-      ],
-      "share": [
-       
-      ],
-      "feedback":[
-        
-      ],
-       "rateContent":[  
-     ]
+  "rolesAllowed": {
+    "mail": [
+      "content-creator",
+      "editor",
+      "publisher",
+      "admin",
+      "orgAdmin"
+    ],
+    "share": [
+      "content-creator",
+      "editor",
+      "publisher",
+      "admin",
+      "orgAdmin"
+    ],
+    "feedback": [
+      "content-creator",
+      "editor",
+      "publisher",
+      "admin",
+      "orgAdmin"
+    ],
+    "rateContent": [
+      "content-creator",
+      "editor",
+      "publisher",
+      "admin",
+      "orgAdmin"
+    ]
   },
   "rolesNotAllowed": {
-    "mail": [ 
+    "mail": [
       "author",
-      "privilaged"
-     ],
+      "privileged"
+    ],
     "share": [
       "author",
-      "privilaged"
+      "privileged"
     ],
-    "feedback":[
+    "feedback": [
       "author",
-      "privilaged"
+      "privileged"
     ],
-    "rateContent":[
+    "rateContent": [
       "author",
-      "privilaged"
+      "privileged"
     ]
-  }   
+  }
 }

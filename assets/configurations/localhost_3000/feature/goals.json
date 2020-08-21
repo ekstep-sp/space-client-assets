@@ -3,7 +3,9 @@
         "rolesAllowed": [
             "content-creator",
             "editor",
-            "publisher"
+            "publisher",
+            "admin",
+            "orgAdmin"
         ],
         "rolesNotAllowed": [
             "author",
