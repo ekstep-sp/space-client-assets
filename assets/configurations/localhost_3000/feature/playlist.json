@@ -12,7 +12,7 @@
 "rolesNotAllowed": {
     "playList": [
         "author",
-        "privilaged"
+        "privileged"
     ]
 }
 }

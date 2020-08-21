@@ -13,7 +13,7 @@
     "rolesNotAllowed": {
       "share": [
         "author",
-        "privilaged"
+        "privileged"
       ]
     }
   },
