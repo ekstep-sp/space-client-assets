@@ -106,7 +106,7 @@
       }
     },
     "featureUsage": {
-      "enabled":false,
+      "enabled": false,
       "available": false,
       "subSections": {
         "learningTime": true,
@@ -129,7 +129,7 @@
         "editor",
         "publisher",
         "admin",
-        "orgAdmin",
+        "org-admin",
         "member"
       ]
     },
