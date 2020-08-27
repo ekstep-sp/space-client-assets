@@ -7,13 +7,29 @@
       "editor",
       "publisher",
       "admin",
-      "orgAdmin"
+      "org-admin"
     ]
   },
   "rolesNotAllowed": {
     "feedback": [
       "author",
-      "privileged"
+      "privileged",
+      "member"
     ]
+  },
+  "author": {
+    "rolesAllowed": {
+      "author": [
+        "content-creator",
+        "editor",
+        "publisher"
+      ]
+    },
+    "rolesNotAllowed": {
+      "author": [
+         "member"
+      ]
+    }
   }
+
 }

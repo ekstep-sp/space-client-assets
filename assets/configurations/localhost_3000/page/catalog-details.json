@@ -91,5 +91,23 @@
         },
         "widgetSubType": "linearLayout",
         "widgetType": "layout"
-    }
+    },
+    "authorRestrictions": {
+        "rolesAllowed": {
+          "share": [
+            "content-creator",
+            "editor",
+            "publisher",
+            "admin",
+            "org-admin",
+            "member"
+          ]
+        },
+        "rolesNotAllowed": {
+          "share": [
+            "author",
+            "privileged"
+          ]
+        }
+      }
 }

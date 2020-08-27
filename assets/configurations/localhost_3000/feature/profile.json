@@ -121,5 +121,23 @@
       "enabled": true,
       "available": true
     }
+  },
+  "authorRestrictions": {
+    "rolesAllowed": {
+      "share": [
+        "content-creator",
+        "editor",
+        "publisher",
+        "admin",
+        "org-admin",
+        "member"
+      ]
+    },
+    "rolesNotAllowed": {
+      "share": [
+        "author",
+        "privileged"
+      ]
+    }
   }
 }

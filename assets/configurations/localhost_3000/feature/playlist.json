@@ -6,7 +6,8 @@
         "editor",
         "publisher",
         "admin",
-        "orgAdmin"
+        "org-admin",
+        "member"
     ]
 },
 "rolesNotAllowed": {

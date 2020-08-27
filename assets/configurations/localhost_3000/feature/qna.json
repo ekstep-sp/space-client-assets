@@ -1,0 +1,14 @@
+{
+    "rolesAllowed": {
+        "qna": [
+          "content-creator",
+          "editor",
+          "publisher",
+          "member"
+        ]
+      },
+      "rolesNotAllowed": {
+        "qna": [
+        ]
+      }
+}

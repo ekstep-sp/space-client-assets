@@ -12,28 +12,32 @@
       "editor",
       "publisher",
       "admin",
-      "orgAdmin"
+      "org-admin",
+      "member"
     ],
     "share": [
       "content-creator",
       "editor",
       "publisher",
       "admin",
-      "orgAdmin"
+      "org-admin",
+      "member"
     ],
     "feedback": [
       "content-creator",
       "editor",
       "publisher",
       "admin",
-      "orgAdmin"
+      "org-admin",
+      "member"
     ],
     "rateContent": [
       "content-creator",
       "editor",
       "publisher",
       "admin",
-      "orgAdmin"
+      "org-admin",
+      "member"
     ]
   },
   "rolesNotAllowed": {

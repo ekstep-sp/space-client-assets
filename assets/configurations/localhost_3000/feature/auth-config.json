@@ -110,6 +110,16 @@
           "notFit": []
         }
       }
+    },
+    {
+      "role": "member",
+      "editMeta": {
+        "enableByDefault": false,
+        "conditions": {
+          "fit": [{ "status": ["Draft", "Live"] }],
+          "notFit": []
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+    "rolesAllowed": {
+        "blog": [
+          "content-creator",
+          "editor",
+          "publisher",
+          "member"
+        ]
+      },
+      "rolesNotAllowed": {
+        "blog": [
+        ]
+      }
+}
