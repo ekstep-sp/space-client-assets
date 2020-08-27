@@ -17,7 +17,8 @@
         "editor",
         "admin",
         "content-admin",
-        "super-admin"
+        "super-admin",
+        "member"
       ],
       "flow": {
         "internalFlow": {
@@ -122,7 +123,8 @@
         "editor",
         "admin",
         "content-admin",
-        "super-admin"
+        "super-admin",
+        "member"
       ],
       "flow": {
         "internalFlow": {
@@ -163,7 +165,8 @@
         "editor",
         "admin",
         "content-admin",
-        "super-admin"
+        "super-admin",
+        "member"
       ],
       "flow": {
         "internalFlow": {
@@ -204,7 +207,8 @@
         "editor",
         "admin",
         "content-admin",
-        "super-admin"
+        "super-admin",
+        "member"
       ],
       "flow": {
         "internalFlow": {
@@ -245,7 +249,8 @@
         "editor",
         "admin",
         "content-admin",
-        "super-admin"
+        "super-admin",
+        "member"
       ],
       "flow": {
         "internalFlow": {

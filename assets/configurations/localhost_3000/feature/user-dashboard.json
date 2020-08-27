@@ -46,6 +46,15 @@
             "privilaged"
         ]
     },
+    "rolesAllowed": {
+        "userDashboard": [
+         "org-admin"
+        ]
+      },
+      "rolesNotAllowed": {
+        "userDashboard": [
+        ]
+      },
     "root_org": "space",
     "org": "space",
     "API_FOR_USER_DETAILS": "/v2/userdetails?wid="

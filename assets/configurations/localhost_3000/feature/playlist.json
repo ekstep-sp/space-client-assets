@@ -1,18 +1,19 @@
 {
-    "defaultThumbnail": "assets/images/missing-thumbnail-playlist.png",
-    "rolesAllowed": {
-        "playList": [
-            "content-creator",
-            "editor",
-            "publisher",
-            "admin",
-            "org-admin"
-        ]
-    },
-    "rolesNotAllowed": {
-        "playList": [
-            "author",
-            "privileged"
-        ]
-    }
+  "defaultThumbnail": "assets/images/missing-thumbnail-playlist.png",
+  "rolesAllowed": {
+    "playList": [
+        "content-creator",
+        "editor",
+        "publisher",
+        "admin",
+        "org-admin",
+        "member"
+    ]
+},
+"rolesNotAllowed": {
+    "playList": [
+        "author",
+        "privileged"
+    ]
+}
 }

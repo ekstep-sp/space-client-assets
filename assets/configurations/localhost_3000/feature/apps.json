@@ -211,7 +211,8 @@
         "org-admin",
         "content-creator",
         "editor",
-        "publisher"
+        "publisher",
+        "member"
       ]
     },
     "feature_feedback": {
@@ -243,7 +244,8 @@
         "org-admin",
         "editor",
         "content-creator",
-        "publisher"
+        "publisher",
+        "member"
       ]
     },
     "feature_interests": {
@@ -397,7 +399,8 @@
         "org-admin",
         "content-creator",
         "editor",
-        "publisher"
+        "publisher",
+        "member"
       ]
     },
     "feature_review": {
@@ -538,7 +541,8 @@
         "org-admin",
         "content-creator",
         "editor",
-        "publisher"
+        "publisher",
+        "member"
       ]
     },
     {

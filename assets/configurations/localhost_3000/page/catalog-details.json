@@ -94,20 +94,20 @@
     },
     "authorRestrictions": {
         "rolesAllowed": {
-            "share": [
-                "content-creator",
-                "editor",
-                "publisher",
-                "admin",
-                "org-admin",
-                "member"
-            ]
+          "share": [
+            "content-creator",
+            "editor",
+            "publisher",
+            "admin",
+            "org-admin",
+            "member"
+          ]
         },
         "rolesNotAllowed": {
-            "share": [
-                "author",
-                "privileged"
-            ]
+          "share": [
+            "author",
+            "privileged"
+          ]
         }
-    }
+      }
 }

@@ -6,7 +6,7 @@
     "icon": "insert_drive_file",
     "contentType": "Resource",
     "mimeType": "application/html",
-    "hasRole": ["content-creator", "editor", "admin"],
+    "hasRole": ["content-creator", "editor", "admin", "member"],
     "available": true,
     "children": ["link", "upload", "activities", "assessment", "web"],
     "enabled": true
@@ -20,7 +20,7 @@
     "enabled": true,
     "contentType": "Resource",
     "mimeType": "application/html",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   },
   {
     "id": "upload",
@@ -31,7 +31,7 @@
     "enabled": true,
     "contentType": "Resource",
     "mimeType": "application/pdf",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   },
   {
     "id": "activities",
@@ -42,7 +42,7 @@
     "enabled": false,
     "contentType": "Resource",
     "mimeType": "application/html",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   },
   {
     "id": "assessment",
@@ -53,7 +53,7 @@
     "enabled": true,
     "contentType": "Resource",
     "mimeType": "application/quiz",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   },
   {
     "id": "webModule",
@@ -64,7 +64,7 @@
     "enabled": false,
     "contentType": "Resource",
     "mimeType": "application/web-module",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   },
   {
     "id": "channel",
@@ -110,7 +110,7 @@
     "available": true,
     "enabled": true,
     "mimeType": "application/vnd.ekstep.content-collection",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   },
   {
     "id": "course",
@@ -122,7 +122,7 @@
     "available": true,
     "enabled": true,
     "mimeType": "application/vnd.ekstep.content-collection",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   },
   {
     "id": "learningPath",
@@ -134,6 +134,6 @@
     "available": false,
     "enabled": false,
     "mimeType": "application/vnd.ekstep.content-collection",
-    "hasRole": ["content-creator", "editor", "admin"]
+    "hasRole": ["content-creator", "editor", "admin", "member"]
   }
 ]
