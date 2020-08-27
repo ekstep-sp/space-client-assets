@@ -3,24 +3,21 @@
         "blogs": [
             "content-creator",
             "editor",
-            "publisher",
-            "member"
+            "publisher"
         ],
         "QnA": [
             "content-creator",
             "editor",
-            "publisher",
-            "member"
+            "publisher"
         ]
     },
     "rolesNotAllowed": {
+        "blogs": [],
+        "QnA": []
+    },
+    "rolesAllowedForDelete": {
         "blogs": [
-            "author",
-            "privileged"
-        ],
-        "QnA": [
-            "author",
-            "privileged"
+            "editor"
         ]
     }
 }
