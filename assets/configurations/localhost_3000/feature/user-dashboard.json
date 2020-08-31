@@ -48,13 +48,16 @@
     },
     "rolesAllowed": {
         "userDashboard": [
-         "org-admin"
+            "org-admin"
         ]
-      },
-      "rolesNotAllowed": {
-        "userDashboard": [
-        ]
-      },
+    },
+    "rolesNotAllowed": {
+        "userDashboard": []
+    },
+    "rolesAllowedForDefault": [
+        "privileged",
+        "my-analytics"
+    ],
     "root_org": "space",
     "org": "space",
     "API_FOR_USER_DETAILS": "/v2/userdetails?wid="
