@@ -124,52 +124,6 @@
               "widgetData": {
                 "strips": [
                   {
-                    "key": "latest_collections",
-                    "title": "Latest Collections",
-                    "info": {
-                      "mode": "below",
-                      "visibilityMode": "hidden",
-                      "icon": {
-                        "icon": "info",
-                        "scale": 0.8
-                      },
-                      "widget": {
-                        "widgetType": "element",
-                        "widgetSubType": "elementHtml",
-                        "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">Here you’ll find the very latest learning Collections.</p>"
-                        }
-                      }
-                    },
-                    "stripConfig": {
-                      "cardSubType": "standard",
-                      "intranetMode": "hide",
-                      "deletedMode": "hide"
-                    },
-                    "filters": {},
-                    "request": {
-                      "api": {
-                        "path": "/apis/protected/v8/recommendation/latest",
-                        "queryParams": {
-                          "pageNo": 0,
-                          "pageSize": 15,
-                          "excludeContentType": "Collection,Resource"
-                        }
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "dimensions": {},
-            "widget": {
-              "widgetType": "contentStrip",
-              "widgetSubType": "contentStripMultiple",
-              "widgetData": {
-                "strips": [
-                  {
                     "key": "latest_assets",
                     "title": "Latest Assets",
                     "info": {
@@ -352,6 +306,41 @@
                         "path": "/apis/protected/v8/user/history",
                         "queryParams": {
                           "pageSize": 20
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "key": "latest_collections",
+                    "title": "Latest Collections",
+                    "info": {
+                      "mode": "below",
+                      "visibilityMode": "hidden",
+                      "icon": {
+                        "icon": "info",
+                        "scale": 0.8
+                      },
+                      "widget": {
+                        "widgetType": "element",
+                        "widgetSubType": "elementHtml",
+                        "widgetData": {
+                          "html": "<p class=\"ws-mat-primary-text\">Here you’ll find the very latest learning Collections.</p>"
+                        }
+                      }
+                    },
+                    "stripConfig": {
+                      "cardSubType": "standard",
+                      "intranetMode": "hide",
+                      "deletedMode": "hide"
+                    },
+                    "filters": {},
+                    "request": {
+                      "api": {
+                        "path": "/apis/protected/v8/recommendation/latest",
+                        "queryParams": {
+                          "pageNo": 0,
+                          "pageSize": 15,
+                          "excludeContentType": "Collection,Resource"
                         }
                       }
                     }
