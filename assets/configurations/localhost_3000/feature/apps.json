@@ -245,7 +245,9 @@
         "editor",
         "content-creator",
         "publisher",
-        "member"
+        "member",
+        "author",
+        "privileged"
       ]
     },
     "feature_interests": {
