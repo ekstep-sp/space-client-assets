@@ -8,13 +8,13 @@
       "publisher",
       "admin",
       "org-admin",
-      "member"
+      "member",
+      "author",
+      "privileged"
     ]
   },
   "rolesNotAllowed": {
     "feedback": [
-      "author",
-      "privileged"
     ]
   },
   "author": {
