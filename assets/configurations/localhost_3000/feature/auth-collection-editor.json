@@ -104,5 +104,14 @@
       }
     }
   },
-  "enabledRole": ["author", "reviewer", "publisher"]
+  "enabledRole": ["author", "reviewer", "publisher"],
+  "nodeOptions": {
+    "allowedFor": [
+      "content-creator",
+      "editor"
+    ],
+    "notAllowedFor": [
+      "publisher"
+    ]
+  }
 }
