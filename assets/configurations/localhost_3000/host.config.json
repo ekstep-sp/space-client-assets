@@ -10,7 +10,9 @@
   },
   "disablePidCheck": false,
   "isContentDownloadAvailable": false,
-  "org": ["space"],
+  "org": [
+    "space"
+  ],
   "rootOrg": "space",
   "fontSizes": [
     {
@@ -72,7 +74,10 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": ["en", "en-US"],
+      "locals": [
+        "en",
+        "en-US"
+      ],
       "path": "",
       "isRTL": false
     }
@@ -89,7 +94,7 @@
     "landingLogo": ""
   },
   "banners": {
-    "mainBanner": "/assets/instances/space/banners/MainBanner.jpg",
+    "mainBanner": "/assets/instances/space/banners/Rainforestscape.png",
     "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png",
     "licensePolicy": "/assets/instances/space/banners/LicensePolicyBanner.89071e42672f5f66e889.png",
     "assetguidelines": "/assets/instances/space/banners/AssetGuidelinesBanner.a1768cc3d81d38f92ffe.png",
@@ -137,7 +142,9 @@
     "defaultEmailId": "eagle-support@eagle.com",
     "isConfigured": true,
     "tenant": "eagle",
-    "validEmailExtensions": ["@eagle.eagle.com"]
+    "validEmailExtensions": [
+      "@eagle.eagle.com"
+    ]
   },
   "validMailIdExtensionsForMailMe": [],
   "backgrounds": {
