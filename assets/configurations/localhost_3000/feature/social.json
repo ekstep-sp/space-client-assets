@@ -27,5 +27,15 @@
         "blogs": [
             "editor"
         ]
+    },
+    "userListData": {
+        "api": "/usersubmission/usersubmission/user",
+        "user_list": {
+            "type": "get",
+            "url": "/v2/users?flag=true",
+            "errorMessage": "Sorry, no users are available"
+        },
+        "root_org": "space",
+        "org": "space"
     }
 }
