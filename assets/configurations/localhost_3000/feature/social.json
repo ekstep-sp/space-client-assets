@@ -32,7 +32,7 @@
         "api": "/usersubmission/usersubmission/user",
         "user_list": {
             "type": "get",
-            "url": "/v2/users/tagUser",
+            "url": "/v2/users/taguser",
             "errorMessage": "Sorry, no users are available"
         },
         "root_org": "space",
