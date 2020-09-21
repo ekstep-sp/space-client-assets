@@ -10,5 +10,6 @@
       "rolesNotAllowed": {
         "blog": [
         ]
-      }
+      },
+      "allowMentionUsers": false
 }
