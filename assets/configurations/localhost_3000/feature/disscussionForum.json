@@ -1,19 +1,32 @@
-{"enableDisscussionForum": {
-    "rolesAllowed": {
-        "disscussionForum": [
-            "content-creator",
-            "editor",
-            "publisher",
-            "admin",
-            "org-admin",
-            "member"
-        ]
+{
+    "enableDisscussionForum": {
+        "rolesAllowed": {
+            "disscussionForum": [
+                "content-creator",
+                "editor",
+                "publisher",
+                "admin",
+                "org-admin",
+                "member"
+            ]
+        },
+        "rolesNotAllowed": {
+            "disscussionForum": [
+                "author",
+                "privileged"
+            ]
+        }
     },
-    "rolesNotAllowed": {
-        "disscussionForum": [
-            "author",
-            "privileged"
-        ]
-    }
-}
+    "userListData": {
+        "api": "/usersubmission/usersubmission/user",
+        "user_list": {
+            "type": "get",
+            "url": "/v2/users/taguser",
+            "errorMessage": "Sorry, no users are available"
+        },
+        "root_org": "space",
+        "org": "space"
+    },
+    "allowMentionUsers": false
+
 }
