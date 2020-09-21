@@ -1,5 +1,5 @@
 {
-    "API_END_POINT": "/usersubmission/usersubmission/user",
+    "API_END_POINT": "/usersubmission/user",
     "edit_profile": {
         "type": "patch",
         "url": "/v1/editprofile",
@@ -7,5 +7,6 @@
         "successMessage": "User profile updated succesfully"
     },
     "root_org": "space",
-    "org": "space"
+    "org": "space",
+    "profileImage": "/assets/images/profile/profileimage.png"
 }
