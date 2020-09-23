@@ -107,7 +107,7 @@
       "show": true,
       "status": "live",
       "toolTip": "About Us",
-      "url": "/page/about",
+      "url": "/public/about",
       "shortName": "About"
     },
     "feature_collaborators": {
@@ -125,7 +125,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Collaborators",
-      "url": "/page/collaborators",
+      "url": "/public/collaborators",
       "shortName": "Collaborators"
     },
     "feature_contact": {

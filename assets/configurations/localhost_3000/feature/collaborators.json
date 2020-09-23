@@ -1,24 +1,16 @@
 {
-  "contentType": "Page",
-  "pageLayout": {
-    "widgetSubType": "gridLayout",
-    "widgetType": "layout",
-    "widgetData": {
-      "widgets": [
-        [
-          {
-            "dimensions": {},
-            "widget": {
-              "widgetData": {
-                "template": "<h1>working</h1>",
-                "containerClass": "h-full"
-              },
-              "widgetSubType": "elementHtml",
-              "widgetType": "element"
-            }
-          }
-        ]
-      ]
-    }
-  }
+  "partner": [
+    "assets/instances/space/app-collaborators-logos/aastar.png",
+    "assets/instances/space/app-collaborators-logos/ECHO.png",
+    "assets/instances/space/app-collaborators-logos/Egov.png",
+    "assets/instances/space/app-collaborators-logos/EkStep.png",
+    "assets/instances/space/app-collaborators-logos/ShikshaLokam.png"
+  ],
+  "url": [
+    "https://www.aastar.org/",
+    "https://www.echoindia.in/",
+    "https://www.egovernments.org/",
+    "https://ekstep.in/",
+    "https://shikshalokam.org/"
+  ]
 }
