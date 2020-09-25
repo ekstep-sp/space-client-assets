@@ -80,7 +80,9 @@
       "assets/instances/space/app-collaborators-logos/Egov.png",
       "assets/instances/space/app-collaborators-logos/EkStep.png",
       "assets/instances/space/app-collaborators-logos/ShikshaLokam.png",
-      "assets/instances/space/app-collaborators-logos/nw_logo.png"
+      "assets/instances/space/app-collaborators-logos/NetworkWeaver.png",
+      "assets/instances/space/app-collaborators-logos/DigitalGreen.jpg",
+      "assets/instances/space/app-collaborators-logos/Socion.png"
     ],
     "url": [
       "https://www.aastar.org/",
@@ -88,7 +90,12 @@
       "https://www.egovernments.org/",
       "https://ekstep.in/",
       "https://shikshalokam.org/",
-      "https://networkweaver.com/network-weaving-handbook/"
+      "https://networkweaver.com/network-weaving-handbook/",
+      "https://www.digitalgreen.org/",
+      "https://www.socion.io/"
     ]
+  },
+  "introVideo": {
+    "en": "/assets/instances/space/videos/intro_video.mp4"
   }
 }
