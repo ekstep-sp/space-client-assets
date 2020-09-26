@@ -19,7 +19,10 @@
       "status": "live",
       "toolTip": "Learning Analytics",
       "url": "/analytics",
-      "shortName": "Analytics"
+      "shortName": "Analytics",
+      "allowedRoles": [
+        "analytics"
+      ]
     },
     "feature_Q&A": {
       "accessKey": "",
@@ -91,7 +94,7 @@
     },
     "feature_aboutUs": {
       "accessKey": "K",
-      "icon": "info",
+      "icon": "",
       "iconType": "mat-icon",
       "id": "feature_aboutUs",
       "keywords": [
@@ -112,7 +115,7 @@
     },
     "feature_collaborators": {
       "accessKey": "",
-      "icon": "group",
+      "icon": "",
       "iconType": "mat-icon",
       "id": "feature_collaborators",
       "keywords": [
@@ -148,7 +151,7 @@
     },
     "feature_catalog": {
       "accessKey": "",
-      "icon": "explore",
+      "icon": "",
       "iconType": "mat-icon",
       "id": "feature_catalog",
       "keywords": [
@@ -507,102 +510,141 @@
   "groups": [
     {
       "featureIds": [
-        "feature_feedback",
-        "feature_interests",
-        "feature_goals",
-        "feature_notification",
-        "feature_playlist",
-        "feature_profile",
-        "feature_user_dashboard"
+        "feature_profile"
       ],
-      "icon": "",
-      "iconType": "none",
-      "id": "group_me",
+      "icon": "account_circle",
+      "iconType": "mat-icon",
+      "id": "group_profile",
       "keywords": [
-        "Me",
+        "dashboard",
         "profile",
-        "Dashboard"
+        "user",
+        "me"
       ],
-      "name": "Me",
-      "toolTip": "Me"
+      "key": "profile",
+      "name": "Profile",
+      "permission": [
+        "PROFILE"
+      ],
+      "expand": false,
+      "exception": false,
+      "show": true,
+      "status": "live",
+      "toolTip": "Profile",
+      "url": "/app/profile",
+      "shortName": "Profile"
     },
     {
       "featureIds": [
-        "feature_create",
-        "feature_publish"
+        "feature_learningAnalytics",
+        "feature_user_dashboard"
       ],
-      "icon": "",
-      "iconType": "none",
-      "id": "group_contribution",
+      "icon": "privacy_tip",
+      "iconType": "mat-icon",
+      "id": "group_admin",
       "keywords": [
-        "contribution"
+        "Admin"
       ],
-      "name": "Contribution",
-      "toolTip": "Contribution",
-      "allowedRoles": [
+      "key": "admin",
+      "name": "Admin",
+      "toolTip": "Admin",
+      "expand": true,
+      "show": true,
+      "exception": false,
+      "rolesAllowed": [
         "org-admin",
-        "content-creator",
-        "editor",
-        "publisher",
+        "analytics"
+      ],
+      "rolesNotAllowed": [
         "member"
       ]
     },
     {
       "featureIds": [
-        "feature_search",
-        "feature_catalog"
+        "feature_playlist",
+        "feature_goals",
+        "feature_interests",
+        "feature_feedback"
       ],
-      "icon": "",
-      "iconType": "none",
-      "id": "group_assistant",
+      "key": "myspace",
+      "icon": "fingerprint",
+      "iconType": "mat-icon",
+      "id": "group_mySPace",
       "keywords": [
-        "learning",
-        "assistant",
-        "learning assistant"
+        "Me",
+        "profile",
+        "Dashboard"
       ],
-      "name": "Learning Assistant",
-      "toolTip": "Learning Assistant"
+      "name": "My SPace",
+      "toolTip": "My SPace",
+      "expand": true,
+      "share": true,
+      "exception": false
     },
     {
       "featureIds": [
         "feature_blogs",
         "feature_Q&A"
       ],
-      "icon": "",
-      "iconType": "none",
-      "id": "group_social",
+      "icon": "chat",
+      "iconType": "mat-icon",
+      "id": "group_forum",
       "keywords": [
-        "social"
+        "Forum"
       ],
-      "name": "Social",
-      "toolTip": "Social"
+      "key": "forum",
+      "name": "Forum",
+      "toolTip": "Forum",
+      "expand": true,
+      "exception": false
     },
     {
       "featureIds": [
-        "feature_learningAnalytics"
+        "feature_create",
+        "feature_publish"
       ],
-      "icon": "",
-      "iconType": "none",
-      "id": "group_information",
+      "icon": "share",
+      "iconType": "mat-icon",
+      "id": "group_share",
+      "expand": true,
+      "exception": false,
       "keywords": [
-        "info",
-        "information"
+        "Share"
       ],
-      "name": "Information",
-      "toolTip": "Information"
+      "key": "share",
+      "name": "Share",
+      "toolTip": "Share",
+      "show": true,
+      "rolesAllowed": [
+        "content-creator",
+        "editor",
+        "publisher"
+      ],
+      "rolesNotAllowed": [
+        "member"
+      ]
     },
     {
       "featureIds": [
         "feature_settings"
       ],
-      "icon": "",
-      "iconType": "none",
-      "id": "group_account",
+      "icon": "settings",
+      "iconType": "mat-icon",
+      "id": "group_settings",
       "keywords": [
-        "account"
+        "settings"
       ],
-      "name": "Account",
-      "toolTip": "Account"
+      "key": "Settings",
+      "name": "Settings",
+      "permission": [
+        "settings"
+      ],
+      "url": "/app/profile/settings",
+      "expand": false,
+      "show": true,
+      "exception": false,
+      "status": "live",
+      "toolTip": "Settings"
     }
   ]
 }

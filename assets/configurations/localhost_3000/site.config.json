@@ -13,7 +13,9 @@
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
   },
-  "org": ["space"],
+  "org": [
+    "space"
+  ],
   "rootOrg": "space",
   "defaultFontSize": "normal-typography",
   "defaultLocale": "",
@@ -79,7 +81,10 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": ["en", "en-US"],
+      "locals": [
+        "en",
+        "en-US"
+      ],
       "path": "",
       "isRTL": false
     }
@@ -157,6 +162,7 @@
           "config": {
             "widgetType": "actionButton",
             "widgetSubType": "actionButtonCatalog",
+            "type": "mat-flat-button",
             "widgetData": {}
           }
         },
@@ -165,7 +171,7 @@
           "config": {
             "actionBtnId": "feature_aboutUs",
             "config": {
-              "type": "mat-button"
+              "type": "mat-flat-button"
             }
           }
         },
@@ -174,7 +180,7 @@
           "config": {
             "actionBtnId": "feature_collaborators",
             "config": {
-              "type": "mat-button"
+              "type": "mat-flat-button"
             }
           }
         }
@@ -196,15 +202,8 @@
             "config": {
               "type": "mat-icon-button"
             }
-          }
-        },
-        {
-          "type": "widgetButton",
-          "config": {
-            "widgetType": "actionButton",
-            "widgetSubType": "actionButtonSetting",
-            "widgetData": null
-          }
+          },
+          "widgetHostClass": "pl-3 pr-4"
         }
       ]
     },
@@ -243,10 +242,9 @@
     }
   },
   "featuredApps": [
-    "feature_playlist",
-    "feature_goals",
-    "feature_blogs",
-    "feature_Q&A"
+    "feature_settings",
+    "feature_help",
+    "feature_profile"
   ],
   "intranetIframeUrls": [],
   "introVideo": {
