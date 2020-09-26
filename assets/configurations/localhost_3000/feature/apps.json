@@ -151,7 +151,7 @@
     },
     "feature_catalog": {
       "accessKey": "",
-      "icon": "",
+      "icon": "explore",
       "iconType": "mat-icon",
       "id": "feature_catalog",
       "keywords": [
