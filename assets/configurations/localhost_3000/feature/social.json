@@ -27,5 +27,19 @@
         "blogs": [
             "editor"
         ]
+    },
+    "userListData": {
+        "api": "/usersubmission/usersubmission/user",
+        "user_list": {
+            "type": "get",
+            "url": "/v2/users/taguser",
+            "errorMessage": "Sorry, no users are available"
+        },
+        "root_org": "space",
+        "org": "space"
+    },
+    "allowMentionUsers": true,
+    "introVideo": {
+        "en": "/assets/instances/space/videos/intro_video.mp4"
     }
 }

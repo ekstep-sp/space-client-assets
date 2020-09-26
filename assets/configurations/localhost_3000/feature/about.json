@@ -8,8 +8,12 @@
   },
   "section1": {
     "title": "Overview",
-    "leftParas": ["Overview description"],
-    "rightParas": ["More desciption."]
+    "leftParas": [
+      "Overview description"
+    ],
+    "rightParas": [
+      "More desciption."
+    ]
   },
   "section2": {
     "description": "Description here."
@@ -33,17 +37,23 @@
       {
         "icon": "info",
         "title": "Title",
-        "para": ["Some text here."]
+        "para": [
+          "Some text here."
+        ]
       },
       {
         "icon": "tag_faces",
         "title": "Title",
-        "para": ["Some text here."]
+        "para": [
+          "Some text here."
+        ]
       },
       {
         "icon": "chat",
         "title": "Title",
-        "para": ["Some text here."]
+        "para": [
+          "Some text here."
+        ]
       }
     ]
   },
@@ -62,5 +72,30 @@
     "list": {
       "Feature Name": "<p> Feature description </p>"
     }
+  },
+  "partner": {
+    "src": [
+      "assets/instances/space/app-collaborators-logos/aastar.png",
+      "assets/instances/space/app-collaborators-logos/ECHO.png",
+      "assets/instances/space/app-collaborators-logos/Egov.png",
+      "assets/instances/space/app-collaborators-logos/EkStep.png",
+      "assets/instances/space/app-collaborators-logos/ShikshaLokam.png",
+      "assets/instances/space/app-collaborators-logos/NetworkWeaver.png",
+      "assets/instances/space/app-collaborators-logos/DigitalGreen.jpg",
+      "assets/instances/space/app-collaborators-logos/Socion.png"
+    ],
+    "url": [
+      "https://www.aastar.org/",
+      "https://www.echoindia.in/",
+      "https://www.egovernments.org/",
+      "https://ekstep.in/",
+      "https://shikshalokam.org/",
+      "https://networkweaver.com/network-weaving-handbook/",
+      "https://www.digitalgreen.org/",
+      "https://www.socion.io/"
+    ]
+  },
+  "introVideo": {
+    "en": "/assets/instances/space/videos/intro_video.mp4"
   }
 }

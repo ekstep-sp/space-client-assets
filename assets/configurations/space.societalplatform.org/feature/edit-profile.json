@@ -1,0 +1,11 @@
+{
+    "API_END_POINT": "/usersubmission/usersubmission/user",
+    "edit_profile": {
+        "type": "patch",
+        "url": "/v1/editprofile",
+        "errorMessage": "User profile is not updated succesfully",
+        "successMessage": "User profile updated succesfully"
+    },
+    "root_org": "space",
+    "org": "space"
+}

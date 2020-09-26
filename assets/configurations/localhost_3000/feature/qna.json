@@ -1,14 +1,24 @@
 {
-    "rolesAllowed": {
-        "qna": [
-          "content-creator",
-          "editor",
-          "publisher",
-          "member"
-        ]
-      },
-      "rolesNotAllowed": {
-        "qna": [
-        ]
-      }
+  "rolesAllowed": {
+    "qna": [
+      "content-creator",
+      "editor",
+      "publisher",
+      "member"
+    ]
+  },
+  "rolesNotAllowed": {
+    "qna": []
+  },
+  "userListData": {
+    "api": "/usersubmission/usersubmission/user",
+    "user_list": {
+      "type": "get",
+      "url": "/v2/users/taguser",
+      "errorMessage": "Sorry, no users are available"
+    },
+    "root_org": "space",
+    "org": "space"
+  },
+  "allowMentionUsers": true
 }
