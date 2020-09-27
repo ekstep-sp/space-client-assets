@@ -35,7 +35,7 @@
         "qna",
         "q and a"
       ],
-      "name": "Question and Answer",
+      "name": "Q & A",
       "permission": [
         "QUESTION_AND_ANSWER"
       ],
@@ -603,17 +603,17 @@
         "feature_create",
         "feature_publish"
       ],
-      "icon": "share",
+      "icon": "book",
       "iconType": "mat-icon",
       "id": "group_share",
       "expand": true,
       "exception": false,
       "keywords": [
-        "Share"
+        "Contribute"
       ],
-      "key": "share",
-      "name": "Share",
-      "toolTip": "Share",
+      "key": "contribute",
+      "name": "Contribute",
+      "toolTip": "Contribute",
       "show": true,
       "rolesAllowed": [
         "content-creator",
