@@ -217,15 +217,6 @@
               "type": "card-mini"
             }
           }
-        },
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_profile",
-            "config": {
-              "type": "card-mini"
-            }
-          }
         }
       ],
       "right": [
