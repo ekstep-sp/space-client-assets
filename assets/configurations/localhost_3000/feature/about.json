@@ -76,22 +76,22 @@
   "partner": {
     "src": [
       "assets/instances/space/app-collaborators-logos/aastar.png",
+      "assets/instances/space/app-collaborators-logos/DigitalGreen.jpg",
       "assets/instances/space/app-collaborators-logos/ECHO.png",
       "assets/instances/space/app-collaborators-logos/Egov.png",
       "assets/instances/space/app-collaborators-logos/EkStep.png",
-      "assets/instances/space/app-collaborators-logos/ShikshaLokam.png",
       "assets/instances/space/app-collaborators-logos/NetworkWeaver.png",
-      "assets/instances/space/app-collaborators-logos/DigitalGreen.jpg",
+      "assets/instances/space/app-collaborators-logos/ShikshaLokam.png",
       "assets/instances/space/app-collaborators-logos/Socion.png"
     ],
     "url": [
       "https://www.aastar.org/",
+      "https://www.digitalgreen.org/",
       "https://www.echoindia.in/",
       "https://www.egovernments.org/",
       "https://ekstep.in/",
-      "https://shikshalokam.org/",
       "https://networkweaver.com/network-weaving-handbook/",
-      "https://www.digitalgreen.org/",
+      "https://shikshalokam.org/",
       "https://www.socion.io/"
     ]
   },
