@@ -509,6 +509,31 @@
   },
   "groups": [{
       "featureIds": [
+        "feature_learningAnalytics",
+        "feature_user_dashboard"
+      ],
+      "icon": "admin_panel_settings",
+      "iconType": "mat-icon",
+      "id": "group_admin",
+      "keywords": [
+        "Admin"
+      ],
+      "key": "admin",
+      "name": "Admin",
+      "toolTip": "Admin",
+      "expand": true,
+      "show": true,
+      "exception": false,
+      "rolesAllowed": [
+        "org-admin",
+        "analytics"
+      ],
+      "rolesNotAllowed": [
+        "member"
+      ]
+    },
+    {
+      "featureIds": [
         "feature_profile"
       ],
       "icon": "account_circle",
@@ -532,31 +557,6 @@
       "toolTip": "Profile",
       "url": "/app/profile",
       "shortName": "Profile"
-    },
-    {
-      "featureIds": [
-        "feature_learningAnalytics",
-        "feature_user_dashboard"
-      ],
-      "icon": "privacy_tip",
-      "iconType": "mat-icon",
-      "id": "group_admin",
-      "keywords": [
-        "Admin"
-      ],
-      "key": "admin",
-      "name": "Admin",
-      "toolTip": "Admin",
-      "expand": true,
-      "show": true,
-      "exception": false,
-      "rolesAllowed": [
-        "org-admin",
-        "analytics"
-      ],
-      "rolesNotAllowed": [
-        "member"
-      ]
     },
     {
       "featureIds": [
