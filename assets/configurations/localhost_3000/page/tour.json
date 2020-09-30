@@ -1,7 +1,7 @@
 {
     "contentType": "Page",
     "navigationBar": {
-        "pageBackLink": "/app/features",
+        "pageBackLink": "/home",
         "pageTitle": "Tour"
     },
     "pageLayout": {
