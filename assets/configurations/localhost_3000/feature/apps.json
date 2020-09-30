@@ -507,8 +507,7 @@
       "shortName": "Tour"
     }
   },
-  "groups": [
-    {
+  "groups": [{
       "featureIds": [
         "feature_profile"
       ],
@@ -567,7 +566,7 @@
         "feature_feedback"
       ],
       "key": "myspace",
-      "icon": "fingerprint",
+      "icon": "emoji_people",
       "iconType": "mat-icon",
       "id": "group_mySPace",
       "keywords": [
