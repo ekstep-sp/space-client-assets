@@ -19,5 +19,10 @@
         "value": "<h1 class='text-center'>EkStep Foundation</h1><p class='text-center'>Ekstep Foundation<br>Quorum, No. 85, 7th Cross, 4th Block<br>Koramangala, Bangalore - 560034<br>Karnataka, INDIA <br> <a href='space@societalplatform.org' style = 'color:#0000cc;'>space@societalplatform.org</a></p>"
       }
     ]
-  }
+  },
+    "navigationBar": {
+        "pageBackLink": "/home",
+        "pageTitle": "Contact Us"
+    }
+
 }

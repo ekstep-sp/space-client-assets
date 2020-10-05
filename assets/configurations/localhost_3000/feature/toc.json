@@ -57,5 +57,9 @@
       "author",
       "privileged"
     ]
-  }
+  },
+  "navigationBar": {
+    "pageBackLink": "/home",
+    "pageTitle": "Terms Of Use"
+}
 }
