@@ -4039,5 +4039,21 @@
     },
     "showFor": {},
     "type": "string"
-  }
+  },
+  "allowedRoles": {
+    "catalogPath": [
+    "publisher"
+  ]
+},
+  "notAllowedRoles":{
+    "catalogPath": [
+    "content-creator",
+    "editor",
+    "admin",
+    "org-admin",
+    "member",
+    "author",
+    "privileged"  
+  ]
+}
 }
