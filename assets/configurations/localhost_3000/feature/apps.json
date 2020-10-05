@@ -509,8 +509,8 @@
   },
   "groups": [{
       "featureIds": [
-        "feature_learningAnalytics",
-        "feature_user_dashboard"
+        "feature_user_dashboard",
+        "feature_learningAnalytics"
       ],
       "icon": "admin_panel_settings",
       "iconType": "mat-icon",
