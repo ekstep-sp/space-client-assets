@@ -97,5 +97,9 @@
   },
   "introVideo": {
     "en": "/assets/instances/space/videos/intro_video.mp4"
+  },
+  "navigationBar": {
+    "pageBackLink": "/home",
+    "pageTitle": "About Us And Collaborators"
   }
 }
