@@ -292,7 +292,7 @@
       "permission": [
         "MOBILE_APPS"
       ],
-      "show": false,
+      "show": true,
       "status": "live",
       "toolTip": "Mobile Apps",
       "url": "/public/mobile-app",
@@ -644,6 +644,37 @@
       "exception": false,
       "status": "live",
       "toolTip": "Settings"
+    },
+    {
+      "featureIds": [
+        "feature_mobileApps"
+      ],
+      "icon": "phone_iphone",
+      "iconType": "mat-icon",
+      "id": "feature_mobileApps",
+      "keywords": [
+        "mobile apps",
+        "ios",
+        "android",
+        "download",
+        "apps",
+        "application",
+        "mobile application",
+        "app",
+        "mobile applications"
+      ],
+      "key": "Mobile",
+      "name": "Mobile Apps",
+      "permission": [
+        "MOBILE_APPS"
+      ],
+      "show": true,
+      "expand": false,
+      "exception": false,
+      "status": "live",
+      "toolTip": "Mobile Apps",
+      "url": "/public/mobile-app",
+      "shortName": "Mobile"
     }
   ]
 }
