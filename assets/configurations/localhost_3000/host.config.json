@@ -94,6 +94,7 @@
     "landingLogo": ""
   },
   "banners": {
+    "mobileBanner": "/assets/instances/space/banners/landingPageBannerMobile.png",
     "mainBanner": "/assets/instances/space/banners/Rainforestscape.png",
     "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png",
     "licensePolicy": "/assets/instances/space/banners/NewDataPrivacy.png",
