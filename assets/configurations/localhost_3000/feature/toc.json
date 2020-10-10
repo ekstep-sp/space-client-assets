@@ -61,5 +61,8 @@
   "navigationBar": {
     "pageBackLink": "/home",
     "pageTitle": "Terms Of Use"
-}
+  },
+  "isIOSDownloadable": true,
+  "isAndroidDownloadable": true,
+  "isMobileDownloadable": false
 }

@@ -27,6 +27,8 @@
         "root_org": "space",
         "org": "space"
     },
-    "allowMentionUsers": false
-
+    "allowMentionUsers": false,
+    "isIOSDownloadable": true,
+    "isAndroidDownloadable": true,
+    "isMobileDownloadable": false
 }
