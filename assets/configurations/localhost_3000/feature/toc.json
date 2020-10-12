@@ -62,7 +62,7 @@
     "pageBackLink": "/home",
     "pageTitle": "Terms Of Use"
   },
-  "isIOSDownloadable": true,
-  "isAndroidDownloadable": true,
+  "isIOSDownloadable": false,
+  "isAndroidDownloadable": false,
   "isMobileDownloadable": false
 }
