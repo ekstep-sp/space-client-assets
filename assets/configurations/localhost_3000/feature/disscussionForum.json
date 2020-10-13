@@ -28,7 +28,7 @@
         "org": "space"
     },
     "allowMentionUsers": false,
-    "isIOSDownloadable": false,
+    "isIOSDownloadable": true,
     "isAndroidDownloadable": false,
-    "isMobileDownloadable": false
+    "isMobileDownloadable": true
 }
