@@ -70,7 +70,11 @@
       "/usersubmission/*",
       "/apis/protected/v8/recommendation/latest",
       "^/apis/protected/v8/content(.*)hierarchyType=detail$",
-      "https://space.societalplatform.org/auth/realms/wingspan/protocol/openid-connect/token"
+      "https://space.societalplatform.org/auth/realms/wingspan/protocol/openid-connect/token",
+      "/custom/auth/realms/wingspan/protocol/openid-connect/token",
+      "^/public/sharecontent(.*)$",
+      "^/apis/authApi/action/content/hierarchy/(.*)rootOrg=space&org=space$",
+      "^/apis(.*)authContent$"
     ],
     "clientId": "portal",
     "key": "ws-kc-token-storage",

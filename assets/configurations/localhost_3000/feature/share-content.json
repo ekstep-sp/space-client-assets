@@ -1,0 +1,11 @@
+{
+    "credentials": {
+        "username": "deepak",
+        "password": "Sept@2020",
+        "client_id": "portal",
+        "grant_type": "password",
+        "org": "space",
+        "rootOrg": "space",
+        "wid": "acbf4053-c126-4e85-a0bf-252a896535ea"
+    }
+}
