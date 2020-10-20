@@ -7,6 +7,6 @@
         "org": "space",
         "rootOrg": "space",
         "wid": "acbf4053-c126-4e85-a0bf-252a896535ea",
-        "authApi": "/auth/realms/wingspan/protocol/openid-connect/token"
+        "authApi": "/apis/public/v8/default-user/login"
     }
 }
