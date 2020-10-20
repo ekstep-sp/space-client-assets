@@ -9,7 +9,7 @@
     "root_org": "space",
     "org": "space",
     "profileImage": "/assets/images/profile/profileimage.png",
-    "isIOSUpload": false,
-    "isAndroidUpload": false,
-    "isMobileUpload": false
+    "isIOSUpload": true,
+    "isAndroidUpload": true,
+    "isMobileUpload": true
 }

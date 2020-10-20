@@ -63,6 +63,6 @@
     "pageTitle": "Terms Of Use"
   },
   "isIOSDownloadable": true,
-  "isAndroidDownloadable": false,
+  "isAndroidDownloadable": true,
   "isMobileDownloadable": true
 }

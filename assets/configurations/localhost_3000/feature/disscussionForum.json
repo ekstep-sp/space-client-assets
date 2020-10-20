@@ -29,6 +29,6 @@
     },
     "allowMentionUsers": false,
     "isIOSDownloadable": true,
-    "isAndroidDownloadable": false,
+    "isAndroidDownloadable": true,
     "isMobileDownloadable": true
 }
