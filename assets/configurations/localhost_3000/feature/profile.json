@@ -8,7 +8,10 @@
         "interests": true,
         "latest": true
       },
-      "displayName": "Profile"
+      "displayName": "Profile",
+      "editProfile": {
+        "displayName": "Edit Profile"
+      }
     },
     "learning": {
       "enabled": true,
