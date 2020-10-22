@@ -10,6 +10,6 @@
     "org": "space",
     "profileImage": "/assets/images/profile/profileimage.png",
     "isIOSUpload": true,
-    "isAndroidUpload": false,
+    "isAndroidUpload": true,
     "isMobileUpload": true
 }
