@@ -34,5 +34,20 @@
         }
       }
     }
+  },
+  "userSubmissionApiDetails": {
+    "apiEndPoint": "/usersubmission/usersubmission/user",
+    "userCount": {
+      "type": "get",
+      "url": "/v2/users/count",
+      "errorMessage": "Sorry, user count could not be retrieved"
+    },
+    "userList": {
+      "type": "get",
+      "url": "/v2/users/taguser",
+      "errorMessage": "Sorry, no users are available"
+    },
+    "root_org": "space",
+    "org": "space"
   }
 }

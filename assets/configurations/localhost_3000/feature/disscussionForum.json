@@ -19,7 +19,7 @@
     },
     "userListData": {
         "api": "/usersubmission/usersubmission/user",
-        "user_list": {
+        "userList": {
             "type": "get",
             "url": "/v2/users/taguser",
             "errorMessage": "Sorry, no users are available"
