@@ -60,5 +60,9 @@
     ],
     "root_org": "space",
     "org": "space",
-    "API_FOR_USER_DETAILS": "/v2/userdetails?wid="
+    "API_FOR_USER_DETAILS": "/v2/userdetails?wid=",
+    "timeZoneFormat": {
+        "timeZone": "GMT",
+        "locales": "en-GB"
+    }
 }
