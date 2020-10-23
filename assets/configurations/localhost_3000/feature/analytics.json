@@ -49,5 +49,9 @@
     },
     "root_org": "space",
     "org": "space"
+  },
+  "timeZoneFormat": {
+    "timeZone": "GMT",
+    "locales": "en-US"
   }
 }
