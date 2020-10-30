@@ -29,6 +29,34 @@
               "courses": true,
               "modules": true,
               "resources": true
+            },
+            "liveContent": {
+              "collection": {
+                "title": "# Live Collection",
+                "description": "Total number of live collection"
+              },
+              "assets": {
+                "title": "# Live Assets",
+                "description": "Total number of live assets"
+              },
+              "resources": {
+                "title": "# Live Resources",
+                "description": "Total number of live resources"
+              }
+            },
+            "curatedContent": {
+              "collection": {
+                "title": "# Cuarated Collection",
+                "description": "Total number of curated collection"
+              },
+              "assets": {
+                "title": "# Curated Assets",
+                "description": "Total number of curated assets"
+              },
+              "resources": {
+                "title": "# Curated Resources",
+                "description": "Total number of curated resources"
+              }
             }
           }
         }
