@@ -87,12 +87,12 @@
               "widgetData": [
                 {
                   "banners": {
-                    "l": "assets/instances/space/banners/MainBanner-1366x250.png",
-                    "m": "assets/instances/space/banners/MainBanner-1024x250.png",
-                    "s": "assets/instances/space/banners/MainBanner-768x250.png",
-                    "xl": "assets/instances/space/banners/MainBanner-1920x250.png",
-                    "xs": "assets/instances/space/banners/MainBanner-414x250.png",
-                    "xxl": "assets/instances/space/banners/MainBanner-2850x250.png"
+                    "l": "assets/instances/space/MainBanner/dashboard_header_1366.png",
+                    "m": "assets/instances/space/MainBanner/dashboard_header_1024.png",
+                    "s": "assets/instances/space/MainBanner/dashboard_header_764.png",
+                    "xl": "assets/instances/space/MainBanner/dashboard_header_1920.png",
+                    "xs": "assets/instances/space/MainBanner/dashboard_header_414.png",
+                    "xxl": "assets/instances/space/MainBanner/dashboard_header_2850.png"
                   },
                   "redirectUrl": "/app/search/learning",
                   "queryParams": {
@@ -130,7 +130,7 @@
                       "mode": "below",
                       "visibilityMode": "hidden",
                       "icon": {
-                        "icon": "info",
+                        "icon": "",
                         "scale": 0.8
                       },
                       "widget": {
@@ -176,7 +176,7 @@
                       "mode": "below",
                       "visibilityMode": "hidden",
                       "icon": {
-                        "icon": "info",
+                        "icon": "",
                         "scale": 0.8
                       },
                       "widget": {
@@ -224,8 +224,9 @@
                       "mode": "below",
                       "visibilityMode": "hidden",
                       "icon": {
-                        "icon": "info",
-                        "scale": 0.8
+                        "icon": "edit",
+                        "scale": 0.8,
+                        "url": "/app/profile/dashboard"
                       },
                       "widget": {
                         "widgetType": "element",
@@ -286,7 +287,7 @@
                       "mode": "below",
                       "visibilityMode": "hidden",
                       "icon": {
-                        "icon": "info",
+                        "icon": "",
                         "scale": 0.8
                       },
                       "widget": {
@@ -317,7 +318,7 @@
                       "mode": "below",
                       "visibilityMode": "hidden",
                       "icon": {
-                        "icon": "info",
+                        "icon": "",
                         "scale": 0.8
                       },
                       "widget": {
