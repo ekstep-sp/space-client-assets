@@ -24,6 +24,27 @@
         "analytics"
       ]
     },
+    "feature_explore_mini": {
+      "accessKey": "",
+      "icon": "explore_outline",
+      "iconType": "mat-icon",
+      "id": "feature_explore_mini",
+      "keywords": [
+        "catalog",
+        "explore",
+        "inventory",
+        "list",
+        "brochure",
+        "overview"
+      ],
+      "name": "Notification",
+      "permission": [""],
+      "show": true,
+      "status": "live",
+      "toolTip": "Explore",
+      "url": "/page/explore",
+      "shortName": "Explore"
+    },
     "feature_Q&A": {
       "accessKey": "",
       "description": "Question and answer hub for professional and enthusiast programmers.",
