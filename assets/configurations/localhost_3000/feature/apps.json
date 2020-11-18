@@ -466,7 +466,12 @@
       "show": true,
       "status": "live",
       "toolTip": "Search",
-      "url": "/app/search/home",
+      "url": "app/search/learning",
+      "queryParams": {
+        "lang": "en",
+        "q": "",
+        "f": "{\"contentType\":[\"Resource\",\"Course\",\"Collection\"]}"
+      },
       "shortName": "Search"
     },
     "feature_settings": {

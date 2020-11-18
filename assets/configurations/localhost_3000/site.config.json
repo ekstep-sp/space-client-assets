@@ -183,7 +183,7 @@
       ],
       "right": [
         {
-          "type": "featureButton",
+          "type": "searchNewUIBtn",
           "config": {
             "actionBtnId": "feature_search",
             "config": {
