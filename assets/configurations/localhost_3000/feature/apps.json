@@ -37,7 +37,7 @@
         "brochure",
         "overview"
       ],
-      "name": "Notification",
+      "name": "Explore",
       "permission": [""],
       "show": true,
       "status": "live",
