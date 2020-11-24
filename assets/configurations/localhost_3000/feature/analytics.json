@@ -28,7 +28,8 @@
             "subTabs": {
               "courses": true,
               "modules": true,
-              "resources": true
+              "resources": true,
+              "blogs": true
             },
             "liveContent": {
               "collection": {
