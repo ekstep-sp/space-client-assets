@@ -29,7 +29,7 @@
               "courses": true,
               "modules": true,
               "resources": true,
-              "blogs": true
+              "blogs": false
             },
             "liveContent": {
               "collection": {
