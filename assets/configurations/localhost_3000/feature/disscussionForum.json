@@ -17,6 +17,60 @@
             ]
         }
     },
+    "viewerConfig": {
+        "rolesAllowed": {
+            "mail": [
+              "content-creator",
+              "editor",
+              "publisher",
+              "admin",
+              "org-admin",
+              "member"
+            ],
+            "share": [
+              "content-creator",
+              "editor",
+              "publisher",
+              "admin",
+              "org-admin",
+              "member"
+            ],
+            "feedback": [
+              "content-creator",
+              "editor",
+              "publisher",
+              "admin",
+              "org-admin",
+              "member"
+            ],
+            "rateContent": [
+              "content-creator",
+              "editor",
+              "publisher",
+              "admin",
+              "org-admin",
+              "member"
+            ]
+          },
+          "rolesNotAllowed": {
+            "mail": [
+              "author",
+              "privileged"
+            ],
+            "share": [
+              "author",
+              "privileged"
+            ],
+            "feedback": [
+              "author",
+              "privileged"
+            ],
+            "rateContent": [
+              "author",
+              "privileged"
+            ]
+          }
+    },
     "userListData": {
         "api": "/usersubmission/usersubmission/user",
         "userList": {
