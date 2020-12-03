@@ -38,6 +38,12 @@
       "admin",
       "org-admin",
       "member"
+    ],
+    "orgAnalytics": [
+      "admin"
+    ],
+    "usersAnalytics": [
+      "admin"
     ]
   },
   "rolesNotAllowed": {
@@ -56,6 +62,24 @@
     "rateContent": [
       "author",
       "privileged"
+    ],
+    "orgAnalytics": [
+      "content-creator",
+      "publisher",
+      "org-admin",
+      "member",
+      "author",
+      "privileged",
+      "editor"
+    ],
+    "usersAnalytics": [
+      "content-creator",
+      "publisher",
+      "org-admin",
+      "member",
+      "author",
+      "privileged",
+      "editor"
     ]
   },
   "navigationBar": {
