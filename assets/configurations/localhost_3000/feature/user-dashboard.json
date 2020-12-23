@@ -64,5 +64,9 @@
     "timeZoneFormat": {
         "timeZone": "GMT",
         "locales": "en-GB"
+    },
+    "exportOption": {
+        "mobile": false,
+        "web": true
     }
 }
