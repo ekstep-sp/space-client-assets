@@ -474,6 +474,7 @@
         "q": "",
         "f": "{\"contentType\":[\"Resource\",\"Course\",\"Collection\"]}"
       },
+      "searchButton": true,
       "shortName": "Search"
     },
     "feature_settings": {
