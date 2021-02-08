@@ -345,6 +345,81 @@
                         }
                       }
                     }
+                  },
+                  {
+                    "key": "latest_connections",
+                    "title": "Latest Connections",
+                    "info": {
+                      "mode": "below",
+                      "visibilityMode": "hidden",
+                      "icon": {
+                        "icon": "",
+                        "scale": 0.8
+                      },
+                      "widget": {
+                        "widgetType": "element",
+                        "widgetSubType": "elementHtml",
+                        "widgetData": {
+                          "html": "<p class=\"ws-mat-primary-text\">Here you’ll find the very latest learning Collections.</p>"
+                        }
+                      }
+                    },
+                    "stripConfig": {
+                      "cardSubType": "standard",
+                      "intranetMode": "hide",
+                      "deletedMode": "hide"
+                    },
+                    "filters": {},
+                    "request": {
+                      "searchV6": {
+                        "locale": [
+                          "en"
+                        ],
+                        "pageSize": 15,
+                        "query": "",
+                        "filters": [
+                          {
+                            "andFilters": [
+                              {
+                                "contentType": [
+                                  "Resource"
+                                ]
+                              },
+                              {
+                                "assetType": [
+                                  "Connection"
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "visibleFilters": {
+                          "duration": {
+                            "displayName": "Duration"
+                          },
+                          "assetType": {
+                            "displayName": "Type"
+                          },
+                          "theme": {
+                            "displayName": "SDGs"
+                          },
+                          "sourceShortName": {
+                            "displayName": "Created By"
+                          },
+                          "region": {
+                            "displayName": "Region"
+                          },
+                          "contentType": {
+                            "displayName": "Content Type"
+                          }
+                        },
+                        "sort": [
+                          {
+                            "lastUpdatedOn": "desc"
+                          }
+                        ]
+                      }
+                    }
                   }
                 ]
               }
