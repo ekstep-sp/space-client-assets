@@ -1,4 +1,8 @@
 {
+  "analytics": {
+    "type": "GA",
+    "trackingID": "G-8ZX7SFDRKY"
+  },
   "authoring": {
     "allowedContentType": [],
     "urlPatternMatching": [
