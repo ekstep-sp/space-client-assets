@@ -341,6 +341,20 @@
       "shortName": "Notifications",
       "badgeEndpoint": "/apis/protected/v8/user/iconBadge/unseenNotificationCount"
     },
+    "feature_group": {
+      "accessKey": "",
+      "icon": "group_outline",
+      "iconType": "mat-icon",
+      "id": "feature_group",
+      "keywords": [],
+      "name": "UserGroup",
+      "permission": [],
+      "show": true,
+      "status": "live",
+      "toolTip": "Groups",
+      "url": "/app/users/public",
+      "shortName": "UserGroup"
+    },
     "feature_goals": {
       "accessKey": "G",
       "description": "Create and learn from goals. Share with your friends too.",
