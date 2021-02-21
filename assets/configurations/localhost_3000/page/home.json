@@ -38,6 +38,16 @@
             "type": "mat-icon-button"
           }
         }
+      },
+      {
+        "widgetType": "actionButton",
+        "widgetSubType": "buttonFeature",
+        "widgetData": {
+          "actionBtnId": "feature_group",
+          "config": {
+            "type": "mat-icon-button"
+          }
+        }
       }
     ],
     "links": [
