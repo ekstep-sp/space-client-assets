@@ -348,7 +348,7 @@
                   },
                   {
                     "key": "latest_connections",
-                    "title": "Latest Connections",
+                    "title": "Connections",
                     "info": {
                       "mode": "below",
                       "visibilityMode": "hidden",
