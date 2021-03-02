@@ -1,7 +1,7 @@
 {
   "analytics": {
     "type": "GA",
-    "trackingID": ""
+    "trackingID": "G-8ZX7SFDRKY"
   },
   "authoring": {
     "allowedContentType": [],
@@ -136,7 +136,7 @@
     "channel": "space",
     "batchsize": 1,
     "host": "",
-    "endpoint": "/apis/protected/v8/user/telemetr",
+    "endpoint": "/apis/protected/v8/user/telemetry",
     "apislug": "",
     "object": {
       "ver": "1.0.0"
