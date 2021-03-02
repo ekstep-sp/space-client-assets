@@ -1,7 +1,7 @@
 {
   "analytics": {
     "type": "GA",
-    "trackingID": ""
+    "trackingID": "G-8ZX7SFDRKY"
   },
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
