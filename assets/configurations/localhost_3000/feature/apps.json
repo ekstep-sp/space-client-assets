@@ -352,7 +352,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Groups",
-      "url": "/app/users/public",
+      "url": "/app/users/list",
       "shortName": "UserGroup"
     },
     "feature_goals": {
