@@ -68,5 +68,11 @@
     "exportOption": {
         "mobile": false,
         "web": true
+    },
+    "contentMigration": {
+        "rolesAllowed": [
+            "content-creator"
+        ],
+        "errorMessage": "This user is not a content creator, cannot migrate"
     }
 }
