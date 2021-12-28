@@ -17,9 +17,7 @@
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
   },
-  "org": [
-    "space"
-  ],
+  "org": ["space"],
   "rootOrg": "space",
   "defaultFontSize": "normal-typography",
   "defaultLocale": "",
@@ -89,10 +87,7 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": [
-        "en",
-        "en-US"
-      ],
+      "locals": ["en", "en-US"],
       "path": "",
       "isRTL": false
     }
@@ -169,20 +164,23 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_aboutUs",
+            "actionBtnId": "feature_FAQs",
             "config": {
-              "type": "mat-flat-button"
+              "type": "mat-icon-button"
             }
-          }
+          },
+          "widgetHostClass": "pl-3 pr-4 "
         },
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_collaborators",
+            "actionBtnId": "feature_group",
             "config": {
-              "type": "mat-flat-button"
+              "type": "mat-icon-button",
+              "showName": true
             }
-          }
+          },
+          "widgetHostClass": "pl-3 pr-4 "
         }
       ],
       "right": [
@@ -198,27 +196,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_explore_mini",
-            "config": {
-              "type": "mat-icon-button"
-            }
-          },
-          "widgetHostClass": "pl-3 pr-4"
-        },
-        {
-          "type": "featureButton",
-          "config": {
             "actionBtnId": "feature_notification",
-            "config": {
-              "type": "mat-icon-button"
-            }
-          },
-          "widgetHostClass": "pl-3 pr-4"
-        },
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_group",
             "config": {
               "type": "mat-icon-button"
             }
@@ -252,11 +230,7 @@
       ]
     }
   },
-  "featuredApps": [
-    "feature_settings",
-    "feature_help",
-    "feature_profile"
-  ],
+  "featuredApps": ["feature_settings", "feature_help", "feature_profile"],
   "intranetIframeUrls": [],
   "introVideo": {
     "en": "/assets/instances/space/videos/intro_video.mp4"
