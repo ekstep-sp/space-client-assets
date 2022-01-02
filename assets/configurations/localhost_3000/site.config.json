@@ -1,241 +1,260 @@
 {
-  "analytics": {
-    "type": "GA",
-    "trackingID": "G-8ZX7SFDRKY"
-  },
-  "authoring": {
-    "allowedContentType": [],
-    "urlPatternMatching": [
-      {
-        "allowReplace": false,
-        "source": "youtube",
-        "pattern": "^(http(s)?://)?((w){3}.)?(\\.com)?/.+",
-        "allowIframe": false
-      }
-    ]
-  },
-  "defaultFeatureConfigs": {
-    "error": "/assets/configurations/common/feature/error.json"
-  },
-  "org": ["space"],
-  "rootOrg": "space",
-  "defaultFontSize": "normal-typography",
-  "defaultLocale": "",
-  "defaultThemeClass": "theme-muave",
-  "details": {
-    "appName": "Societal Platform SPace"
-  },
-  "disablePidCheck": false,
-  "isContentDownloadAvailable": false,
-  "fontSizes": [
-    {
-      "baseFontSize": "10px",
-      "fontClass": "x-small-typography",
-      "scale": "-2"
+    "analytics": {
+        "type": "GA",
+        "trackingID": "G-8ZX7SFDRKY"
     },
-    {
-      "baseFontSize": "12px",
-      "fontClass": "small-typography",
-      "scale": "-1"
+    "authoring": {
+        "allowedContentType": [],
+        "urlPatternMatching": [
+            {
+                "allowReplace": false,
+                "source": "youtube",
+                "pattern": "^(http(s)?://)?((w){3}.)?(\\.com)?/.+",
+                "allowIframe": false
+            }
+        ]
     },
-    {
-      "baseFontSize": "14px",
-      "fontClass": "normal-typography",
-      "scale": 0
+    "defaultFeatureConfigs": {
+        "error": "/assets/configurations/common/feature/error.json"
     },
-    {
-      "baseFontSize": "16px",
-      "fontClass": "large-typography",
-      "scale": 1
-    },
-    {
-      "baseFontSize": "18px",
-      "fontClass": "x-large-typography",
-      "scale": 2
-    }
-  ],
-  "indexHtmlMeta": {
-    "description": "Description",
-    "appleTouchIcon180": "/assets/instances/space/Favicon/favicon-180x180.png",
-    "icon16": "/assets/instances/space/Favicon/favicon-16x16.png",
-    "icon32": "/assets/instances/space/Favicon/favicon-32x32.png",
-    "webmanifest": "/assets/configurations/localhost_3000/manifest/manifest.webmanifest",
-    "xIcon": "/assets/instances/space/Favicon/favicon.png"
-  },
-  "keycloak": {
-    "bearerExcludedUrls": [
-      "assets",
-      "/apis/public",
-      "/assets",
-      "/pubic-assets",
-      "/register",
-      "/usersubmission/*",
-      "/apis/protected/v8/recommendation/latest",
-      "^/apis/protected/v8/content(.*)hierarchyType=detail$",
-      "https://space.societalplatform.org/auth/realms/wingspan/protocol/openid-connect/token",
-      "/custom/auth/realms/wingspan/protocol/openid-connect/token",
-      "^/public/sharecontent(.*)$",
-      "^/apis/authApi/action/content/hierarchy/(.*)rootOrg=space&org=space$",
-      "^/apis(.*)authContent$"
+    "org": [
+        "space"
     ],
-    "clientId": "portal",
-    "key": "ws-kc-token-storage",
-    "realm": "wingspan",
-    "url": "https://space.societalplatform.org/auth"
-  },
-  "locals": [
-    {
-      "isAvailable": true,
-      "isEnabled": true,
-      "locals": ["en", "en-US"],
-      "path": "",
-      "isRTL": false
-    }
-  ],
-  "logos": {
-    "app": "/assets/instances/space/SPaceLogoFavicon/NewSPTSpacelogo.ai.png",
-    "appTransparent": "/assets/instances/space/SPaceLogoFavicon/NewSPTSpacelogo.ai.png",
-    "company": "/assets/instances/space/app_logos/SPace200x55.png",
-    "defaultContent": "/assets/instances/space/app_logos/SPlogo200x80.png",
-    "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
-    "aboutHeader": "/assets/instances/space/about-page/about-header.jpg",
-    "developedBy": "/assets/instances/space/app_logos/ETA.png",
-    "platformBanner": "/apis/public/v8/assets/common/misc/about-space.jpg",
-    "poweredBy": "",
-    "landingLogo": ""
-  },
-  "banners": {
-    "mobileBanner": "/assets/instances/space/banners/landingPageBannerMobile.png",
-    "mainBanner": "/assets/instances/space/banners/Rainforestscape.png",
-    "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png",
-    "licensePolicy": "/assets/instances/space/banners/NewDataPrivacy.png",
-    "assetguidelines": "/assets/instances/space/banners/NewDataPrivacy.png",
-    "dataprivacy": "/assets/instances/space/banners/NewDataPrivacy.png",
-    "grievanceredressal": "/assets/instances/space/banners/NewDataPrivacy.png",
-    "termsOfUse": "/assets/instances/space/banners/NewDataPrivacy.png",
-    "aboutBanner": "/assets/instances/space/banners/AboutSPaceBanner.png",
-    "contentpolicy": "/assets/instances/space/banners/NewDataPrivacy.png"
-  },
-  "mailIds": {
-    "contactUs": "space-support@space.com",
-    "default": "space-support@space.com",
-    "support": "space-support@space.com"
-  },
-  "telemetryConfig": {
-    "pdata": {
-      "id": "web-ui",
-      "ver": "1.0.0",
-      "pid": ""
+    "rootOrg": "space",
+    "defaultFontSize": "normal-typography",
+    "defaultLocale": "",
+    "defaultThemeClass": "theme-muave",
+    "details": {
+        "appName": "Societal Platform SPace"
     },
-    "env": "prod",
-    "channel": "space",
-    "batchsize": 1,
-    "host": "",
-    "endpoint": "/apis/protected/v8/user/telemetry",
-    "apislug": "",
-    "object": {
-      "ver": "1.0.0"
-    }
-  },
-  "themes": [
-    {
-      "color": {
-        "accent": "#ffe22a",
-        "primary": "#865ba0",
-        "warn": "#f44336"
-      },
-      "themeFile": "theme-muave",
-      "themeClass": "theme-muave",
-      "themeName": "Muave Theme"
-    }
-  ],
-  "validMailIdExtensionsForMailMe": [],
-  "backgrounds": {
-    "primaryNavBar": {
-      "color": "primary"
-    },
-    "pageNavBar": {
-      "color": "primary"
-    }
-  },
-  "primaryNavBarConfig": {
-    "mediumScreen": {
-      "left": [
+    "disablePidCheck": false,
+    "isContentDownloadAvailable": false,
+    "fontSizes": [
         {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_FAQs",
-            "config": {
-              "type": "mat-icon-button"
-            }
-          },
-          "widgetHostClass": "pl-3 pr-4 "
+            "baseFontSize": "10px",
+            "fontClass": "x-small-typography",
+            "scale": "-2"
         },
         {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_group",
-            "config": {
-              "type": "mat-icon-button",
-              "showName": true
-            }
-          },
-          "widgetHostClass": "pl-3 pr-4 "
-        }
-      ],
-      "right": [
-        {
-          "type": "searchNewUIBtn",
-          "config": {
-            "actionBtnId": "feature_search",
-            "config": {
-              "type": "mat-icon-button"
-            }
-          }
+            "baseFontSize": "12px",
+            "fontClass": "small-typography",
+            "scale": "-1"
         },
         {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_notification",
-            "config": {
-              "type": "mat-icon-button"
-            }
-          },
-          "widgetHostClass": "pl-3 pr-4"
+            "baseFontSize": "14px",
+            "fontClass": "normal-typography",
+            "scale": 0
+        },
+        {
+            "baseFontSize": "16px",
+            "fontClass": "large-typography",
+            "scale": 1
+        },
+        {
+            "baseFontSize": "18px",
+            "fontClass": "x-large-typography",
+            "scale": 2
         }
-      ]
+    ],
+    "indexHtmlMeta": {
+        "description": "Description",
+        "appleTouchIcon180": "/assets/instances/space/Favicon/favicon-180x180.png",
+        "icon16": "/assets/instances/space/Favicon/favicon-16x16.png",
+        "icon32": "/assets/instances/space/Favicon/favicon-32x32.png",
+        "webmanifest": "/assets/configurations/localhost_3000/manifest/manifest.webmanifest",
+        "xIcon": "/assets/instances/space/Favicon/favicon.png"
     },
-    "smallScreen": {
-      "left": [
+    "keycloak": {
+        "bearerExcludedUrls": [
+            "assets",
+            "/apis/public",
+            "/assets",
+            "/pubic-assets",
+            "/register",
+            "/usersubmission/*",
+            "/apis/protected/v8/recommendation/latest",
+            "^/apis/protected/v8/content(.*)hierarchyType=detail$",
+            "https://space.societalplatform.org/auth/realms/wingspan/protocol/openid-connect/token",
+            "/custom/auth/realms/wingspan/protocol/openid-connect/token",
+            "^/public/sharecontent(.*)$",
+            "^/apis/authApi/action/content/hierarchy/(.*)rootOrg=space&org=space$",
+            "^/apis(.*)authContent$"
+        ],
+        "clientId": "portal",
+        "key": "ws-kc-token-storage",
+        "realm": "wingspan",
+        "url": "https://space.societalplatform.org/auth"
+    },
+    "locals": [
         {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_catalog",
-            "config": {
-              "type": "card-mini"
-            }
-          }
+            "isAvailable": true,
+            "isEnabled": true,
+            "locals": [
+                "en",
+                "en-US"
+            ],
+            "path": "",
+            "isRTL": false
         }
-      ],
-      "right": [
+    ],
+    "logos": {
+        "app": "/assets/instances/space/SPaceLogoFavicon/NewSPTSpacelogo.ai.png",
+        "appTransparent": "/assets/instances/space/SPaceLogoFavicon/NewSPTSpacelogo.ai.png",
+        "company": "/assets/instances/space/app_logos/SPace200x55.png",
+        "defaultContent": "/assets/instances/space/app_logos/SPlogo200x80.png",
+        "aboutFooter": "/assets/instances/space/about-page/about-footer.jpg",
+        "aboutHeader": "/assets/instances/space/about-page/about-header.jpg",
+        "developedBy": "/assets/instances/space/app_logos/ETA.png",
+        "platformBanner": "/apis/public/v8/assets/common/misc/about-space.jpg",
+        "poweredBy": "",
+        "landingLogo": ""
+    },
+    "banners": {
+        "mobileBanner": "/assets/instances/space/banners/landingPageBannerMobile.png",
+        "mainBanner": "/assets/instances/space/banners/Rainforestscape.png",
+        "collaboratorBanner": "/assets/instances/space/banners/CollaboratorsBanner.png",
+        "licensePolicy": "/assets/instances/space/banners/NewDataPrivacy.png",
+        "assetguidelines": "/assets/instances/space/banners/NewDataPrivacy.png",
+        "dataprivacy": "/assets/instances/space/banners/NewDataPrivacy.png",
+        "grievanceredressal": "/assets/instances/space/banners/NewDataPrivacy.png",
+        "termsOfUse": "/assets/instances/space/banners/NewDataPrivacy.png",
+        "aboutBanner": "/assets/instances/space/banners/AboutSPaceBanner.png",
+        "contentpolicy": "/assets/instances/space/banners/NewDataPrivacy.png"
+    },
+    "mailIds": {
+        "contactUs": "space-support@space.com",
+        "default": "space-support@space.com",
+        "support": "space-support@space.com"
+    },
+    "telemetryConfig": {
+        "pdata": {
+            "id": "web-ui",
+            "ver": "1.0.0",
+            "pid": ""
+        },
+        "env": "prod",
+        "channel": "space",
+        "batchsize": 1,
+        "host": "",
+        "endpoint": "/apis/protected/v8/user/telemetry",
+        "apislug": "",
+        "object": {
+            "ver": "1.0.0"
+        }
+    },
+    "themes": [
         {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_search",
-            "config": {
-              "type": "card-mini"
-            }
-          }
+            "color": {
+                "accent": "#ffe22a",
+                "primary": "#865ba0",
+                "warn": "#f44336"
+            },
+            "themeFile": "theme-muave",
+            "themeClass": "theme-muave",
+            "themeName": "Muave Theme"
         }
-      ]
+    ],
+    "validMailIdExtensionsForMailMe": [],
+    "backgrounds": {
+        "primaryNavBar": {
+            "color": "primary"
+        },
+        "pageNavBar": {
+            "color": "primary"
+        }
+    },
+    "primaryNavBarConfig": {
+        "mediumScreen": {
+            "left": [
+                {
+                    "type": "featureButton",
+                    "config": {
+                        "actionBtnId": "feature_FAQs",
+                        "config": {
+                            "type": "mat-icon-button"
+                        }
+                    },
+                    "widgetHostClass": "pl-3 pr-4 "
+                },
+                {
+                    "type": "featureButton",
+                    "config": {
+                        "actionBtnId": "feature_group",
+                        "config": {
+                            "type": "mat-icon-button",
+                            "showName": true
+                        }
+                    },
+                    "widgetHostClass": "pl-3 pr-4 "
+                }
+            ],
+            "right": [
+                {
+                    "type": "searchNewUIBtn",
+                    "config": {
+                        "actionBtnId": "feature_search",
+                        "config": {
+                            "type": "mat-icon-button"
+                        }
+                    }
+                },
+                {
+                    "type": "featureButton",
+                    "config": {
+                        "actionBtnId": "feature_notification",
+                        "config": {
+                            "type": "mat-icon-button"
+                        }
+                    },
+                    "widgetHostClass": "pl-3 pr-4"
+                },
+                {
+                    "type": "featureButton",
+                    "config": {
+                        "actionBtnId": "feature_help",
+                        "config": {
+                            "type": "mat-icon-button"
+                        }
+                    },
+                    "widgetHostClass": "pl-3 pr-4"
+                }
+            ]
+        },
+        "smallScreen": {
+            "left": [
+                {
+                    "type": "featureButton",
+                    "config": {
+                        "actionBtnId": "feature_catalog",
+                        "config": {
+                            "type": "card-mini"
+                        }
+                    }
+                }
+            ],
+            "right": [
+                {
+                    "type": "featureButton",
+                    "config": {
+                        "actionBtnId": "feature_search",
+                        "config": {
+                            "type": "card-mini"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "featuredApps": [
+        "feature_settings",
+        "feature_help",
+        "feature_profile"
+    ],
+    "intranetIframeUrls": [],
+    "introVideo": {
+        "en": "/assets/instances/space/videos/intro_video.mp4"
+    },
+    "tourVideo": {
+        "en": "/assets/instances/space/videos/intro_video.mp4"
     }
-  },
-  "featuredApps": ["feature_settings", "feature_help", "feature_profile"],
-  "intranetIframeUrls": [],
-  "introVideo": {
-    "en": "/assets/instances/space/videos/intro_video.mp4"
-  },
-  "tourVideo": {
-    "en": "/assets/instances/space/videos/intro_video.mp4"
-  }
 }
